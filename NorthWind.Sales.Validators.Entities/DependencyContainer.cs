@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using NorthWind.Sales.Entities.Dtos.CreateOrder;
+using NorthWind.Sales.Validators.Entities;
+using NorthWind.Sales.Validators.Entities.CreateOrder;
+
+namespace Microsoft.Extensions.DependencyInjection;
+public static class DependencyContainer
+{
+	public static IServiceCollection AddValidators(
+	this IServiceCollection services)
+	{
+		services.AddModelValidator<CreateOrderDto,
+		CreateOrderDtoValidator>();
+		services.AddModelValidator<CreateOrderDetailDto,
+		CreateOrderDetailDtoValidator>();
+		return services;
+	}
+}

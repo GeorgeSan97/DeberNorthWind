@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>NorthWind.Sales.Validators.Entities</RootNamespace>
+    <AssemblyName>NorthWind.Sales.Validators.Entities</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NorthWind.Sales.Entities\NorthWind.Sales.Entities.csproj" />
+    <ProjectReference Include="..\NorthWind.Validation.Entities\NorthWind.Validation.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="CreateOrderDtoValidator.cs">
+      <ImplicitWith>True</ImplicitWith>
+    </Compile>
+    <Compile Update="CreateOrder\CreateOrderDetailDtoValidator.cs">
+      <ImplicitWith>True</ImplicitWith>
+    </Compile>
+    <Compile Update="DependencyContainer.cs">
+      <ImplicitWith>True</ImplicitWith>
+    </Compile>
+    <Compile Update="Properties\AssemblyInfo.cs">
+      <ImplicitWith>True</ImplicitWith>
+    </Compile>
+    <Compile Update="Resources\CreateOrderMessages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CreateOrderMessages.resx</DependentUpon>
+      <ImplicitWith>True</ImplicitWith>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\CreateOrderMessages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateOrderMessages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
