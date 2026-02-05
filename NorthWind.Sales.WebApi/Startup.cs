@@ -7,6 +7,7 @@ namespace NorthWind.Sales.WebApi;
 //  middlewares y endpoints de la Web API.
 internal static class Startup
 {
+
   //  Agregar soporte para documentación Swagger.
   public static WebApplication CreateWebApplication(this WebApplicationBuilder builder)
   {
@@ -51,14 +52,15 @@ internal static class Startup
   //  -Mapear los endpoints de la aplicación
   public static WebApplication ConfigureWebApplication(this WebApplication app)
   {
-    //  Solo cuando el entorno es "Development", se activa Swagger para ver la documentación
-    //  de la API y la interfaz UI de Swagger en el navegador.
-    if (app.Environment.IsDevelopment())
-    {
-      app.UseSwagger();
-      //  Activa la interfaz (UI) de Swagger para probar la API en desarrollo
-      app.UseSwaggerUI();
-    }
+		app.UseExceptionHandler(builder => { });
+		//  Solo cuando el entorno es "Development", se activa Swagger para ver la documentación
+		//  de la API y la interfaz UI de Swagger en el navegador.
+		if (app.Environment.IsDevelopment())
+        {
+          app.UseSwagger();
+          //  Activa la interfaz (UI) de Swagger para probar la API en desarrollo
+          app.UseSwaggerUI();
+        }
 
     //  Registra todos los servicios necesarios usando Clean Architecture (casos de uso,
     //  repositorios, presenters, etc.)

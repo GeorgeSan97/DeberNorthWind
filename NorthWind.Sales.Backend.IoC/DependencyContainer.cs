@@ -45,7 +45,10 @@ public static class DependencyContainer
         .AddDataContexts(configureDBOptions)
         .AddPresenters()
 		.AddValidationService()
-        .AddValidators();
+        .AddValidators()
+        .AddValidationExceptionHandler()
+        .AddUpdateExceptionHandler()
+        .AddUnhandledExceptionHandler();
 
 		return services;
   }

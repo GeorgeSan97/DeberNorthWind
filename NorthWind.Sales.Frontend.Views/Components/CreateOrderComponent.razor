@@ -1,7 +1,8 @@
 ﻿@using NorthWind.Sales.Frontend.Views.Resources
 <EditForm Model=Order OnValidSubmit="Order.Send">
-        <ModelValidator Validator="Order.Validator"/>
-        <ValidationSummary/> 
+    <ModelValidator Validator="Order.Validator"
+                    @ref=Order.ModelValidatorComponentReference />
+    <ValidationSummary/> 
     <div class="form-group">
         <label for="customerId">
             @CreateOrderMessages.CustomerIdLabel

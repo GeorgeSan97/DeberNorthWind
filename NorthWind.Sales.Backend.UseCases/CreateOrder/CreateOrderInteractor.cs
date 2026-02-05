@@ -59,9 +59,10 @@ IModelValidatorHub<CreateOrderDto> modelValidatorHub) : ICreateOrderInputPort
 		//  2).- Una vez que se recibe los datos necesarios para realizar el proceso (desde un "Dto" se mapea(transforma) a un objeto
 		//       de tipo "OrderAggregate" para construir la orden (maestro-detalle).
 		OrderAggregate Order = OrderAggregate.From(orderDto);
+		//Order.CustomerId = "";
 
-    //  3).- Guardar la orden (agregado).
-    await repository.CreateOrder(Order);
+		//  3).- Guardar la orden (agregado).
+		await repository.CreateOrder(Order);
 
     //  4).- Confirmar los cambios en la base de datos y tratar todo como una unidad o
     //       "Transacción", en este caso es un maestro/detalle, usando para esto el patron

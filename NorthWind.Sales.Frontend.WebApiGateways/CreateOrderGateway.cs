@@ -15,31 +15,14 @@ namespace NorthWind.Sales.Frontend.WebApiGateways;
 //  pueden utilizar esta clase sin preocuparse por los detalles del protocolo HTTP.
 internal class CreateOrderGateway(HttpClient client) : ICreateOrderGateway
 {
-  //  Enviar una solicitud POST a un endpoint HTTP (representado por Endpoints.CreateOrder) con los
-  //  datos de la orden, y devolver el ID de la orden creada.
-  public async Task<int> CreateOrderAsync(CreateOrderDto order)
-  {
-    //  Se declara e inicializa una variable para almacenar el ID de la orden que será devuelta por el servidor.
-    int OrderId = 0;
-    //  Envia una solicitud "POST" al endpoint especificado en la clase "Endpoints.CreateOrder".
-    //  Usa el objeto "order" como contenido del cuerpo en formato JSON (PostAsJsonAsync).
-    //  Response contiene la respuesta HTTP del servidor.
-    var Response = await client.PostAsJsonAsync(Endpoints.CreateOrder, order);
-
-    //  Si la respuesta fue exitosa (código HTTP 2xx), entonces:
-    if (Response.IsSuccessStatusCode)
-    {
-      //  Lee el contenido del cuerpo como un entero (int), que representa el ID de la orden creada por la API.
-      OrderId = await Response.Content.ReadFromJsonAsync<int>();
-	}else
-	 {
-	    throw new HttpRequestException(
-		await Response.Content.ReadAsStringAsync());
-	 }
-
-		//  Devuelve el ID de la orden al consumidor de esta clase.
-		return OrderId;
-  }
+	//  Enviar una solicitud POST a un endpoint HTTP (representado por Endpoints.CreateOrder) con los
+	//  datos de la orden, y devolver el ID de la orden creada.
+	public async Task<int> CreateOrderAsync(CreateOrderDto order)
+	{
+		var Response = await client.PostAsJsonAsync(
+	 Endpoints.CreateOrder, order);
+		return await Response.Content.ReadFromJsonAsync<int>();
+	}
 }
 
 //  Dependencias clave:

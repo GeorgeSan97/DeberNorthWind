@@ -3,16 +3,19 @@
   "WorkspaceRootPath": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2CF3F47-CCC9-49DD-8C1A-3C8B0900A31C}|NorthWind.Sales.Frontend.Views\\NorthWind.Sales.Frontend.Views.csproj|c:\\moviles\\primerparcial\\deberes\\northwind\\northwind.sales.frontend.views\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2CF3F47-CCC9-49DD-8C1A-3C8B0900A31C}|NorthWind.Sales.Frontend.Views\\NorthWind.Sales.Frontend.Views.csproj|solutionrelative:northwind.sales.frontend.views\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.HttpDelegatingHandlers\\obj\\Debug\\net8.0\\NorthWind.HttpDelegatingHandlers.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NorthWind.HttpDelegatingHandlers\\obj\\Debug\\net8.0\\NorthWind.HttpDelegatingHandlers.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DC1FFBB-D53F-4432-AB72-406BEE57743F}|NorthWind.HttpDelegatingHandlers\\NorthWind.HttpDelegatingHandlers.csproj|c:\\moviles\\primerparcial\\deberes\\northwind\\northwind.httpdelegatinghandlers\\northwind.httpdelegatinghandlers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0DC1FFBB-D53F-4432-AB72-406BEE57743F}|NorthWind.HttpDelegatingHandlers\\NorthWind.HttpDelegatingHandlers.csproj|solutionrelative:northwind.httpdelegatinghandlers\\northwind.httpdelegatinghandlers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2CF3F47-CCC9-49DD-8C1A-3C8B0900A31C}|NorthWind.Sales.Frontend.Views\\NorthWind.Sales.Frontend.Views.csproj|c:\\moviles\\primerparcial\\deberes\\northwind\\northwind.sales.frontend.views\\components\\createordercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F2CF3F47-CCC9-49DD-8C1A-3C8B0900A31C}|NorthWind.Sales.Frontend.Views\\NorthWind.Sales.Frontend.Views.csproj|solutionrelative:northwind.sales.frontend.views\\components\\createordercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2CF3F47-CCC9-49DD-8C1A-3C8B0900A31C}|NorthWind.Sales.Frontend.Views\\NorthWind.Sales.Frontend.Views.csproj|c:\\moviles\\primerparcial\\deberes\\northwind\\northwind.sales.frontend.views\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2CF3F47-CCC9-49DD-8C1A-3C8B0900A31C}|NorthWind.Sales.Frontend.Views\\NorthWind.Sales.Frontend.Views.csproj|solutionrelative:northwind.sales.frontend.views\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2CF3F47-CCC9-49DD-8C1A-3C8B0900A31C}|NorthWind.Sales.Frontend.Views\\NorthWind.Sales.Frontend.Views.csproj|c:\\moviles\\primerparcial\\deberes\\northwind\\northwind.sales.frontend.views\\viewmodels\\createorder\\createorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,53 +34,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DependencyContainer.cs",
-              "DocumentMoniker": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.Frontend.Views\\DependencyContainer.cs",
-              "RelativeDocumentMoniker": "NorthWind.Sales.Frontend.Views\\DependencyContainer.cs",
-              "ToolTip": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.Frontend.Views\\DependencyContainer.cs",
-              "RelativeToolTip": "NorthWind.Sales.Frontend.Views\\DependencyContainer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Title": "NorthWind.HttpDelegatingHandlers.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.HttpDelegatingHandlers\\obj\\Debug\\net8.0\\NorthWind.HttpDelegatingHandlers.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "NorthWind.HttpDelegatingHandlers\\obj\\Debug\\net8.0\\NorthWind.HttpDelegatingHandlers.AssemblyInfo.cs",
+              "ToolTip": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.HttpDelegatingHandlers\\obj\\Debug\\net8.0\\NorthWind.HttpDelegatingHandlers.AssemblyInfo.cs",
+              "RelativeToolTip": "NorthWind.HttpDelegatingHandlers\\obj\\Debug\\net8.0\\NorthWind.HttpDelegatingHandlers.AssemblyInfo.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T04:53:39.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.Frontend.Views\\_Imports.razor",
-              "RelativeDocumentMoniker": "NorthWind.Sales.Frontend.Views\\_Imports.razor",
-              "ToolTip": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.Frontend.Views\\_Imports.razor",
-              "RelativeToolTip": "NorthWind.Sales.Frontend.Views\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-03T04:48:14.579Z",
+              "WhenOpened": "2026-02-05T23:42:01.574Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CreateOrderComponent.razor",
-              "DocumentMoniker": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.Frontend.Views\\Components\\CreateOrderComponent.razor",
-              "RelativeDocumentMoniker": "NorthWind.Sales.Frontend.Views\\Components\\CreateOrderComponent.razor",
-              "ToolTip": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.Frontend.Views\\Components\\CreateOrderComponent.razor",
-              "RelativeToolTip": "NorthWind.Sales.Frontend.Views\\Components\\CreateOrderComponent.razor",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFIAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-03T04:47:30.239Z",
+              "Title": "NorthWind.HttpDelegatingHandlers",
+              "DocumentMoniker": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.HttpDelegatingHandlers\\NorthWind.HttpDelegatingHandlers.csproj",
+              "RelativeDocumentMoniker": "NorthWind.HttpDelegatingHandlers\\NorthWind.HttpDelegatingHandlers.csproj",
+              "ToolTip": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.HttpDelegatingHandlers\\NorthWind.HttpDelegatingHandlers.csproj",
+              "RelativeToolTip": "NorthWind.HttpDelegatingHandlers\\NorthWind.HttpDelegatingHandlers.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-05T23:35:05.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAFIHAAAAAAAAAAAIwGAHAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-02-05T23:34:49.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CreateOrderComponent.razor",
+              "DocumentMoniker": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.Frontend.Views\\Components\\CreateOrderComponent.razor",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Frontend.Views\\Components\\CreateOrderComponent.razor",
+              "ToolTip": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.Frontend.Views\\Components\\CreateOrderComponent.razor",
+              "RelativeToolTip": "NorthWind.Sales.Frontend.Views\\Components\\CreateOrderComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T23:32:03.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CreateOrderViewModel.cs",
               "DocumentMoniker": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.Frontend.Views\\ViewModels\\CreateOrder\\CreateOrderViewModel.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Frontend.Views\\ViewModels\\CreateOrder\\CreateOrderViewModel.cs",
               "ToolTip": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.Frontend.Views\\ViewModels\\CreateOrder\\CreateOrderViewModel.cs",
               "RelativeToolTip": "NorthWind.Sales.Frontend.Views\\ViewModels\\CreateOrder\\CreateOrderViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAowDQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T04:45:26.278Z",
+              "WhenOpened": "2026-02-05T23:30:25.71Z",
               "EditorCaption": ""
             }
           ]

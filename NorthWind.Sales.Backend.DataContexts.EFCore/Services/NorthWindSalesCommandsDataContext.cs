@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Options;
 using NorthWind.Sales.Backend.BusinessObjects.POCOEntities;
 using NorthWind.Sales.Backend.DataContexts.EFCore.DataContexts;
+using NorthWind.Sales.Backend.DataContexts.EFCore.Guards;
 using NorthWind.Sales.Backend.DataContexts.EFCore.Options;
 using NorthWind.Sales.Backend.Repositories.Interfaces;
 
@@ -24,8 +25,9 @@ internal class NorthWindSalesCommandsDataContext(IOptions<DBOptions> dbOptions)
   public async Task AddOrderDetailsAsync(
       IEnumerable<Repositories.Entities.OrderDetail> orderDetails) => await AddRangeAsync(orderDetails);
 
-  //  Persiste todos los cambios en la base de datos en una sola transacción (unidad de trabajo).
-  public async Task SaveChangesAsync() => await base.SaveChangesAsync();
+	//  Persiste todos los cambios en la base de datos en una sola transacción (unidad de trabajo).
+	public async Task SaveChangesAsync() =>
+	  await GuardDBContext.AgainstSaveChangesErrorAsync(this);
 }
 
 //  ----------------------------------------------------------------------------------------

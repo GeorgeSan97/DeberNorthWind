@@ -1,7 +1,9 @@
-﻿using NorthWind.Sales.Entities.Dtos.CreateOrder;
+﻿using NorthWind.RazorComponents.Validators;
+using NorthWind.Sales.Entities.Dtos.CreateOrder;
 using NorthWind.Sales.Frontend.BusinessObjects.Interfaces;
 using NorthWind.Sales.Frontend.Views.Resources;
 using NorthWind.Validation.Entities.Interfaces;
+using NorthWind.Validation.Entities.ValueObjects;
 
 namespace NorthWind.Sales.Frontend.Views.ViewModels.CreateOrder;
 
@@ -17,6 +19,7 @@ public class CreateOrderViewModel(ICreateOrderGateway gateway,
   public List<CreateOrderDetailViewModel> OrderDetails { get; set; } = [];
 	#endregion
 	public IModelValidatorHub<CreateOrderViewModel> Validator => validator;
+	public ModelValidator<CreateOrderViewModel> ModelValidatorComponentReference{ get; set; }
 	public string InformationMessage { get; private set; }
 
   public void AddNewOrderDetailItem()
@@ -24,15 +27,32 @@ public class CreateOrderViewModel(ICreateOrderGateway gateway,
     OrderDetails.Add(new CreateOrderDetailViewModel());
   }
 
-  public async Task Send()
-  {
+	public async Task Send()
+	{
+		InformationMessage = "";
+		try
+		{
+			var OrderId = await gateway.CreateOrderAsync(
+			(CreateOrderDto)this);
+			InformationMessage = string.Format(
+			CreateOrderMessages.CreatedOrderTemplate, OrderId);
+		}
+		catch (HttpRequestException ex)
+		{
+			if (ex.Data.Contains("Errors"))
+			{
+				IEnumerable<ValidationError> Errors =
+				ex.Data["Errors"] as IEnumerable<ValidationError>;
+				ModelValidatorComponentReference.AddErrors(Errors);
+			}
+			else
+			{
+				throw;
+			}
+		}
+	}
 
-    InformationMessage = "";
-    var OrderId = await gateway.CreateOrderAsync((CreateOrderDto)this);
-    InformationMessage = string.Format(CreateOrderMessages.CreatedOrderTemplate, OrderId);
-  }
-
-  public static explicit operator CreateOrderDto(CreateOrderViewModel model) =>
+	public static explicit operator CreateOrderDto(CreateOrderViewModel model) =>
       new CreateOrderDto(
           model.CustomerId,
           model.ShipAddress,
