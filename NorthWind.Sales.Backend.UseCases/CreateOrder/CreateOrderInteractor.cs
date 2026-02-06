@@ -5,6 +5,7 @@ using NorthWind.Sales.Backend.BusinessObjects.Aggregates;
 using NorthWind.Sales.Backend.BusinessObjects.Guards;
 using NorthWind.Sales.Backend.BusinessObjects.Interfaces.CreateOrder;
 using NorthWind.Sales.Backend.BusinessObjects.Interfaces.Repositories;
+using NorthWind.Sales.Backend.BusinessObjects.Specifications;
 using NorthWind.Sales.Backend.UseCases.Resources;
 using NorthWind.Sales.Entities.Dtos.CreateOrder;
 using NorthWind.Transactions.Entities.Interfaces;
@@ -92,7 +93,7 @@ IDomainTransaction domainTransaction) :ICreateOrderInputPort
 			//       para que algún agente externo los utilice (por ejemplo, se puede utilizar en una
 			//       página web para mostrar la respuesta al usuario).
 			await outputPort.Handle(Order);
-			if (Order.OrderDetails.Count > 3)
+			if (new SpecialOrderSpecification().IsSatisfiedBy(Order))
 			{
 				await domainEventHub.Raise(
 				new SpecialOrderCreatedEvent(
