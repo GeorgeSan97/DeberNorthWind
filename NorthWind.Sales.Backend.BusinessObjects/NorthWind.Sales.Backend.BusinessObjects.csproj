@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NorthWind.DomainLogs.Entities\NorthWind.DomainLogs.Entities.csproj" />
     <ProjectReference Include="..\NorthWind.Entities\NorthWind.Entities.csproj" />
     <ProjectReference Include="..\NorthWind.Events.Entities\NorthWind.Events.Entities.csproj" />
     <ProjectReference Include="..\NorthWind.Exceptions.Entities\NorthWind.Exceptions.Entities.csproj" />

@@ -37,6 +37,20 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "NorthWind.DomainLogs.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "NorthWind.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NorthWind.DomainLogs.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthWind.DomainLogs.Entities.dll": {}
+        }
+      },
       "NorthWind.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -80,6 +94,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "NorthWind.DomainLogs.Entities": "1.0.0",
           "NorthWind.Entities": "1.0.0",
           "NorthWind.Events.Entities": "1.0.0",
           "NorthWind.Exceptions.Entities": "1.0.0",
@@ -182,6 +197,11 @@
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "NorthWind.DomainLogs.Entities/1.0.0": {
+      "type": "project",
+      "path": "../NorthWind.DomainLogs.Entities/NorthWind.DomainLogs.Entities.csproj",
+      "msbuildProject": "../NorthWind.DomainLogs.Entities/NorthWind.DomainLogs.Entities.csproj"
     },
     "NorthWind.Entities/1.0.0": {
       "type": "project",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NorthWind.Sales.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75e16d68a36f007d23561b1eb4c1d84af6a99d28")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27424ba7ec02ac7b53cac555b69ebcead76166e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("NorthWind.Sales.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NorthWind.Sales.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

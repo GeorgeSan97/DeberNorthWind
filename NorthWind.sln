@@ -81,6 +81,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailGateways", "EmailGatew
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Backend.SmtpGateways", "NorthWind.Sales.Backend.SmtpGateways\NorthWind.Sales.Backend.SmtpGateways.csproj", "{8CB52FE8-2F7D-4EAC-9D32-389A7E4455D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.DomainLogs.Entities", "NorthWind.DomainLogs.Entities\NorthWind.DomainLogs.Entities.csproj", "{5F4BA2EB-A2FA-4959-9ED2-A0D4539394EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -179,6 +181,10 @@ Global
 		{8CB52FE8-2F7D-4EAC-9D32-389A7E4455D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CB52FE8-2F7D-4EAC-9D32-389A7E4455D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CB52FE8-2F7D-4EAC-9D32-389A7E4455D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F4BA2EB-A2FA-4959-9ED2-A0D4539394EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F4BA2EB-A2FA-4959-9ED2-A0D4539394EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F4BA2EB-A2FA-4959-9ED2-A0D4539394EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F4BA2EB-A2FA-4959-9ED2-A0D4539394EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -219,6 +225,7 @@ Global
 		{AA544558-504F-4F4F-AC6E-A7CBBB356900} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{59102A18-93A9-48E9-AB1B-77AF13AF4264} = {E0CF79E0-84C9-442A-A7A8-A13F2368C942}
 		{8CB52FE8-2F7D-4EAC-9D32-389A7E4455D9} = {59102A18-93A9-48E9-AB1B-77AF13AF4264}
+		{5F4BA2EB-A2FA-4959-9ED2-A0D4539394EF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {813069B3-D9B8-492B-B36C-6C8754930A42}

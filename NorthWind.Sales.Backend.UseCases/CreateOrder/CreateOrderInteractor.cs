@@ -1,8 +1,11 @@
-﻿using NorthWind.Events.Entities.Interfaces;
+﻿using NorthWind.DomainLogs.Entities.Interfaces;
+using NorthWind.DomainLogs.Entities.ValueObjects;
+using NorthWind.Events.Entities.Interfaces;
 using NorthWind.Sales.Backend.BusinessObjects.Aggregates;
 using NorthWind.Sales.Backend.BusinessObjects.Guards;
 using NorthWind.Sales.Backend.BusinessObjects.Interfaces.CreateOrder;
 using NorthWind.Sales.Backend.BusinessObjects.Interfaces.Repositories;
+using NorthWind.Sales.Backend.UseCases.Resources;
 using NorthWind.Sales.Entities.Dtos.CreateOrder;
 using NorthWind.Validation.Entities.Interfaces;
 
@@ -50,7 +53,8 @@ namespace NorthWind.Sales.Backend.UseCases.CreateOrder;
 internal class CreateOrderInteractor(ICreateOrderOutputPort outputPort,
 ICommandsRepository repository,
 IModelValidatorHub<CreateOrderDto> modelValidatorHub,
-IDomainEventHub<SpecialOrderCreatedEvent> domainEventHub) :ICreateOrderInputPort
+IDomainEventHub<SpecialOrderCreatedEvent> domainEventHub,
+ IDomainLogger domainLogger) :ICreateOrderInputPort
 {
 
   //  1).- El "Controller" le pasa los datos al "InputPort", esos "Datos" se pasan en un "Dto"
@@ -58,6 +62,9 @@ IDomainEventHub<SpecialOrderCreatedEvent> domainEventHub) :ICreateOrderInputPort
   public async Task Handle(CreateOrderDto orderDto)
   {
 		await GuardModel.AgainstNotValid(modelValidatorHub, orderDto);
+
+		await domainLogger.LogInformation(new DomainLog(
+			CreateOrderMessages.StartingPurchaseOrderCreation));
 		//  2).- Una vez que se recibe los datos necesarios para realizar el proceso (desde un "Dto" se mapea(transforma) a un objeto
 		//       de tipo "OrderAggregate" para construir la orden (maestro-detalle).
 		OrderAggregate Order = OrderAggregate.From(orderDto);
@@ -66,16 +73,20 @@ IDomainEventHub<SpecialOrderCreatedEvent> domainEventHub) :ICreateOrderInputPort
 		//  3).- Guardar la orden (agregado).
 		await repository.CreateOrder(Order);
 
-    //  4).- Confirmar los cambios en la base de datos y tratar todo como una unidad o
-    //       "Transacción", en este caso es un maestro/detalle, usando para esto el patron
-    //       "Unit Of Work" es decir como un "Commit".
-    await repository.SaveChanges();
+		//  4).- Confirmar los cambios en la base de datos y tratar todo como una unidad o
+		//       "Transacción", en este caso es un maestro/detalle, usando para esto el patron
+		//       "Unit Of Work" es decir como un "Commit".
+		await repository.SaveChanges();
 
-    //  5).- Enviar la respuesta al "OuputPort" que se ha creado la orden para que pase la
-    //       respuesta al "Presenter" y este lo formatee y luego lo pueda devolver al "Controller"
-    //       para que algún agente externo los utilice (por ejemplo, se puede utilizar en una
-    //       página web para mostrar la respuesta al usuario).
-    await outputPort.Handle(Order);
+		await domainLogger.LogInformation(new DomainLog(string.Format(
+		
+		CreateOrderMessages.PurchaseOrderCreatedTemplate, Order.Id)));
+
+		//  5).- Enviar la respuesta al "OuputPort" que se ha creado la orden para que pase la
+		//       respuesta al "Presenter" y este lo formatee y luego lo pueda devolver al "Controller"
+		//       para que algún agente externo los utilice (por ejemplo, se puede utilizar en una
+		//       página web para mostrar la respuesta al usuario).
+		await outputPort.Handle(Order);
 
 		if (Order.OrderDetails.Count > 3)
 		{

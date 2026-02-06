@@ -28,6 +28,18 @@
           }
         }
       },
+      "NorthWind.DomainLogs.Entities/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.2",
+          "NorthWind.Entities": "1.0.0"
+        },
+        "runtime": {
+          "NorthWind.DomainLogs.Entities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "NorthWind.Entities/1.0.0": {
         "runtime": {
           "NorthWind.Entities.dll": {
@@ -60,6 +72,7 @@
       },
       "NorthWind.Sales.Backend.BusinessObjects/1.0.0": {
         "dependencies": {
+          "NorthWind.DomainLogs.Entities": "1.0.0",
           "NorthWind.Entities": "1.0.0",
           "NorthWind.Events.Entities": "1.0.0",
           "NorthWind.Exceptions.Entities": "1.0.0",
@@ -113,6 +126,11 @@
       "sha512": "sha512-MNe7GSTBf3jQx5vYrXF0NZvn6l7hUKF6J54ENfAgCO8y6xjN1XUmKKWG464LP2ye6QqDiA1dkaWEZBYnhoZzjg==",
       "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.2",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512"
+    },
+    "NorthWind.DomainLogs.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "NorthWind.Entities/1.0.0": {
       "type": "project",

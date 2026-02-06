@@ -53,7 +53,8 @@ public static class DependencyContainer
         .AddUpdateExceptionHandler()
         .AddUnhandledExceptionHandler()
 		.AddMailServices(configureSmtpOptions)
-		.AddEventServices();
+		.AddEventServices()
+		.AddDomainLogsServices();
 
 		return services;
   }

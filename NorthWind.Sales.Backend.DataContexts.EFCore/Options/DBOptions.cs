@@ -5,17 +5,19 @@
 //  y configuración basada en el archivo appsettings.json.
 public class DBOptions
 {
-  //  Esto declara una constante de solo lectura llamada SectionKey.
-  //  guarda el nombre de la clase, es decir, "DBOptions".
-  //  Se va a utilizar para leer una sección del archivo appsettings.json que tenga ese
-  //  mismo nombre es decir el nombre de la sección debe ser "DBOptions".
-  public const string SectionKey = nameof(DBOptions);
+	  //  Esto declara una constante de solo lectura llamada SectionKey.
+	  //  guarda el nombre de la clase, es decir, "DBOptions".
+	  //  Se va a utilizar para leer una sección del archivo appsettings.json que tenga ese
+	  //  mismo nombre es decir el nombre de la sección debe ser "DBOptions".
+	  public const string SectionKey = nameof(DBOptions);
 
-  //  Esta propiedad representa la cadena de conexión a la base de datos SQL Server.
-  //  Se vincula automáticamente con la clave o sección "ConnectionString" del archivo
-  //  appsettings.json usando mecanismos de configuración en ASP.NET Core esto es:
-  //  (IOptions<DBOptions> o IConfiguration).
-  public string ConnectionString { get; set; }
+	  //  Esta propiedad representa la cadena de conexión a la base de datos SQL Server.
+	  //  Se vincula automáticamente con la clave o sección "ConnectionString" del archivo
+	  //  appsettings.json usando mecanismos de configuración en ASP.NET Core esto es:
+	  //  (IOptions<DBOptions> o IConfiguration).
+	  public string ConnectionString { get; set; }
+  
+	  public string DomainLogsConnectionString { get; set; }
 }
 
 // ¿Por qué es útil en Clean Architecture?

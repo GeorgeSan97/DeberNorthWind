@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using NorthWind.DomainLogs.Entities.Interfaces;
 using NorthWind.Sales.Backend.BusinessObjects.Interfaces.Repositories;
 using NorthWind.Sales.Backend.Repositories.Repositories;
 
@@ -23,8 +24,9 @@ public static class DependencyContainer
     //      "CommandsRepository". 
     services.AddScoped<ICommandsRepository, CommandsRepository>();
 	services.AddScoped<IQueriesRepository, QueriesRepository>();
-		//  Se devuelve la misma instancia modificada de "IServiceCollection" que recibió como
-		//  parámetro del método de extensión.
+	services.AddScoped<IDomainLogsRepository, DomainLogsRepository>();
+	//  Se devuelve la misma instancia modificada de "IServiceCollection" que recibió como
+	//  parámetro del método de extensión.
 	return services;
   }
 }

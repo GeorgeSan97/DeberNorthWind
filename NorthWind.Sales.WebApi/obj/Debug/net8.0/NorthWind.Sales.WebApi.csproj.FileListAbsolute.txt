@@ -207,3 +207,6 @@ C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Events.Entities.pdb
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Sales.Backend.SmtpGateways.dll
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Sales.Backend.SmtpGateways.pdb
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.DomainLogs.Entities.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.DomainLogs.Entities.pdb
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\NorthWind.Sales.WebApi.MvcApplicationPartsAssemblyInfo.cs
