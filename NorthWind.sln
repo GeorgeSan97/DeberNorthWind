@@ -73,6 +73,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Exceptions.Entiti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.HttpDelegatingHandlers", "NorthWind.HttpDelegatingHandlers\NorthWind.HttpDelegatingHandlers.csproj", "{0DC1FFBB-D53F-4432-AB72-406BEE57743F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Entities", "NorthWind.Entities\NorthWind.Entities.csproj", "{80E7A1AD-38F7-4470-ABC0-9B2C7D66AD5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Events.Entities", "NorthWind.Events.Entities\NorthWind.Events.Entities.csproj", "{AA544558-504F-4F4F-AC6E-A7CBBB356900}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailGateways", "EmailGateways", "{59102A18-93A9-48E9-AB1B-77AF13AF4264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Backend.SmtpGateways", "NorthWind.Sales.Backend.SmtpGateways\NorthWind.Sales.Backend.SmtpGateways.csproj", "{8CB52FE8-2F7D-4EAC-9D32-389A7E4455D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +167,18 @@ Global
 		{0DC1FFBB-D53F-4432-AB72-406BEE57743F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DC1FFBB-D53F-4432-AB72-406BEE57743F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DC1FFBB-D53F-4432-AB72-406BEE57743F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80E7A1AD-38F7-4470-ABC0-9B2C7D66AD5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E7A1AD-38F7-4470-ABC0-9B2C7D66AD5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E7A1AD-38F7-4470-ABC0-9B2C7D66AD5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E7A1AD-38F7-4470-ABC0-9B2C7D66AD5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA544558-504F-4F4F-AC6E-A7CBBB356900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA544558-504F-4F4F-AC6E-A7CBBB356900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA544558-504F-4F4F-AC6E-A7CBBB356900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA544558-504F-4F4F-AC6E-A7CBBB356900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB52FE8-2F7D-4EAC-9D32-389A7E4455D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB52FE8-2F7D-4EAC-9D32-389A7E4455D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB52FE8-2F7D-4EAC-9D32-389A7E4455D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB52FE8-2F7D-4EAC-9D32-389A7E4455D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -195,6 +215,10 @@ Global
 		{49E13DA5-AB1E-4E33-9764-1B974065DEBD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{98685C60-40E3-4A1D-A0B1-424581CEB744} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{0DC1FFBB-D53F-4432-AB72-406BEE57743F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{80E7A1AD-38F7-4470-ABC0-9B2C7D66AD5F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{AA544558-504F-4F4F-AC6E-A7CBBB356900} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{59102A18-93A9-48E9-AB1B-77AF13AF4264} = {E0CF79E0-84C9-442A-A7A8-A13F2368C942}
+		{8CB52FE8-2F7D-4EAC-9D32-389A7E4455D9} = {59102A18-93A9-48E9-AB1B-77AF13AF4264}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {813069B3-D9B8-492B-B36C-6C8754930A42}

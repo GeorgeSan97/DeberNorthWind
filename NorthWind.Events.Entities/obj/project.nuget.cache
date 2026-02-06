@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GaZsastoE24=",
+  "success": true,
+  "projectFilePath": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Events.Entities\\NorthWind.Events.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jsanc\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

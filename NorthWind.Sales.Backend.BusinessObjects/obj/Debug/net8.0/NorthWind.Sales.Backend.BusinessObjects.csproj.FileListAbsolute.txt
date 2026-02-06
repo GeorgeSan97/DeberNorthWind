@@ -18,3 +18,7 @@ C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjec
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\obj\Debug\net8.0\refint\NorthWind.Sales.Backend.BusinessObjects.dll
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\obj\Debug\net8.0\NorthWind.Sales.Backend.BusinessObjects.pdb
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\obj\Debug\net8.0\ref\NorthWind.Sales.Backend.BusinessObjects.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\bin\Debug\net8.0\NorthWind.Entities.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\bin\Debug\net8.0\NorthWind.Events.Entities.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\bin\Debug\net8.0\NorthWind.Entities.pdb
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\bin\Debug\net8.0\NorthWind.Events.Entities.pdb

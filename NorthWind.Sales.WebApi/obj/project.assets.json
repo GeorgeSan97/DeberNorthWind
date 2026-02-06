@@ -1522,6 +1522,29 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
+      "NorthWind.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/NorthWind.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthWind.Entities.dll": {}
+        }
+      },
+      "NorthWind.Events.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+        },
+        "compile": {
+          "bin/placeholder/NorthWind.Events.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthWind.Events.Entities.dll": {}
+        }
+      },
       "NorthWind.Exceptions.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1542,6 +1565,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "NorthWind.Entities": "1.0.0",
+          "NorthWind.Events.Entities": "1.0.0",
           "NorthWind.Exceptions.Entities": "1.0.0",
           "NorthWind.Sales.Entities": "1.0.0",
           "NorthWind.Validation.Entities": "1.0.0"
@@ -1592,6 +1617,7 @@
           "NorthWind.Sales.Backend.DataContexts.EFCore": "1.0.0",
           "NorthWind.Sales.Backend.Presenters": "1.0.0",
           "NorthWind.Sales.Backend.Repositories": "1.0.0",
+          "NorthWind.Sales.Backend.SmtpGateways": "1.0.0",
           "NorthWind.Sales.Backend.UseCases": "1.0.0",
           "NorthWind.Sales.Validators.Entities": "1.0.0",
           "NorthWind.ValidationService.FluentValidation": "1.0.0"
@@ -1630,6 +1656,19 @@
         },
         "runtime": {
           "bin/placeholder/NorthWind.Sales.Backend.Repositories.dll": {}
+        }
+      },
+      "NorthWind.Sales.Backend.SmtpGateways/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "NorthWind.Sales.Backend.BusinessObjects": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NorthWind.Sales.Backend.SmtpGateways.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthWind.Sales.Backend.SmtpGateways.dll": {}
         }
       },
       "NorthWind.Sales.Backend.UseCases/1.0.0": {
@@ -4629,6 +4668,16 @@
         "version.txt"
       ]
     },
+    "NorthWind.Entities/1.0.0": {
+      "type": "project",
+      "path": "../NorthWind.Entities/NorthWind.Entities.csproj",
+      "msbuildProject": "../NorthWind.Entities/NorthWind.Entities.csproj"
+    },
+    "NorthWind.Events.Entities/1.0.0": {
+      "type": "project",
+      "path": "../NorthWind.Events.Entities/NorthWind.Events.Entities.csproj",
+      "msbuildProject": "../NorthWind.Events.Entities/NorthWind.Events.Entities.csproj"
+    },
     "NorthWind.Exceptions.Entities/1.0.0": {
       "type": "project",
       "path": "../NorthWind.Exceptions.Entities/NorthWind.Exceptions.Entities.csproj",
@@ -4663,6 +4712,11 @@
       "type": "project",
       "path": "../NorthWind.Sales.Backend.Repositories/NorthWind.Sales.Backend.Repositories.csproj",
       "msbuildProject": "../NorthWind.Sales.Backend.Repositories/NorthWind.Sales.Backend.Repositories.csproj"
+    },
+    "NorthWind.Sales.Backend.SmtpGateways/1.0.0": {
+      "type": "project",
+      "path": "../NorthWind.Sales.Backend.SmtpGateways/NorthWind.Sales.Backend.SmtpGateways.csproj",
+      "msbuildProject": "../NorthWind.Sales.Backend.SmtpGateways/NorthWind.Sales.Backend.SmtpGateways.csproj"
     },
     "NorthWind.Sales.Backend.UseCases/1.0.0": {
       "type": "project",

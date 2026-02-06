@@ -184,7 +184,6 @@ C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\NorthWind.Sales.WebApi.AssemblyInfoInputs.cache
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\NorthWind.Sales.WebApi.AssemblyInfo.cs
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\NorthWind.Sales.WebApi.csproj.CoreCompileInputs.cache
-C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\NorthWind.Sales.WebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\NorthWind.Sales.WebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\NorthWind.Sales.WebApi.sourcelink.json
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\rjimswa.dswa.cache.json
@@ -202,3 +201,9 @@ C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\NorthWind.Sales.WebApi.pdb
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\NorthWind.Sales.WebApi.genruntimeconfig.cache
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\ref\NorthWind.Sales.WebApi.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Entities.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Events.Entities.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Entities.pdb
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Events.Entities.pdb
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Sales.Backend.SmtpGateways.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Sales.Backend.SmtpGateways.pdb

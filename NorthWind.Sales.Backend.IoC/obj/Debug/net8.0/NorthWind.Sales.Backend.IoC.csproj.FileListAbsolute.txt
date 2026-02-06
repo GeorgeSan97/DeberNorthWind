@@ -35,3 +35,9 @@ C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.IoC\obj\Debug
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.IoC\obj\Debug\net8.0\refint\NorthWind.Sales.Backend.IoC.dll
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.IoC\obj\Debug\net8.0\NorthWind.Sales.Backend.IoC.pdb
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.IoC\obj\Debug\net8.0\ref\NorthWind.Sales.Backend.IoC.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.IoC\bin\Debug\net8.0\NorthWind.Entities.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.IoC\bin\Debug\net8.0\NorthWind.Events.Entities.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.IoC\bin\Debug\net8.0\NorthWind.Entities.pdb
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.IoC\bin\Debug\net8.0\NorthWind.Events.Entities.pdb
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.IoC\bin\Debug\net8.0\NorthWind.Sales.Backend.SmtpGateways.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.IoC\bin\Debug\net8.0\NorthWind.Sales.Backend.SmtpGateways.pdb

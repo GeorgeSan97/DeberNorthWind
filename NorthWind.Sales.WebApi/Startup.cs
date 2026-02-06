@@ -1,5 +1,6 @@
 ﻿using NorthWind.Sales.Backend.DataContexts.EFCore.Options;
 using NorthWind.Sales.Backend.IoC;
+using NorthWind.Sales.Backend.SmtpGateways.Options;
 
 namespace NorthWind.Sales.WebApi;
 
@@ -18,22 +19,25 @@ internal static class Startup
     //  Habilita la documentación de la API.
     builder.Services.AddSwaggerGen();
 
-    //  Registrar servicios con Inyección de Dependencias.
-    //  Registrar los servicios de la aplicación.
-    //  Esto utiliza el contenedor de IoC (DependencyContainer) para registrar todas las dependencias
-    //  del dominio NorthWind Sales, incluyendo:
-    //  Use Cases, Repositories, Data Contexts, Presenters.
-    //  Aquí "DBOptions" representa un objeto que contiene el "ConnectionString" y se carga
-    //  desde "appsettings.json".
-    builder.Services.AddNorthWindSalesServices(dbObtions =>
-        builder.Configuration.GetSection(DBOptions.SectionKey).Bind(dbObtions)
-    );
+		//  Registrar servicios con Inyección de Dependencias.
+		//  Registrar los servicios de la aplicación.
+		//  Esto utiliza el contenedor de IoC (DependencyContainer) para registrar todas las dependencias
+		//  del dominio NorthWind Sales, incluyendo:
+		//  Use Cases, Repositories, Data Contexts, Presenters.
+		//  Aquí "DBOptions" representa un objeto que contiene el "ConnectionString" y se carga
+		//  desde "appsettings.json".
+		builder.Services.AddNorthWindSalesServices(
+		dbObtions =>
+	    builder.Configuration.GetSection(DBOptions.SectionKey)
+	    .Bind(dbObtions),
+		smtpOptions => builder.Configuration.GetSection(SmtpOptions.SectionKey)
+        .Bind(smtpOptions));
 
-    //  Configurar CORS.
-    //  Esto permite que cualquier cliente (como un frontend en Angular, React o Blazor WebAssembly)
-    //  pueda consumir la API sin restricciones de origen, método o cabecera.
-    //  Habilita el acceso desde otros dominios (útil para frontend).
-    builder.Services.AddCors(options =>
+		//  Configurar CORS.
+		//  Esto permite que cualquier cliente (como un frontend en Angular, React o Blazor WebAssembly)
+		//  pueda consumir la API sin restricciones de origen, método o cabecera.
+		//  Habilita el acceso desde otros dominios (útil para frontend).
+		builder.Services.AddCors(options =>
     {
       options.AddDefaultPolicy(config =>
           {

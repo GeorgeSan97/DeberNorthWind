@@ -12,6 +12,7 @@
           "NorthWind.Sales.Backend.DataContexts.EFCore": "1.0.0",
           "NorthWind.Sales.Backend.Presenters": "1.0.0",
           "NorthWind.Sales.Backend.Repositories": "1.0.0",
+          "NorthWind.Sales.Backend.SmtpGateways": "1.0.0",
           "NorthWind.Sales.Backend.UseCases": "1.0.0",
           "NorthWind.Sales.Validators.Entities": "1.0.0",
           "NorthWind.ValidationService.FluentValidation": "1.0.0"
@@ -566,6 +567,25 @@
         }
       },
       "System.Threading.Tasks.Extensions/4.5.4": {},
+      "NorthWind.Entities/1.0.0": {
+        "runtime": {
+          "NorthWind.Entities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NorthWind.Events.Entities/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.5"
+        },
+        "runtime": {
+          "NorthWind.Events.Entities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "NorthWind.Exceptions.Entities/1.0.0": {
         "dependencies": {
           "NorthWind.Validation.Entities": "1.0.0"
@@ -579,6 +599,8 @@
       },
       "NorthWind.Sales.Backend.BusinessObjects/1.0.0": {
         "dependencies": {
+          "NorthWind.Entities": "1.0.0",
+          "NorthWind.Events.Entities": "1.0.0",
           "NorthWind.Exceptions.Entities": "1.0.0",
           "NorthWind.Sales.Entities": "1.0.0",
           "NorthWind.Validation.Entities": "1.0.0"
@@ -634,6 +656,17 @@
         },
         "runtime": {
           "NorthWind.Sales.Backend.Repositories.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NorthWind.Sales.Backend.SmtpGateways/1.0.0": {
+        "dependencies": {
+          "NorthWind.Sales.Backend.BusinessObjects": "1.0.0"
+        },
+        "runtime": {
+          "NorthWind.Sales.Backend.SmtpGateways.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1018,6 +1051,16 @@
       "path": "system.threading.tasks.extensions/4.5.4",
       "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
     },
+    "NorthWind.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NorthWind.Events.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "NorthWind.Exceptions.Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -1044,6 +1087,11 @@
       "sha512": ""
     },
     "NorthWind.Sales.Backend.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NorthWind.Sales.Backend.SmtpGateways/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

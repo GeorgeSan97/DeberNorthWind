@@ -1,4 +1,5 @@
-﻿using NorthWind.Sales.Backend.BusinessObjects.Aggregates;
+﻿using NorthWind.Events.Entities.Interfaces;
+using NorthWind.Sales.Backend.BusinessObjects.Aggregates;
 using NorthWind.Sales.Backend.BusinessObjects.Guards;
 using NorthWind.Sales.Backend.BusinessObjects.Interfaces.CreateOrder;
 using NorthWind.Sales.Backend.BusinessObjects.Interfaces.Repositories;
@@ -48,7 +49,8 @@ namespace NorthWind.Sales.Backend.UseCases.CreateOrder;
 
 internal class CreateOrderInteractor(ICreateOrderOutputPort outputPort,
 ICommandsRepository repository,
-IModelValidatorHub<CreateOrderDto> modelValidatorHub) : ICreateOrderInputPort
+IModelValidatorHub<CreateOrderDto> modelValidatorHub,
+IDomainEventHub<SpecialOrderCreatedEvent> domainEventHub) :ICreateOrderInputPort
 {
 
   //  1).- El "Controller" le pasa los datos al "InputPort", esos "Datos" se pasan en un "Dto"
@@ -74,5 +76,12 @@ IModelValidatorHub<CreateOrderDto> modelValidatorHub) : ICreateOrderInputPort
     //       para que algún agente externo los utilice (por ejemplo, se puede utilizar en una
     //       página web para mostrar la respuesta al usuario).
     await outputPort.Handle(Order);
-  }
+
+		if (Order.OrderDetails.Count > 3)
+		{
+			await domainEventHub.Raise(
+			new SpecialOrderCreatedEvent(
+			Order.Id, Order.OrderDetails.Count));
+		}
+	}
 }

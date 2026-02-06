@@ -88,6 +88,24 @@ namespace NorthWind.Sales.Backend.UseCases.Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Se ha creado la orden {0} con {1} productos..
+        /// </summary>
+        internal static string SendEmailBodyTemplate {
+            get {
+                return ResourceManager.GetString("SendEmailBodyTemplate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Orden especial creada.
+        /// </summary>
+        internal static string SendEmailSubject {
+            get {
+                return ResourceManager.GetString("SendEmailSubject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a  Cantidad {0} de {1} no suficiente para producto {2}..
         /// </summary>
         internal static string UnitsInStockLessThanQuantityErrorTemplate {

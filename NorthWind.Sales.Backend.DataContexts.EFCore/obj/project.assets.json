@@ -1425,6 +1425,29 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
+      "NorthWind.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/NorthWind.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthWind.Entities.dll": {}
+        }
+      },
+      "NorthWind.Events.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+        },
+        "compile": {
+          "bin/placeholder/NorthWind.Events.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthWind.Events.Entities.dll": {}
+        }
+      },
       "NorthWind.Exceptions.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1445,6 +1468,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "NorthWind.Entities": "1.0.0",
+          "NorthWind.Events.Entities": "1.0.0",
           "NorthWind.Exceptions.Entities": "1.0.0",
           "NorthWind.Sales.Entities": "1.0.0",
           "NorthWind.Validation.Entities": "1.0.0"
@@ -4101,6 +4126,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "NorthWind.Entities/1.0.0": {
+      "type": "project",
+      "path": "../NorthWind.Entities/NorthWind.Entities.csproj",
+      "msbuildProject": "../NorthWind.Entities/NorthWind.Entities.csproj"
+    },
+    "NorthWind.Events.Entities/1.0.0": {
+      "type": "project",
+      "path": "../NorthWind.Events.Entities/NorthWind.Events.Entities.csproj",
+      "msbuildProject": "../NorthWind.Events.Entities/NorthWind.Events.Entities.csproj"
     },
     "NorthWind.Exceptions.Entities/1.0.0": {
       "type": "project",

@@ -4,6 +4,8 @@ using NorthWind.Sales.Backend.DataContexts.EFCore; //AddDataContexts
 using NorthWind.Sales.Backend.DataContexts.EFCore.Options; //configureDBOptions
 using NorthWind.Sales.Backend.Presenters; //AddPresenters
 using NorthWind.Sales.Backend.Repositories; //AddRepositories
+using NorthWind.Sales.Backend.SmtpGateways.Options;
+using NorthWind.Sales.Backend.SmtpGateways;
 using NorthWind.Sales.Backend.UseCases; //AddUseCasesServices
 
 namespace NorthWind.Sales.Backend.IoC;
@@ -21,7 +23,8 @@ public static class DependencyContainer
   //  - Recibe una acción de configuración (configureDBOptions) para proporcionar la cadena de conexión.
   public static IServiceCollection AddNorthWindSalesServices(
       this IServiceCollection services,
-      Action<DBOptions> configureDBOptions
+      Action<DBOptions> configureDBOptions,
+	  Action<SmtpOptions> configureSmtpOptions
   )
   {
     //  -------------------------------------------------------
@@ -48,7 +51,9 @@ public static class DependencyContainer
         .AddValidators()
         .AddValidationExceptionHandler()
         .AddUpdateExceptionHandler()
-        .AddUnhandledExceptionHandler();
+        .AddUnhandledExceptionHandler()
+		.AddMailServices(configureSmtpOptions)
+		.AddEventServices();
 
 		return services;
   }

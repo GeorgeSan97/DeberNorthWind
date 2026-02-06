@@ -1,7 +1,7 @@
 ﻿//  Microsoft.Extensions.DependencyInjection es un espacio de nombres proporcionado por .NET
 //  para trabajar con la inyección de dependencias (DI).
 using Microsoft.Extensions.DependencyInjection;
-
+using NorthWind.Events.Entities.Interfaces;
 using NorthWind.Sales.Backend.BusinessObjects.Interfaces.CreateOrder;
 using NorthWind.Sales.Backend.UseCases.CreateOrder;
 using NorthWind.Sales.Entities.Dtos.CreateOrder;
@@ -57,11 +57,11 @@ public static class DependencyContainer
 		services.AddModelValidator<CreateOrderDto, CreateOrderCustomerValidator>();
 		services.AddModelValidator<CreateOrderDto, CreateOrderProductValidator>();
 
-
-    //  El método devuelve la misma instancia modificada de "IServiceCollection" que recibió como
-    //  parámetro.
-    //  Esto permite encadenar múltiples llamadas de configuración de servicios en una sola
-    //  línea, lo cual es una práctica común en ASP.NET Core.
-    return services;
+		services.AddScoped<IDomainEventHandler<SpecialOrderCreatedEvent>,SendEMailWhenSpecialOrderCreatedEventHandler>();
+		//  El método devuelve la misma instancia modificada de "IServiceCollection" que recibió como
+		//  parámetro.
+		//  Esto permite encadenar múltiples llamadas de configuración de servicios en una sola
+		//  línea, lo cual es una práctica común en ASP.NET Core.
+		return services;
   }
 }
