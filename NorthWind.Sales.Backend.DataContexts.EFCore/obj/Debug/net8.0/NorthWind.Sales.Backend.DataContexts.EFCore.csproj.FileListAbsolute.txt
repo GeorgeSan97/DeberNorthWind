@@ -30,3 +30,5 @@ C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\bin\Debug\net8.0\NorthWind.Events.Entities.pdb
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\bin\Debug\net8.0\NorthWind.DomainLogs.Entities.dll
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\bin\Debug\net8.0\NorthWind.DomainLogs.Entities.pdb
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\bin\Debug\net8.0\NorthWind.Transactions.Entities.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\bin\Debug\net8.0\NorthWind.Transactions.Entities.pdb

@@ -123,6 +123,9 @@
   <data name="CustomerWithBalanceErrorTemplate" xml:space="preserve">
     <value>El cliente {0} tiene un adeudo pendiente de {1}.</value>
   </data>
+  <data name="OrderCreationCancelledTemplate" xml:space="preserve">
+    <value>Creación de orden {0} cancelada.</value>
+  </data>
   <data name="ProductIdNotFoundErrorTemplate" xml:space="preserve">
     <value>El producto {0} no existe.</value>
   </data>

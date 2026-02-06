@@ -83,6 +83,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Backend.Smt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.DomainLogs.Entities", "NorthWind.DomainLogs.Entities\NorthWind.DomainLogs.Entities.csproj", "{5F4BA2EB-A2FA-4959-9ED2-A0D4539394EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Transactions.Entities", "NorthWind.Transactions.Entities\NorthWind.Transactions.Entities.csproj", "{44A2CC1C-5699-46DF-9518-B5854879F219}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -185,6 +187,10 @@ Global
 		{5F4BA2EB-A2FA-4959-9ED2-A0D4539394EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F4BA2EB-A2FA-4959-9ED2-A0D4539394EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F4BA2EB-A2FA-4959-9ED2-A0D4539394EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44A2CC1C-5699-46DF-9518-B5854879F219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A2CC1C-5699-46DF-9518-B5854879F219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A2CC1C-5699-46DF-9518-B5854879F219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A2CC1C-5699-46DF-9518-B5854879F219}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -226,6 +232,7 @@ Global
 		{59102A18-93A9-48E9-AB1B-77AF13AF4264} = {E0CF79E0-84C9-442A-A7A8-A13F2368C942}
 		{8CB52FE8-2F7D-4EAC-9D32-389A7E4455D9} = {59102A18-93A9-48E9-AB1B-77AF13AF4264}
 		{5F4BA2EB-A2FA-4959-9ED2-A0D4539394EF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{44A2CC1C-5699-46DF-9518-B5854879F219} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {813069B3-D9B8-492B-B36C-6C8754930A42}

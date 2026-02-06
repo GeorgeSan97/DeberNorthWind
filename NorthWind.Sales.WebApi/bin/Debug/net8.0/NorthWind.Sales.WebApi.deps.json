@@ -1076,6 +1076,7 @@
           "NorthWind.Events.Entities": "1.0.0",
           "NorthWind.Exceptions.Entities": "1.0.0",
           "NorthWind.Sales.Entities": "1.0.0",
+          "NorthWind.Transactions.Entities": "1.0.0",
           "NorthWind.Validation.Entities": "1.0.0"
         },
         "runtime": {
@@ -1190,6 +1191,17 @@
         },
         "runtime": {
           "NorthWind.Sales.Validators.Entities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NorthWind.Transactions.Entities/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.5"
+        },
+        "runtime": {
+          "NorthWind.Transactions.Entities.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1811,6 +1823,11 @@
       "sha512": ""
     },
     "NorthWind.Sales.Validators.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NorthWind.Transactions.Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

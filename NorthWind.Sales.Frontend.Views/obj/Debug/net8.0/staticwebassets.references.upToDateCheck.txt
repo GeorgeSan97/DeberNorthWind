@@ -18,3 +18,4 @@ C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.RazorComponents\obj\Debug\n
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.RazorComponents\obj\Debug\net8.0\staticwebassets.build.json
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.RazorComponents\obj\Debug\net8.0\staticwebassets.build.json
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.RazorComponents\obj\Debug\net8.0\staticwebassets.build.json
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.RazorComponents\obj\Debug\net8.0\staticwebassets.build.json

@@ -28,3 +28,5 @@ C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.UseCases\bin\
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.UseCases\bin\Debug\net8.0\NorthWind.Events.Entities.pdb
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.UseCases\bin\Debug\net8.0\NorthWind.DomainLogs.Entities.dll
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.UseCases\bin\Debug\net8.0\NorthWind.DomainLogs.Entities.pdb
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.UseCases\bin\Debug\net8.0\NorthWind.Transactions.Entities.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.UseCases\bin\Debug\net8.0\NorthWind.Transactions.Entities.pdb

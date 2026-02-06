@@ -79,6 +79,15 @@ namespace NorthWind.Sales.Backend.UseCases.Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Creación de orden {0} cancelada..
+        /// </summary>
+        internal static string OrderCreationCancelledTemplate {
+            get {
+                return ResourceManager.GetString("OrderCreationCancelledTemplate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a El producto {0} no existe..
         /// </summary>
         internal static string ProductIdNotFoundErrorTemplate {

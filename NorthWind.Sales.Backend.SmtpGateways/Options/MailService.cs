@@ -15,7 +15,7 @@ namespace NorthWind.Sales.Backend.SmtpGateways.Options
 	ILogger<MailService> logger) : IMailService
 	{
 		public async Task SendMailToAdministrator(
-	 string subject, string body)
+		string subject, string body)
 		{
 			try
 			{
@@ -27,17 +27,19 @@ namespace NorthWind.Sales.Backend.SmtpGateways.Options
 				SmtpClient Client = new SmtpClient(
 				smtpOptions.Value.SmtpHost,
 				smtpOptions.Value.SmtpHostPort)
-									{
-										Credentials = new NetworkCredential(
-										smtpOptions.Value.SmtpUserName,
-										smtpOptions.Value.SmtpPassword),
-										EnableSsl = true
-									};
+				{
+					Credentials = new NetworkCredential(
+					smtpOptions.Value.SmtpUserName,
+					smtpOptions.Value.SmtpPassword),
+					EnableSsl = true
+				};
 				await Client.SendMailAsync(Message);
 			}
 			catch (Exception ex)
 			{
 				logger.LogError(ex, ex.Message);
+				throw;
+
 			}
 		}
 	}

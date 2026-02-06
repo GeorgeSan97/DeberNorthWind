@@ -26,3 +26,5 @@ C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.SmtpGateways\
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.SmtpGateways\obj\Debug\net8.0\ref\NorthWind.Sales.Backend.SmtpGateways.dll
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.SmtpGateways\bin\Debug\net8.0\NorthWind.DomainLogs.Entities.dll
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.SmtpGateways\bin\Debug\net8.0\NorthWind.DomainLogs.Entities.pdb
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.SmtpGateways\bin\Debug\net8.0\NorthWind.Transactions.Entities.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.SmtpGateways\bin\Debug\net8.0\NorthWind.Transactions.Entities.pdb

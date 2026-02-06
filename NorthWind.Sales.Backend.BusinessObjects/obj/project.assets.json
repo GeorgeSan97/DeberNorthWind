@@ -100,6 +100,19 @@
           "bin/placeholder/NorthWind.Sales.Entities.dll": {}
         }
       },
+      "NorthWind.Transactions.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+        },
+        "compile": {
+          "bin/placeholder/NorthWind.Transactions.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthWind.Transactions.Entities.dll": {}
+        }
+      },
       "NorthWind.Validation.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -205,6 +218,11 @@
       "path": "../NorthWind.Sales.Entities/NorthWind.Sales.Entities.csproj",
       "msbuildProject": "../NorthWind.Sales.Entities/NorthWind.Sales.Entities.csproj"
     },
+    "NorthWind.Transactions.Entities/1.0.0": {
+      "type": "project",
+      "path": "../NorthWind.Transactions.Entities/NorthWind.Transactions.Entities.csproj",
+      "msbuildProject": "../NorthWind.Transactions.Entities/NorthWind.Transactions.Entities.csproj"
+    },
     "NorthWind.Validation.Entities/1.0.0": {
       "type": "project",
       "path": "../NorthWind.Validation.Entities/NorthWind.Validation.Entities.csproj",
@@ -218,6 +236,7 @@
       "NorthWind.Events.Entities >= 1.0.0",
       "NorthWind.Exceptions.Entities >= 1.0.0",
       "NorthWind.Sales.Entities >= 1.0.0",
+      "NorthWind.Transactions.Entities >= 1.0.0",
       "NorthWind.Validation.Entities >= 1.0.0"
     ]
   },
@@ -268,6 +287,9 @@
             },
             "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.Entities\\NorthWind.Sales.Entities.csproj": {
               "projectPath": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.Entities\\NorthWind.Sales.Entities.csproj"
+            },
+            "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Transactions.Entities\\NorthWind.Transactions.Entities.csproj": {
+              "projectPath": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Transactions.Entities\\NorthWind.Transactions.Entities.csproj"
             },
             "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Validation.Entities\\NorthWind.Validation.Entities.csproj": {
               "projectPath": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Validation.Entities\\NorthWind.Validation.Entities.csproj"
