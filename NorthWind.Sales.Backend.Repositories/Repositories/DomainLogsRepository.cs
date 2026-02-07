@@ -16,10 +16,10 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
 			await context.AddLogAsync(new Entities.DomainLog
 			{
 				CreatedDate = log.DateTime,
-				Information = log.Information
+				Information = log.Information,
+				UserName = log.UserName
 			});
 		}
-		public async Task SaveChanges() =>
-	 await context.SaveChangesAsync();
+		public async Task SaveChanges() => await context.SaveChangesAsync();
 	}
 }

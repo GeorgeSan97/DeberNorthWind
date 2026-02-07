@@ -28,4 +28,11 @@ public static class DependencyContainer
 		services.AddExceptionHandler<UnhandledExceptionHandler>();
 		return services;
 	}
+
+	public static IServiceCollection AddUnauthorizedAccessExceptionHandler(
+	this IServiceCollection services)
+	{
+		services.AddExceptionHandler<UnauthorizedAccessExceptionHandler>();
+		return services;
+	}
 }

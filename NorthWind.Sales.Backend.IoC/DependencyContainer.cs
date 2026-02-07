@@ -7,6 +7,8 @@ using NorthWind.Sales.Backend.Repositories; //AddRepositories
 using NorthWind.Sales.Backend.SmtpGateways.Options;
 using NorthWind.Sales.Backend.SmtpGateways;
 using NorthWind.Sales.Backend.UseCases; //AddUseCasesServices
+using NorthWind.UserServices; // <-- namespace correcto para AddUserServices
+
 
 namespace NorthWind.Sales.Backend.IoC;
 
@@ -51,11 +53,13 @@ public static class DependencyContainer
         .AddValidators()
         .AddValidationExceptionHandler()
         .AddUpdateExceptionHandler()
+        .AddUnauthorizedAccessExceptionHandler()
         .AddUnhandledExceptionHandler()
 		.AddMailServices(configureSmtpOptions)
 		.AddEventServices()
 		.AddDomainLogsServices()
-		.AddTransactionServices();
+		.AddTransactionServices()
+		.AddUserServices();
 
 		return services;
   }

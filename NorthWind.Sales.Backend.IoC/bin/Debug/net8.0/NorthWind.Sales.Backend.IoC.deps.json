@@ -15,6 +15,7 @@
           "NorthWind.Sales.Backend.SmtpGateways": "1.0.0",
           "NorthWind.Sales.Backend.UseCases": "1.0.0",
           "NorthWind.Sales.Validators.Entities": "1.0.0",
+          "NorthWind.UserServices": "1.0.0",
           "NorthWind.ValidationService.FluentValidation": "1.0.0"
         },
         "runtime": {
@@ -729,6 +730,17 @@
           }
         }
       },
+      "NorthWind.UserServices/1.0.0": {
+        "dependencies": {
+          "NorthWind.Entities": "1.0.0"
+        },
+        "runtime": {
+          "NorthWind.UserServices.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "NorthWind.Validation.Entities/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "9.0.5"
@@ -1142,6 +1154,11 @@
       "sha512": ""
     },
     "NorthWind.Transactions.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NorthWind.UserServices/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -11,5 +11,6 @@ namespace NorthWind.Sales.Backend.Repositories.Entities
 		public int Id { get; set; }
 		public DateTime CreatedDate { get; set; }
 		public string Information { get; set; }
+		public string UserName { get; set; }
 	}
 }

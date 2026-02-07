@@ -45,3 +45,5 @@ C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.IoC\bin\Debug
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.IoC\bin\Debug\net8.0\NorthWind.DomainLogs.Entities.pdb
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.IoC\bin\Debug\net8.0\NorthWind.Transactions.Entities.dll
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.IoC\bin\Debug\net8.0\NorthWind.Transactions.Entities.pdb
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.IoC\bin\Debug\net8.0\NorthWind.UserServices.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.IoC\bin\Debug\net8.0\NorthWind.UserServices.pdb

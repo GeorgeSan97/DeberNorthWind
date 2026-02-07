@@ -37,6 +37,10 @@ namespace NorthWind.Sales.Backend.DataContexts.EFCore.Migrations.NorthWindDomain
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.ToTable("DomainLogs");
