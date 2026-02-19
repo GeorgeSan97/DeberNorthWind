@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.Sales.Backend.BusinessObjects</id>
+    <version>1.0.0</version>
+    <authors>NorthWind.Sales.Backend.BusinessObjects</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="3144b8558ffd9568b5fa60adf6ee517b59797654" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="NorthWind.DomainLogs.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Events.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Exceptions.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Sales.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Transactions.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Validation.Entities" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\bin\Release\net8.0\NorthWind.Sales.Backend.BusinessObjects.dll" target="lib\net8.0\NorthWind.Sales.Backend.BusinessObjects.dll" />
+  </files>
+</package>

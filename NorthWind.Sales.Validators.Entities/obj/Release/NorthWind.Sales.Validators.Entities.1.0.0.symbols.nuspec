@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.Sales.Validators.Entities</id>
+    <version>1.0.0</version>
+    <authors>NorthWind.Sales.Validators.Entities</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="3144b8558ffd9568b5fa60adf6ee517b59797654" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="NorthWind.Sales.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Validation.Entities" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Validators.Entities\bin\Release\net8.0\NorthWind.Sales.Validators.Entities.pdb" target="lib\net8.0\NorthWind.Sales.Validators.Entities.pdb" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Validators.Entities\bin\Release\net8.0\NorthWind.Sales.Validators.Entities.dll" target="lib\net8.0\NorthWind.Sales.Validators.Entities.dll" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Validators.Entities\CreateOrderDtoValidator.cs" target="src\NorthWind.Sales.Validators.Entities\CreateOrderDtoValidator.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Validators.Entities\CreateOrder\CreateOrderDetailDtoValidator.cs" target="src\NorthWind.Sales.Validators.Entities\CreateOrder\CreateOrderDetailDtoValidator.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Validators.Entities\DependencyContainer.cs" target="src\NorthWind.Sales.Validators.Entities\DependencyContainer.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Validators.Entities\Properties\AssemblyInfo.cs" target="src\NorthWind.Sales.Validators.Entities\Properties\AssemblyInfo.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Validators.Entities\Resources\CreateOrderMessages.Designer.cs" target="src\NorthWind.Sales.Validators.Entities\Resources\CreateOrderMessages.Designer.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Validators.Entities\obj\Release\net8.0\NorthWind.Sales.Validators.Entities.GlobalUsings.g.cs" target="src\NorthWind.Sales.Validators.Entities\obj\Release\net8.0\NorthWind.Sales.Validators.Entities.GlobalUsings.g.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Validators.Entities\Resources\CreateOrderMessages.resx" target="src\NorthWind.Sales.Validators.Entities\Resources\CreateOrderMessages.resx" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Validators.Entities\NorthWind.Sales.Validators.Entities.csproj" target="src\NorthWind.Sales.Validators.Entities\NorthWind.Sales.Validators.Entities.csproj" />
+  </files>
+</package>

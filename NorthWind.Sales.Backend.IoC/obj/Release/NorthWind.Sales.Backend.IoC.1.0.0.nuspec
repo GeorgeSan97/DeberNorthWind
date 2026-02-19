@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.Sales.Backend.IoC</id>
+    <version>1.0.0</version>
+    <authors>NorthWind.Sales.Backend.IoC</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="3144b8558ffd9568b5fa60adf6ee517b59797654" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="NorthWind.Sales.Backend.Controllers" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Sales.Backend.DataContexts.EFCore" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Sales.Backend.Presenters" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Sales.Backend.Repositories" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Sales.Backend.SmtpGateways" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Sales.Backend.UseCases" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Sales.Validators.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.UserServices" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.ValidationService.FluentValidation" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.IoC\bin\Release\net8.0\NorthWind.Sales.Backend.IoC.dll" target="lib\net8.0\NorthWind.Sales.Backend.IoC.dll" />
+  </files>
+</package>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.Sales.Backend.DataContexts.EFCore</id>
+    <version>1.0.0</version>
+    <authors>NorthWind.Sales.Backend.DataContexts.EFCore</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="3144b8558ffd9568b5fa60adf6ee517b59797654" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="NorthWind.Sales.Backend.Repositories" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="9.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="9.0.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\bin\Release\net8.0\NorthWind.Sales.Backend.DataContexts.EFCore.pdb" target="lib\net8.0\NorthWind.Sales.Backend.DataContexts.EFCore.pdb" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\bin\Release\net8.0\NorthWind.Sales.Backend.DataContexts.EFCore.runtimeconfig.json" target="lib\net8.0\NorthWind.Sales.Backend.DataContexts.EFCore.runtimeconfig.json" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\bin\Release\net8.0\NorthWind.Sales.Backend.DataContexts.EFCore.dll" target="lib\net8.0\NorthWind.Sales.Backend.DataContexts.EFCore.dll" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\Configurations\CustomerConfiguration.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\Configurations\CustomerConfiguration.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\Configurations\OrderConfiguration.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\Configurations\OrderConfiguration.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\Configurations\OrderDetailConfiguration.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\Configurations\OrderDetailConfiguration.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\Configurations\ProductConfiguration.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\Configurations\ProductConfiguration.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\DataContexts\NorthWindContext.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\DataContexts\NorthWindContext.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\DataContexts\NorthWindDomainLogsContext.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\DataContexts\NorthWindDomainLogsContext.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\DataContexts\NorthWindDomainLogsContextFactory.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\DataContexts\NorthWindDomainLogsContextFactory.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\DataContexts\NorthWindSalesContext.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\DataContexts\NorthWindSalesContext.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\DependencyContainer.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\DependencyContainer.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\Guards\GuardDBContext.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\Guards\GuardDBContext.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\Migrations\20260202045923_InitialCreate.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\Migrations\20260202045923_InitialCreate.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\Migrations\20260202045923_InitialCreate.Designer.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\Migrations\20260202045923_InitialCreate.Designer.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\Migrations\NorthWindDomainLogs\20260206180411_InitialCreate.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\Migrations\NorthWindDomainLogs\20260206180411_InitialCreate.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\Migrations\NorthWindDomainLogs\20260206180411_InitialCreate.Designer.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\Migrations\NorthWindDomainLogs\20260206180411_InitialCreate.Designer.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\Migrations\NorthWindDomainLogs\20260206235727_AddUserNameToDomainLog.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\Migrations\NorthWindDomainLogs\20260206235727_AddUserNameToDomainLog.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\Migrations\NorthWindDomainLogs\20260206235727_AddUserNameToDomainLog.Designer.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\Migrations\NorthWindDomainLogs\20260206235727_AddUserNameToDomainLog.Designer.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\Migrations\NorthWindDomainLogs\NorthWindDomainLogsContextModelSnapshot.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\Migrations\NorthWindDomainLogs\NorthWindDomainLogsContextModelSnapshot.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\Migrations\NorthWindSalesCommandsDataContextModelSnapshot.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\Migrations\NorthWindSalesCommandsDataContextModelSnapshot.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\Migrations\NorthWind\20260203034327_AddProductAndCustomer.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\Migrations\NorthWind\20260203034327_AddProductAndCustomer.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\Migrations\NorthWind\20260203034327_AddProductAndCustomer.Designer.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\Migrations\NorthWind\20260203034327_AddProductAndCustomer.Designer.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\Migrations\NorthWind\NorthWindContextModelSnapshot.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\Migrations\NorthWind\NorthWindContextModelSnapshot.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\Options\DBOptions.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\Options\DBOptions.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\Services\NorthWindDomainLogsDataContext.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\Services\NorthWindDomainLogsDataContext.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\Services\NorthWindSalesCommandsDataContext.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\Services\NorthWindSalesCommandsDataContext.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\Services\NorthWindSalesQueriesDataContext.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\Services\NorthWindSalesQueriesDataContext.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\obj\Release\net8.0\NorthWind.Sales.Backend.DataContexts.EFCore.GlobalUsings.g.cs" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\obj\Release\net8.0\NorthWind.Sales.Backend.DataContexts.EFCore.GlobalUsings.g.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\NorthWind.Sales.Backend.DataContexts.EFCore.csproj" target="src\NorthWind.Sales.Backend.DataContexts.EFCore\NorthWind.Sales.Backend.DataContexts.EFCore.csproj" />
+  </files>
+</package>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.HttpDelegatingHandlers</id>
+    <version>1.0.0</version>
+    <authors>NorthWind.HttpDelegatingHandlers</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="3144b8558ffd9568b5fa60adf6ee517b59797654" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="NorthWind.Validation.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Json" version="7.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.HttpDelegatingHandlers\bin\Release\net8.0\NorthWind.HttpDelegatingHandlers.dll" target="lib\net8.0\NorthWind.HttpDelegatingHandlers.dll" />
+  </files>
+</package>

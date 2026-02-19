@@ -1,0 +1,16 @@
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\bin\Release\net8.0\NorthWind.Exceptions.Entities.deps.json
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\bin\Release\net8.0\NorthWind.Exceptions.Entities.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\bin\Release\net8.0\NorthWind.Exceptions.Entities.pdb
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\bin\Release\net8.0\NorthWind.Validation.Entities.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\bin\Release\net8.0\NorthWind.Validation.Entities.pdb
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\obj\Release\net8.0\NorthWind.Exceptions.Entities.csproj.AssemblyReference.cache
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\obj\Release\net8.0\NorthWind.Exceptions.Entities.Resources.ExceptionMessages.resources
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\obj\Release\net8.0\NorthWind.Exceptions.Entities.csproj.GenerateResource.cache
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\obj\Release\net8.0\NorthWind.Exceptions.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\obj\Release\net8.0\NorthWind.Exceptions.Entities.csproj.CoreCompileInputs.cache
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\obj\Release\net8.0\NorthWind.Exceptions.Entities.sourcelink.json
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\obj\Release\net8.0\NorthWin.65329DA7.Up2Date
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\obj\Release\net8.0\NorthWind.Exceptions.Entities.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\obj\Release\net8.0\refint\NorthWind.Exceptions.Entities.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\obj\Release\net8.0\NorthWind.Exceptions.Entities.pdb
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\obj\Release\net8.0\ref\NorthWind.Exceptions.Entities.dll

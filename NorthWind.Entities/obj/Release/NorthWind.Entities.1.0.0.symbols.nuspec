@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.Entities</id>
+    <version>1.0.0</version>
+    <authors>NorthWind.Entities</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="3144b8558ffd9568b5fa60adf6ee517b59797654" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Entities\bin\Release\net8.0\NorthWind.Entities.pdb" target="lib\net8.0\NorthWind.Entities.pdb" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Entities\bin\Release\net8.0\NorthWind.Entities.dll" target="lib\net8.0\NorthWind.Entities.dll" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Entities\Abstractions\Specification.cs" target="src\NorthWind.Entities\Abstractions\Specification.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Entities\Guards\GuardUser.cs" target="src\NorthWind.Entities\Guards\GuardUser.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Entities\Interfaces\IMailService.cs" target="src\NorthWind.Entities\Interfaces\IMailService.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Entities\Interfaces\IUnitOfWork.cs" target="src\NorthWind.Entities\Interfaces\IUnitOfWork.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Entities\Interfaces\IUserService.cs" target="src\NorthWind.Entities\Interfaces\IUserService.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Entities\obj\Release\net8.0\NorthWind.Entities.GlobalUsings.g.cs" target="src\NorthWind.Entities\obj\Release\net8.0\NorthWind.Entities.GlobalUsings.g.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Entities\NorthWind.Entities.csproj" target="src\NorthWind.Entities\NorthWind.Entities.csproj" />
+  </files>
+</package>

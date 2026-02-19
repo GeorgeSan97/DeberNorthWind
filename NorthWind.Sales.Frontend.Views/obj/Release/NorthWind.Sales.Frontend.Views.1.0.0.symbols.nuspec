@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.Sales.Frontend.Views</id>
+    <version>1.0.0</version>
+    <authors>NorthWind.Sales.Frontend.Views</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="3144b8558ffd9568b5fa60adf6ee517b59797654" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="NorthWind.RazorComponents" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Sales.Frontend.BusinessObjects" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="8.0.16" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\bin\Release\net8.0\NorthWind.Sales.Frontend.Views.pdb" target="lib\net8.0\NorthWind.Sales.Frontend.Views.pdb" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\bin\Release\net8.0\NorthWind.Sales.Frontend.Views.dll" target="lib\net8.0\NorthWind.Sales.Frontend.Views.dll" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\obj\Release\net8.0\scopedcss\projectbundle\NorthWind.Sales.Frontend.Views.bundle.scp.css" target="staticwebassets\NorthWind.Sales.Frontend.Views.dl264rvf41.bundle.scp.css" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\obj\Release\net8.0\staticwebassets\msbuild.NorthWind.Sales.Frontend.Views.Microsoft.AspNetCore.StaticWebAssetEndpoints.props" target="build\Microsoft.AspNetCore.StaticWebAssetEndpoints.props" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\obj\Release\net8.0\staticwebassets\msbuild.NorthWind.Sales.Frontend.Views.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\obj\Release\net8.0\staticwebassets\msbuild.build.NorthWind.Sales.Frontend.Views.props" target="build\NorthWind.Sales.Frontend.Views.props" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\obj\Release\net8.0\staticwebassets\msbuild.buildMultiTargeting.NorthWind.Sales.Frontend.Views.props" target="buildMultiTargeting\NorthWind.Sales.Frontend.Views.props" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\obj\Release\net8.0\staticwebassets\msbuild.buildTransitive.NorthWind.Sales.Frontend.Views.props" target="buildTransitive\NorthWind.Sales.Frontend.Views.props" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\Components\CreateOrderComponent.razor.cs" target="src\NorthWind.Sales.Frontend.Views\Components\CreateOrderComponent.razor.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\DependencyContainer.cs" target="src\NorthWind.Sales.Frontend.Views\DependencyContainer.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\Pages\CreateOrder.razor.cs" target="src\NorthWind.Sales.Frontend.Views\Pages\CreateOrder.razor.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\Resources\CommonMessages.Designer.cs" target="src\NorthWind.Sales.Frontend.Views\Resources\CommonMessages.Designer.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\Resources\CreateOrderMessages.Designer.cs" target="src\NorthWind.Sales.Frontend.Views\Resources\CreateOrderMessages.Designer.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\ViewModels\CreateOrder\CreateOrderDetailViewModel.cs" target="src\NorthWind.Sales.Frontend.Views\ViewModels\CreateOrder\CreateOrderDetailViewModel.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\ViewModels\CreateOrder\CreateOrderViewModel.cs" target="src\NorthWind.Sales.Frontend.Views\ViewModels\CreateOrder\CreateOrderViewModel.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\ViewModels\CreateOrder\CreateOrderViewModelValidator.cs" target="src\NorthWind.Sales.Frontend.Views\ViewModels\CreateOrder\CreateOrderViewModelValidator.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\obj\Release\net8.0\NorthWind.Sales.Frontend.Views.GlobalUsings.g.cs" target="src\NorthWind.Sales.Frontend.Views\obj\Release\net8.0\NorthWind.Sales.Frontend.Views.GlobalUsings.g.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\Resources\CommonMessages.resx" target="src\NorthWind.Sales.Frontend.Views\Resources\CommonMessages.resx" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\Resources\CreateOrderMessages.resx" target="src\NorthWind.Sales.Frontend.Views\Resources\CreateOrderMessages.resx" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\NorthWind.Sales.Frontend.Views.csproj" target="src\NorthWind.Sales.Frontend.Views\NorthWind.Sales.Frontend.Views.csproj" />
+  </files>
+</package>

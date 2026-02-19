@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.Sales.Frontend.IoC</id>
+    <version>1.0.0</version>
+    <authors>NorthWind.Sales.Frontend.IoC</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="3144b8558ffd9568b5fa60adf6ee517b59797654" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="NorthWind.Sales.Frontend.Views" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Sales.Frontend.WebApiGateways" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Sales.Validators.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.ValidationService.FluentValidation" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.IoC\bin\Release\net8.0\NorthWind.Sales.Frontend.IoC.pdb" target="lib\net8.0\NorthWind.Sales.Frontend.IoC.pdb" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.IoC\bin\Release\net8.0\NorthWind.Sales.Frontend.IoC.dll" target="lib\net8.0\NorthWind.Sales.Frontend.IoC.dll" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.IoC\DependencyContainer.cs" target="src\NorthWind.Sales.Frontend.IoC\DependencyContainer.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.IoC\obj\Release\net8.0\NorthWind.Sales.Frontend.IoC.GlobalUsings.g.cs" target="src\NorthWind.Sales.Frontend.IoC\obj\Release\net8.0\NorthWind.Sales.Frontend.IoC.GlobalUsings.g.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.IoC\NorthWind.Sales.Frontend.IoC.csproj" target="src\NorthWind.Sales.Frontend.IoC\NorthWind.Sales.Frontend.IoC.csproj" />
+  </files>
+</package>

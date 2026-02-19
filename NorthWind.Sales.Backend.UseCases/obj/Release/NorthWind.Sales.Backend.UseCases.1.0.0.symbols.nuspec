@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.Sales.Backend.UseCases</id>
+    <version>1.0.0</version>
+    <authors>NorthWind.Sales.Backend.UseCases</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="3144b8558ffd9568b5fa60adf6ee517b59797654" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="NorthWind.Sales.Backend.BusinessObjects" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="9.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.UseCases\bin\Release\net8.0\NorthWind.Sales.Backend.UseCases.pdb" target="lib\net8.0\NorthWind.Sales.Backend.UseCases.pdb" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.UseCases\bin\Release\net8.0\NorthWind.Sales.Backend.UseCases.dll" target="lib\net8.0\NorthWind.Sales.Backend.UseCases.dll" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.UseCases\CreateOrder\CreateOrderCustomerValidator.cs" target="src\NorthWind.Sales.Backend.UseCases\CreateOrder\CreateOrderCustomerValidator.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.UseCases\CreateOrder\CreateOrderInteractor.cs" target="src\NorthWind.Sales.Backend.UseCases\CreateOrder\CreateOrderInteractor.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.UseCases\CreateOrder\CreateOrderProductValidator.cs" target="src\NorthWind.Sales.Backend.UseCases\CreateOrder\CreateOrderProductValidator.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.UseCases\CreateOrder\SendEMailWhenSpecialOrderCreatedEventHandler.cs" target="src\NorthWind.Sales.Backend.UseCases\CreateOrder\SendEMailWhenSpecialOrderCreatedEventHandler.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.UseCases\CreateOrder\SpecialOrderCreatedEvent.cs" target="src\NorthWind.Sales.Backend.UseCases\CreateOrder\SpecialOrderCreatedEvent.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.UseCases\DependencyContainer.cs" target="src\NorthWind.Sales.Backend.UseCases\DependencyContainer.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.UseCases\Resources\CreateOrderMessages.Designer.cs" target="src\NorthWind.Sales.Backend.UseCases\Resources\CreateOrderMessages.Designer.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.UseCases\obj\Release\net8.0\NorthWind.Sales.Backend.UseCases.GlobalUsings.g.cs" target="src\NorthWind.Sales.Backend.UseCases\obj\Release\net8.0\NorthWind.Sales.Backend.UseCases.GlobalUsings.g.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.UseCases\Resources\CreateOrderMessages.resx" target="src\NorthWind.Sales.Backend.UseCases\Resources\CreateOrderMessages.resx" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.UseCases\NorthWind.Sales.Backend.UseCases.csproj" target="src\NorthWind.Sales.Backend.UseCases\NorthWind.Sales.Backend.UseCases.csproj" />
+  </files>
+</package>

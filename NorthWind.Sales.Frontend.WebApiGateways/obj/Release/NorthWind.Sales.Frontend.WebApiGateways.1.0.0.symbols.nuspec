@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.Sales.Frontend.WebApiGateways</id>
+    <version>1.0.0</version>
+    <authors>NorthWind.Sales.Frontend.WebApiGateways</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="3144b8558ffd9568b5fa60adf6ee517b59797654" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="NorthWind.HttpDelegatingHandlers" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Sales.Frontend.BusinessObjects" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="9.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Http" version="9.0.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.WebApiGateways\bin\Release\net8.0\NorthWind.Sales.Frontend.WebApiGateways.pdb" target="lib\net8.0\NorthWind.Sales.Frontend.WebApiGateways.pdb" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.WebApiGateways\bin\Release\net8.0\NorthWind.Sales.Frontend.WebApiGateways.dll" target="lib\net8.0\NorthWind.Sales.Frontend.WebApiGateways.dll" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.WebApiGateways\CreateOrderGateway.cs" target="src\NorthWind.Sales.Frontend.WebApiGateways\CreateOrderGateway.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.WebApiGateways\DependencyContainer.cs" target="src\NorthWind.Sales.Frontend.WebApiGateways\DependencyContainer.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.WebApiGateways\obj\Release\net8.0\NorthWind.Sales.Frontend.WebApiGateways.GlobalUsings.g.cs" target="src\NorthWind.Sales.Frontend.WebApiGateways\obj\Release\net8.0\NorthWind.Sales.Frontend.WebApiGateways.GlobalUsings.g.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.WebApiGateways\NorthWind.Sales.Frontend.WebApiGateways.csproj" target="src\NorthWind.Sales.Frontend.WebApiGateways\NorthWind.Sales.Frontend.WebApiGateways.csproj" />
+  </files>
+</package>

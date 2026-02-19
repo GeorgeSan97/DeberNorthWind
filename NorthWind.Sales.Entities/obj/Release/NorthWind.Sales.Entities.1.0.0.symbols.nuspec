@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.Sales.Entities</id>
+    <version>1.0.0</version>
+    <authors>NorthWind.Sales.Entities</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="3144b8558ffd9568b5fa60adf6ee517b59797654" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Entities\bin\Release\net8.0\NorthWind.Sales.Entities.pdb" target="lib\net8.0\NorthWind.Sales.Entities.pdb" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Entities\bin\Release\net8.0\NorthWind.Sales.Entities.dll" target="lib\net8.0\NorthWind.Sales.Entities.dll" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Entities\Dtos\CreateOrder\CreateOrderDetailDto.cs" target="src\NorthWind.Sales.Entities\Dtos\CreateOrder\CreateOrderDetailDto.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Entities\Dtos\CreateOrder\CreateOrderDto.cs" target="src\NorthWind.Sales.Entities\Dtos\CreateOrder\CreateOrderDto.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Entities\ValueObjects\Endpoints.cs" target="src\NorthWind.Sales.Entities\ValueObjects\Endpoints.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Entities\obj\Release\net8.0\NorthWind.Sales.Entities.GlobalUsings.g.cs" target="src\NorthWind.Sales.Entities\obj\Release\net8.0\NorthWind.Sales.Entities.GlobalUsings.g.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Entities\NorthWind.Sales.Entities.csproj" target="src\NorthWind.Sales.Entities\NorthWind.Sales.Entities.csproj" />
+  </files>
+</package>

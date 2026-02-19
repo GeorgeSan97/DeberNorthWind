@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.Sales.Backend.BusinessObjects</id>
+    <version>1.0.0</version>
+    <authors>NorthWind.Sales.Backend.BusinessObjects</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="3144b8558ffd9568b5fa60adf6ee517b59797654" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="NorthWind.DomainLogs.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Events.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Exceptions.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Sales.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Transactions.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Validation.Entities" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\bin\Release\net8.0\NorthWind.Sales.Backend.BusinessObjects.pdb" target="lib\net8.0\NorthWind.Sales.Backend.BusinessObjects.pdb" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\bin\Release\net8.0\NorthWind.Sales.Backend.BusinessObjects.dll" target="lib\net8.0\NorthWind.Sales.Backend.BusinessObjects.dll" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\Aggregates\OrderAggregate.cs" target="src\NorthWind.Sales.Backend.BusinessObjects\Aggregates\OrderAggregate.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\Enums\DiscountType.cs" target="src\NorthWind.Sales.Backend.BusinessObjects\Enums\DiscountType.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\Enums\ShippingType.cs" target="src\NorthWind.Sales.Backend.BusinessObjects\Enums\ShippingType.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\GlobalUsings.cs" target="src\NorthWind.Sales.Backend.BusinessObjects\GlobalUsings.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\Guards\GuardModel.cs" target="src\NorthWind.Sales.Backend.BusinessObjects\Guards\GuardModel.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\Interfaces\CreateOrder\ICreateOrderInputPort.cs" target="src\NorthWind.Sales.Backend.BusinessObjects\Interfaces\CreateOrder\ICreateOrderInputPort.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\Interfaces\CreateOrder\ICreateOrderOutputPort.cs" target="src\NorthWind.Sales.Backend.BusinessObjects\Interfaces\CreateOrder\ICreateOrderOutputPort.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\Interfaces\Repositories\ICommandsRepository.cs" target="src\NorthWind.Sales.Backend.BusinessObjects\Interfaces\Repositories\ICommandsRepository.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\Interfaces\Repositories\IQueriesRepository.cs" target="src\NorthWind.Sales.Backend.BusinessObjects\Interfaces\Repositories\IQueriesRepository.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\POCOEntities\Order.cs" target="src\NorthWind.Sales.Backend.BusinessObjects\POCOEntities\Order.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\Specifications\SpecialOrderSpecification.cs" target="src\NorthWind.Sales.Backend.BusinessObjects\Specifications\SpecialOrderSpecification.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\ValueObjects\OrderDetail.cs" target="src\NorthWind.Sales.Backend.BusinessObjects\ValueObjects\OrderDetail.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\ValueObjects\ProductUnitsInStock.cs" target="src\NorthWind.Sales.Backend.BusinessObjects\ValueObjects\ProductUnitsInStock.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\obj\Release\net8.0\NorthWind.Sales.Backend.BusinessObjects.GlobalUsings.g.cs" target="src\NorthWind.Sales.Backend.BusinessObjects\obj\Release\net8.0\NorthWind.Sales.Backend.BusinessObjects.GlobalUsings.g.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.BusinessObjects\NorthWind.Sales.Backend.BusinessObjects.csproj" target="src\NorthWind.Sales.Backend.BusinessObjects\NorthWind.Sales.Backend.BusinessObjects.csproj" />
+  </files>
+</package>

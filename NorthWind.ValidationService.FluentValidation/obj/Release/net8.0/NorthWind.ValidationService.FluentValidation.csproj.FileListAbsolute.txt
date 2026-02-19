@@ -1,0 +1,15 @@
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.ValidationService.FluentValidation\bin\Release\net8.0\NorthWind.ValidationService.FluentValidation.dll.config
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.ValidationService.FluentValidation\bin\Release\net8.0\NorthWind.ValidationService.FluentValidation.deps.json
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.ValidationService.FluentValidation\bin\Release\net8.0\NorthWind.ValidationService.FluentValidation.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.ValidationService.FluentValidation\bin\Release\net8.0\NorthWind.ValidationService.FluentValidation.pdb
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.ValidationService.FluentValidation\bin\Release\net8.0\NorthWind.Validation.Entities.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.ValidationService.FluentValidation\bin\Release\net8.0\NorthWind.Validation.Entities.pdb
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.ValidationService.FluentValidation\obj\Release\net8.0\NorthWind.ValidationService.FluentValidation.csproj.AssemblyReference.cache
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.ValidationService.FluentValidation\obj\Release\net8.0\NorthWind.ValidationService.FluentValidation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.ValidationService.FluentValidation\obj\Release\net8.0\NorthWind.ValidationService.FluentValidation.csproj.CoreCompileInputs.cache
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.ValidationService.FluentValidation\obj\Release\net8.0\NorthWind.ValidationService.FluentValidation.sourcelink.json
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.ValidationService.FluentValidation\obj\Release\net8.0\NorthWin.B536FC6D.Up2Date
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.ValidationService.FluentValidation\obj\Release\net8.0\NorthWind.ValidationService.FluentValidation.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.ValidationService.FluentValidation\obj\Release\net8.0\refint\NorthWind.ValidationService.FluentValidation.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.ValidationService.FluentValidation\obj\Release\net8.0\NorthWind.ValidationService.FluentValidation.pdb
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.ValidationService.FluentValidation\obj\Release\net8.0\ref\NorthWind.ValidationService.FluentValidation.dll

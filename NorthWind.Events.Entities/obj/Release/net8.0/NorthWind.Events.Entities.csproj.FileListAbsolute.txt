@@ -1,0 +1,13 @@
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Events.Entities\bin\Release\net8.0\NorthWind.Events.Entities.deps.json
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Events.Entities\bin\Release\net8.0\NorthWind.Events.Entities.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Events.Entities\bin\Release\net8.0\NorthWind.Events.Entities.pdb
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Events.Entities\obj\Release\net8.0\NorthWind.Events.Entities.csproj.AssemblyReference.cache
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Events.Entities\obj\Release\net8.0\NorthWind.Events.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Events.Entities\obj\Release\net8.0\NorthWind.Events.Entities.AssemblyInfoInputs.cache
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Events.Entities\obj\Release\net8.0\NorthWind.Events.Entities.AssemblyInfo.cs
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Events.Entities\obj\Release\net8.0\NorthWind.Events.Entities.csproj.CoreCompileInputs.cache
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Events.Entities\obj\Release\net8.0\NorthWind.Events.Entities.sourcelink.json
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Events.Entities\obj\Release\net8.0\NorthWind.Events.Entities.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Events.Entities\obj\Release\net8.0\refint\NorthWind.Events.Entities.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Events.Entities\obj\Release\net8.0\NorthWind.Events.Entities.pdb
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Events.Entities\obj\Release\net8.0\ref\NorthWind.Events.Entities.dll

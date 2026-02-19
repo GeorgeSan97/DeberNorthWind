@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.Exceptions.Entities</id>
+    <version>1.0.0</version>
+    <authors>NorthWind.Exceptions.Entities</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="3144b8558ffd9568b5fa60adf6ee517b59797654" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="NorthWind.Validation.Entities" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\bin\Release\net8.0\NorthWind.Exceptions.Entities.pdb" target="lib\net8.0\NorthWind.Exceptions.Entities.pdb" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\bin\Release\net8.0\NorthWind.Exceptions.Entities.dll" target="lib\net8.0\NorthWind.Exceptions.Entities.dll" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\DependencyContainer.cs" target="src\NorthWind.Exceptions.Entities\DependencyContainer.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\ExceptionHandlers\UnauthorizedAccessExceptionHandler.cs" target="src\NorthWind.Exceptions.Entities\ExceptionHandlers\UnauthorizedAccessExceptionHandler.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\ExceptionHandlers\UnhandledExceptionHandler.cs" target="src\NorthWind.Exceptions.Entities\ExceptionHandlers\UnhandledExceptionHandler.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\ExceptionHandlers\UpdateExceptionHandler.cs" target="src\NorthWind.Exceptions.Entities\ExceptionHandlers\UpdateExceptionHandler.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\ExceptionHandlers\ValidationExceptionHandler.cs" target="src\NorthWind.Exceptions.Entities\ExceptionHandlers\ValidationExceptionHandler.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\Exceptions\UpdateException.cs" target="src\NorthWind.Exceptions.Entities\Exceptions\UpdateException.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\Exceptions\ValidationException.cs" target="src\NorthWind.Exceptions.Entities\Exceptions\ValidationException.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\Extensions\HttpContextExtensions.cs" target="src\NorthWind.Exceptions.Entities\Extensions\HttpContextExtensions.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\Properties\AssemblyInfo.cs" target="src\NorthWind.Exceptions.Entities\Properties\AssemblyInfo.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\Resources\ExceptionMessages.Designer.cs" target="src\NorthWind.Exceptions.Entities\Resources\ExceptionMessages.Designer.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\obj\Release\net8.0\NorthWind.Exceptions.Entities.GlobalUsings.g.cs" target="src\NorthWind.Exceptions.Entities\obj\Release\net8.0\NorthWind.Exceptions.Entities.GlobalUsings.g.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\Resources\ExceptionMessages.resx" target="src\NorthWind.Exceptions.Entities\Resources\ExceptionMessages.resx" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Exceptions.Entities\NorthWind.Exceptions.Entities.csproj" target="src\NorthWind.Exceptions.Entities\NorthWind.Exceptions.Entities.csproj" />
+  </files>
+</package>

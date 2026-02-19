@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.Sales.Backend.Controllers</id>
+    <version>1.0.0</version>
+    <authors>NorthWind.Sales.Backend.Controllers</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="3144b8558ffd9568b5fa60adf6ee517b59797654" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="NorthWind.Sales.Backend.BusinessObjects" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0">
+        <frameworkReference name="Microsoft.AspNetCore.app" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.Controllers\bin\Release\net8.0\NorthWind.Sales.Backend.Controllers.pdb" target="lib\net8.0\NorthWind.Sales.Backend.Controllers.pdb" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.Controllers\bin\Release\net8.0\NorthWind.Sales.Backend.Controllers.dll" target="lib\net8.0\NorthWind.Sales.Backend.Controllers.dll" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.Controllers\CreateOrder\CreateOrderController.cs" target="src\NorthWind.Sales.Backend.Controllers\CreateOrder\CreateOrderController.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.Controllers\obj\Release\net8.0\NorthWind.Sales.Backend.Controllers.GlobalUsings.g.cs" target="src\NorthWind.Sales.Backend.Controllers\obj\Release\net8.0\NorthWind.Sales.Backend.Controllers.GlobalUsings.g.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.Controllers\NorthWind.Sales.Backend.Controllers.csproj" target="src\NorthWind.Sales.Backend.Controllers\NorthWind.Sales.Backend.Controllers.csproj" />
+  </files>
+</package>

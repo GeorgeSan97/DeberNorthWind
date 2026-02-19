@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.Sales.Backend.SmtpGateways</id>
+    <version>1.0.0</version>
+    <authors>NorthWind.Sales.Backend.SmtpGateways</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="3144b8558ffd9568b5fa60adf6ee517b59797654" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="NorthWind.Sales.Backend.BusinessObjects" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.SmtpGateways\bin\Release\net8.0\NorthWind.Sales.Backend.SmtpGateways.pdb" target="lib\net8.0\NorthWind.Sales.Backend.SmtpGateways.pdb" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.SmtpGateways\bin\Release\net8.0\NorthWind.Sales.Backend.SmtpGateways.dll" target="lib\net8.0\NorthWind.Sales.Backend.SmtpGateways.dll" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.SmtpGateways\MailServicesExtensions.cs" target="src\NorthWind.Sales.Backend.SmtpGateways\MailServicesExtensions.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.SmtpGateways\Options\MailService.cs" target="src\NorthWind.Sales.Backend.SmtpGateways\Options\MailService.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.SmtpGateways\Options\SmtpOptions.cs" target="src\NorthWind.Sales.Backend.SmtpGateways\Options\SmtpOptions.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.SmtpGateways\obj\Release\net8.0\NorthWind.Sales.Backend.SmtpGateways.GlobalUsings.g.cs" target="src\NorthWind.Sales.Backend.SmtpGateways\obj\Release\net8.0\NorthWind.Sales.Backend.SmtpGateways.GlobalUsings.g.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.SmtpGateways\NorthWind.Sales.Backend.SmtpGateways.csproj" target="src\NorthWind.Sales.Backend.SmtpGateways\NorthWind.Sales.Backend.SmtpGateways.csproj" />
+  </files>
+</package>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.Sales.Backend.Repositories</id>
+    <version>1.0.0</version>
+    <authors>NorthWind.Sales.Backend.Repositories</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="3144b8558ffd9568b5fa60adf6ee517b59797654" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="NorthWind.Sales.Backend.BusinessObjects" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Data.SqlClient" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="9.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.Repositories\bin\Release\net8.0\NorthWind.Sales.Backend.Repositories.pdb" target="lib\net8.0\NorthWind.Sales.Backend.Repositories.pdb" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.Repositories\bin\Release\net8.0\NorthWind.Sales.Backend.Repositories.dll" target="lib\net8.0\NorthWind.Sales.Backend.Repositories.dll" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.Repositories\DependencyContainer.cs" target="src\NorthWind.Sales.Backend.Repositories\DependencyContainer.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.Repositories\Entities\Customer.cs" target="src\NorthWind.Sales.Backend.Repositories\Entities\Customer.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.Repositories\Entities\DomainLog.cs" target="src\NorthWind.Sales.Backend.Repositories\Entities\DomainLog.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.Repositories\Entities\OrderDetail.cs" target="src\NorthWind.Sales.Backend.Repositories\Entities\OrderDetail.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.Repositories\Entities\Product.cs" target="src\NorthWind.Sales.Backend.Repositories\Entities\Product.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.Repositories\Interfaces\INorthWindDomainLogsDataContext.cs" target="src\NorthWind.Sales.Backend.Repositories\Interfaces\INorthWindDomainLogsDataContext.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.Repositories\Interfaces\INorthWindSalesCommandsDataContext.cs" target="src\NorthWind.Sales.Backend.Repositories\Interfaces\INorthWindSalesCommandsDataContext.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.Repositories\Interfaces\INorthWindSalesQueriesDataContext.cs" target="src\NorthWind.Sales.Backend.Repositories\Interfaces\INorthWindSalesQueriesDataContext.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.Repositories\Repositories\CommandsRepository.cs" target="src\NorthWind.Sales.Backend.Repositories\Repositories\CommandsRepository.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.Repositories\Repositories\DomainLogsRepository.cs" target="src\NorthWind.Sales.Backend.Repositories\Repositories\DomainLogsRepository.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.Repositories\Repositories\QueriesRepository.cs" target="src\NorthWind.Sales.Backend.Repositories\Repositories\QueriesRepository.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.Repositories\obj\Release\net8.0\NorthWind.Sales.Backend.Repositories.GlobalUsings.g.cs" target="src\NorthWind.Sales.Backend.Repositories\obj\Release\net8.0\NorthWind.Sales.Backend.Repositories.GlobalUsings.g.cs" />
+    <file src="C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Backend.Repositories\NorthWind.Sales.Backend.Repositories.csproj" target="src\NorthWind.Sales.Backend.Repositories\NorthWind.Sales.Backend.Repositories.csproj" />
+  </files>
+</package>
