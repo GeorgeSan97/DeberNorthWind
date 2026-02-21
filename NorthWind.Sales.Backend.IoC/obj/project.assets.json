@@ -60,6 +60,52 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Cryptography.Internal/8.0.24": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/8.0.24": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.Internal": "8.0.24"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.24": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.24",
+          "Microsoft.Extensions.Identity.Stores": "8.0.24"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -354,6 +400,42 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Identity.Core/8.0.24": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "8.0.24",
+          "Microsoft.Extensions.Logging": "8.0.1",
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Identity.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Identity.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Identity.Stores/8.0.24": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Identity.Core": "8.0.24",
+          "Microsoft.Extensions.Logging": "8.0.1"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Identity.Stores.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Identity.Stores.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/9.0.5": {
         "type": "package",
         "dependencies": {
@@ -570,6 +652,46 @@
           "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "NorthWind.Membership.Backend.AspNetIdentity/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.24",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.24",
+          "NorthWind.Membership.Backend.Core": "1.0.0",
+          "NorthWind.Membership.Entities": "1.0.0"
+        },
+        "compile": {
+          "lib/net8.0/NorthWind.Membership.Backend.AspNetIdentity.dll": {
+            "related": ".runtimeconfig.json"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/NorthWind.Membership.Backend.AspNetIdentity.dll": {
+            "related": ".runtimeconfig.json"
+          }
+        }
+      },
+      "NorthWind.Membership.Entities/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NorthWind.Validation.Entities": "1.0.0"
+        },
+        "compile": {
+          "lib/net8.0/NorthWind.Membership.Entities.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/NorthWind.Membership.Entities.dll": {}
+        }
+      },
+      "NorthWind.Result.Entities/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/NorthWind.Result.Entities.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/NorthWind.Result.Entities.dll": {}
         }
       },
       "System.ClientModel/1.0.0": {
@@ -877,6 +999,23 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "NorthWind.Membership.Backend.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "NorthWind.Membership.Entities": "1.0.0",
+          "NorthWind.Result.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NorthWind.Membership.Backend.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthWind.Membership.Backend.Core.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "NorthWind.Sales.Backend.BusinessObjects/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1128,6 +1267,59 @@
         "lib/netstandard2.0/FluentValidation.xml",
         "lib/netstandard2.1/FluentValidation.dll",
         "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "Microsoft.AspNetCore.Cryptography.Internal/8.0.24": {
+      "sha512": "lTxqRKtRas8G+YkWDYwyXa0OSKyJjdnOfrJebkcktj+T22SVgHvj3xPkFeGLgVZAiDl1U0me/qzZoOW/MQNwoA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.cryptography.internal/8.0.24",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.Internal.dll",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.Internal.xml",
+        "lib/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
+        "microsoft.aspnetcore.cryptography.internal.8.0.24.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.internal.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/8.0.24": {
+      "sha512": "Fm5MdLjyy6UAZjuYh8pH6nGlNcNnrMCgD/pLBz5sXDHii91uhoN6ZChhu5nNrhktzYyA4GWoLTUB2TjWDi6lZA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/8.0.24",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
+        "lib/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
+        "microsoft.aspnetcore.cryptography.keyderivation.8.0.24.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.24": {
+      "sha512": "G394k2JjAHAop2neaPXU99wv+gZvUwZ1RLm9Elfk1LKhU99fU6ga/rgZe4V82Kdre1qkEuFjHnDPQ/VhugdQRQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.identity.entityframeworkcore/8.0.24",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml",
+        "microsoft.aspnetcore.identity.entityframeworkcore.8.0.24.nupkg.sha512",
+        "microsoft.aspnetcore.identity.entityframeworkcore.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -1483,6 +1675,44 @@
         "microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Identity.Core/8.0.24": {
+      "sha512": "UCjf6ur3Cqe2QihhZ7gSfeH3hjKSmfTa6RtPI7HtXnjGqQErfl1LXuQX4aBbGtd73UkkTuGK5WhJfgWXU7KbRA==",
+      "type": "package",
+      "path": "microsoft.extensions.identity.core/8.0.24",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.Identity.Core.dll",
+        "lib/net462/Microsoft.Extensions.Identity.Core.xml",
+        "lib/net8.0/Microsoft.Extensions.Identity.Core.dll",
+        "lib/net8.0/Microsoft.Extensions.Identity.Core.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Identity.Core.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Identity.Core.xml",
+        "microsoft.extensions.identity.core.8.0.24.nupkg.sha512",
+        "microsoft.extensions.identity.core.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Identity.Stores/8.0.24": {
+      "sha512": "1R++kH07KCn56pL1ue476tpe4gnwJS6bHjADvM72q5NWfh/ribVlnpIqWAyzV7kgkxnHeqOblerjvGoDlTBZ8g==",
+      "type": "package",
+      "path": "microsoft.extensions.identity.stores/8.0.24",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.Identity.Stores.dll",
+        "lib/net462/Microsoft.Extensions.Identity.Stores.xml",
+        "lib/net8.0/Microsoft.Extensions.Identity.Stores.dll",
+        "lib/net8.0/Microsoft.Extensions.Identity.Stores.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Identity.Stores.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Identity.Stores.xml",
+        "microsoft.extensions.identity.stores.8.0.24.nupkg.sha512",
+        "microsoft.extensions.identity.stores.nuspec"
       ]
     },
     "Microsoft.Extensions.Logging/9.0.5": {
@@ -1850,6 +2080,40 @@
         "lib/netstandard2.0/Microsoft.SqlServer.Server.xml",
         "microsoft.sqlserver.server.1.0.0.nupkg.sha512",
         "microsoft.sqlserver.server.nuspec"
+      ]
+    },
+    "NorthWind.Membership.Backend.AspNetIdentity/1.0.0": {
+      "sha512": "kOmajjDpQyvsD3jwbJcye6gMxKhy8/wWW9ZKRIZH3iDodJLjkoVd5xeBQjNqLZwhP9vuqRopu31f0A/8XwSgOQ==",
+      "type": "package",
+      "path": "northwind.membership.backend.aspnetidentity/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/NorthWind.Membership.Backend.AspNetIdentity.dll",
+        "lib/net8.0/NorthWind.Membership.Backend.AspNetIdentity.runtimeconfig.json",
+        "northwind.membership.backend.aspnetidentity.1.0.0.nupkg.sha512",
+        "northwind.membership.backend.aspnetidentity.nuspec"
+      ]
+    },
+    "NorthWind.Membership.Entities/1.0.0": {
+      "sha512": "QHp3Fd2VwIia7L74/2kiRyt2oyLAdVTsAtvKQMfk94E6BfJV3eaV3OV2kuqPaLCTofbHm8vyuD7VU4ankURTRA==",
+      "type": "package",
+      "path": "northwind.membership.entities/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/NorthWind.Membership.Entities.dll",
+        "northwind.membership.entities.1.0.0.nupkg.sha512",
+        "northwind.membership.entities.nuspec"
+      ]
+    },
+    "NorthWind.Result.Entities/1.0.0": {
+      "sha512": "w+g3IuDpoxv9drlOQsIfZKtWtXXrk0/DC7GPFeZTdqGgAeRv0U/U+wwRda/59EjrpvP0duMknw0rMB5xEU7yfg==",
+      "type": "package",
+      "path": "northwind.result.entities/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/NorthWind.Result.Entities.dll",
+        "northwind.result.entities.1.0.0.nupkg.sha512",
+        "northwind.result.entities.nuspec"
       ]
     },
     "System.ClientModel/1.0.0": {
@@ -2366,6 +2630,11 @@
       "path": "../NorthWind.Exceptions.Entities/NorthWind.Exceptions.Entities.csproj",
       "msbuildProject": "../NorthWind.Exceptions.Entities/NorthWind.Exceptions.Entities.csproj"
     },
+    "NorthWind.Membership.Backend.Core/1.0.0": {
+      "type": "project",
+      "path": "../../NorthWind.Membership/NorthWind.Membership.Backend.Core/NorthWind.Membership.Backend.Core.csproj",
+      "msbuildProject": "../../NorthWind.Membership/NorthWind.Membership.Backend.Core/NorthWind.Membership.Backend.Core.csproj"
+    },
     "NorthWind.Sales.Backend.BusinessObjects/1.0.0": {
       "type": "project",
       "path": "../NorthWind.Sales.Backend.BusinessObjects/NorthWind.Sales.Backend.BusinessObjects.csproj",
@@ -2434,6 +2703,9 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "NorthWind.Membership.Backend.AspNetIdentity >= 1.0.0",
+      "NorthWind.Membership.Backend.Core >= 1.0.0",
+      "NorthWind.Membership.Entities >= 1.0.0",
       "NorthWind.Sales.Backend.Controllers >= 1.0.0",
       "NorthWind.Sales.Backend.DataContexts.EFCore >= 1.0.0",
       "NorthWind.Sales.Backend.Presenters >= 1.0.0",
@@ -2479,6 +2751,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind.Membership\\NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj": {
+              "projectPath": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind.Membership\\NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj"
+            },
             "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj": {
               "projectPath": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj"
             },
@@ -2524,6 +2799,16 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "NorthWind.Membership.Backend.AspNetIdentity": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "NorthWind.Membership.Entities": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

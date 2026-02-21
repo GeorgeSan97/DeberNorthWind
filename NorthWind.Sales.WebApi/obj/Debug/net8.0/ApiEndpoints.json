@@ -22,5 +22,27 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Microsoft.AspNetCore.Builder.UserRegistrationController\u002B\u003C\u003Ec",
+    "Method": "\u003CUseUserRegistrationController\u003Eb__0_0",
+    "RelativePath": "user/Register",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userData",
+        "Type": "NorthWind.Membership.Entities.Dtos.UserRegistration.UserRegistrationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

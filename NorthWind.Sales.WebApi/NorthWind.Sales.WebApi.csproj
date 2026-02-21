@@ -16,6 +16,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NorthWind.Sales.Backend.IoC\NorthWind.Sales.Backend.IoC.csproj" />
+    <ProjectReference Include="C:\Moviles\PrimerParcial\Deberes\NorthWind.Membership\NorthWind.Membership.Backend.Core\NorthWind.Membership.Backend.Core.csproj" />
+    <ProjectReference Include="C:\Moviles\PrimerParcial\Deberes\NorthWind.Membership\NorthWind.Membership.Entities\NorthWind.Membership.Entities.csproj" />
+    <ProjectReference Include="C:\Moviles\PrimerParcial\Deberes\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\NorthWind.Membership.Backend.AspNetIdentity.csproj" />
   </ItemGroup>
 
 </Project>

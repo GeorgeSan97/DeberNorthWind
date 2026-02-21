@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="NorthWind.Membership.Backend.AspNetIdentity" Version="1.0.0" />
+    <PackageReference Include="NorthWind.Membership.Entities" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="C:\Moviles\PrimerParcial\Deberes\NorthWind.Membership\NorthWind.Membership.Backend.Core\NorthWind.Membership.Backend.Core.csproj" />
     <ProjectReference Include="..\NorthWind.Sales.Backend.Controllers\NorthWind.Sales.Backend.Controllers.csproj" />
     <ProjectReference Include="..\NorthWind.Sales.Backend.DataContexts.EFCore\NorthWind.Sales.Backend.DataContexts.EFCore.csproj" />
     <ProjectReference Include="..\NorthWind.Sales.Backend.Presenters\NorthWind.Sales.Backend.Presenters.csproj" />

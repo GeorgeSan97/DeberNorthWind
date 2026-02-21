@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using NorthWind.Sales.Backend.Controllers.CreateOrder;
+using NorthWind.Membership.Entities.Dtos.UserRegistration;
+using NorthWind.Membership.Backend.AspNetIdentity.Options;
 
 namespace NorthWind.Sales.Backend.IoC;
 
@@ -15,23 +17,10 @@ public static class EndpointsContainer
     //  de tipo POST en la API para crear órdenes, como por ejemplo: app.MapPost("/orders", CreateOrder);
     //  Es parte de los adaptadores de entrada, y llama internamente al InputPort y OutputPort (Clean Architecture).
     app.UseCreateOrderController();
+    app.UseMembershipEndpoints();
 
-    return app;
+		return app;
   }
 }
 //  ----------------------------------------------------
 //  ¿Cómo y donse se usaría esto?
-//  ----------------------------------------------------
-//  En el archivo principal de arranque (Program.cs):
-//  Por ejemplo:  
-//  var builder = WebApplication.CreateBuilder(args);
-//  var app = builder.Build();
-//  app.MapNorthWindSalesEndpoints(); // Aquí se usa la extensión.
-//  app.Run();
-//
-//  ----------------------------------------------------
-//   Ventajas de este enfoque
-//  ----------------------------------------------------
-//  - Modularidad: puedes tener varios controladores mapeados sin ensuciar el Program.cs.
-//  - Clean Architecture compliance: separa responsabilidades claramente.
-//  - Facilidad de testing y mantenimiento.

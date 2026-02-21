@@ -34,6 +34,28 @@
           }
         }
       }
+    },
+    "/user/Register": {
+      "post": {
+        "tags": [
+          "NorthWind.Sales.WebApi"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRegistrationDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -84,6 +106,28 @@
             "items": {
               "$ref": "#/components/schemas/CreateOrderDetailDto"
             },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserRegistrationDto": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
             "nullable": true
           }
         },

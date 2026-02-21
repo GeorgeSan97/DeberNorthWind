@@ -1,11 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using NorthWind.Membership.Backend.AspNetIdentity.Options;
 using NorthWind.Sales.Backend.DataContexts.EFCore; //AddDataContexts
 using NorthWind.Sales.Backend.DataContexts.EFCore.Options; //configureDBOptions
 using NorthWind.Sales.Backend.Presenters; //AddPresenters
 using NorthWind.Sales.Backend.Repositories; //AddRepositories
-using NorthWind.Sales.Backend.SmtpGateways.Options;
 using NorthWind.Sales.Backend.SmtpGateways;
+using NorthWind.Sales.Backend.SmtpGateways.Options;
 using NorthWind.Sales.Backend.UseCases; //AddUseCasesServices
 using NorthWind.UserServices; // <-- namespace correcto para AddUserServices
 
@@ -26,8 +27,8 @@ public static class DependencyContainer
   public static IServiceCollection AddNorthWindSalesServices(
       this IServiceCollection services,
       Action<DBOptions> configureDBOptions,
-	  Action<SmtpOptions> configureSmtpOptions
-  )
+	  Action<SmtpOptions> configureSmtpOptions,
+	  Action<MembershipDBOptions> configureMembershipDBOptions)
   {
     //  -------------------------------------------------------
     //  ¿Qué se registra el contenedor?
@@ -59,7 +60,9 @@ public static class DependencyContainer
 		.AddEventServices()
 		.AddDomainLogsServices()
 		.AddTransactionServices()
-		.AddUserServices();
+		.AddUserServices()
+        .AddMembershipCoreServices()
+        .AddMembershipIdentityServices(configureMembershipDBOptions);
 
 		return services;
   }

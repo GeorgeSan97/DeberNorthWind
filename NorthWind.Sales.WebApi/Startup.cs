@@ -1,4 +1,5 @@
-﻿using NorthWind.Sales.Backend.DataContexts.EFCore.Options;
+﻿using NorthWind.Membership.Backend.AspNetIdentity.Options;
+using NorthWind.Sales.Backend.DataContexts.EFCore.Options;
 using NorthWind.Sales.Backend.IoC;
 using NorthWind.Sales.Backend.SmtpGateways.Options;
 
@@ -30,8 +31,13 @@ internal static class Startup
 		dbObtions =>
 	    builder.Configuration.GetSection(DBOptions.SectionKey)
 	    .Bind(dbObtions),
+
 		smtpOptions => builder.Configuration.GetSection(SmtpOptions.SectionKey)
-        .Bind(smtpOptions));
+        .Bind(smtpOptions),
+
+		membershipDBOptions =>
+        builder.Configuration.GetSection(MembershipDBOptions.SectionKey)
+        .Bind(membershipDBOptions));
 
 		//  Configurar CORS.
 		//  Esto permite que cualquier cliente (como un frontend en Angular, React o Blazor WebAssembly)
