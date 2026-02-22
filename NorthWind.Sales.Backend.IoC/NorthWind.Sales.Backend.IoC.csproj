@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageReference Include="NorthWind.Membership.Backend.AspNetIdentity" Version="1.0.0" />
     <PackageReference Include="NorthWind.Membership.Entities" Version="1.0.0" />
+    <PackageReference Include="NorthWind.Membership.Frontend.RazorViews" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>

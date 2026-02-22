@@ -792,6 +792,10 @@
             "NorthWind.Membership.Entities": {
               "target": "Package",
               "version": "[1.0.0, )"
+            },
+            "NorthWind.Membership.Frontend.RazorViews": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [

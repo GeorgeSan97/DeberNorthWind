@@ -8,12 +8,14 @@ public static class DependencyContainer
 {
   public static IServiceCollection AddNorthWindSalesServices(
   this IServiceCollection services,
-  Action<HttpClient> configureHttpClient)
+  Action<HttpClient> configureHttpClient,
+	Action<HttpClient> configureMembershipHttpClient)
   {
     services.AddWebApiGateways(configureHttpClient)
       .AddViewsServices()
 	  .AddValidationService()
-      .AddValidators();
-    return services;
+      .AddValidators()
+	  .AddMembershipServices(configureMembershipHttpClient);
+		return services;
   }
 }

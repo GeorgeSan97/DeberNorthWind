@@ -15,10 +15,10 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Authorization/8.0.16": {
+      "Microsoft.AspNetCore.Authorization/8.0.23": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Metadata": "8.0.16",
+          "Microsoft.AspNetCore.Metadata": "8.0.23",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
           "Microsoft.Extensions.Options": "8.0.2"
         },
@@ -33,11 +33,11 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components/8.0.16": {
+      "Microsoft.AspNetCore.Components/8.0.23": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "8.0.16",
-          "Microsoft.AspNetCore.Components.Analyzers": "8.0.16"
+          "Microsoft.AspNetCore.Authorization": "8.0.23",
+          "Microsoft.AspNetCore.Components.Analyzers": "8.0.23"
         },
         "compile": {
           "lib/net8.0/Microsoft.AspNetCore.Components.dll": {
@@ -50,16 +50,16 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Analyzers/8.0.16": {
+      "Microsoft.AspNetCore.Components.Analyzers/8.0.23": {
         "type": "package",
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Components.Forms/8.0.16": {
+      "Microsoft.AspNetCore.Components.Forms/8.0.23": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "8.0.16"
+          "Microsoft.AspNetCore.Components": "8.0.23"
         },
         "compile": {
           "lib/net8.0/Microsoft.AspNetCore.Components.Forms.dll": {
@@ -72,14 +72,14 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Web/8.0.16": {
+      "Microsoft.AspNetCore.Components.Web/8.0.23": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "8.0.16",
-          "Microsoft.AspNetCore.Components.Forms": "8.0.16",
+          "Microsoft.AspNetCore.Components": "8.0.23",
+          "Microsoft.AspNetCore.Components.Forms": "8.0.23",
           "Microsoft.Extensions.DependencyInjection": "8.0.1",
           "Microsoft.Extensions.Primitives": "8.0.0",
-          "Microsoft.JSInterop": "8.0.16",
+          "Microsoft.JSInterop": "8.0.23",
           "System.IO.Pipelines": "8.0.0"
         },
         "compile": {
@@ -122,7 +122,7 @@
           "build/Microsoft.AspNetCore.Components.WebAssembly.DevServer.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Metadata/8.0.16": {
+      "Microsoft.AspNetCore.Metadata/8.0.23": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.AspNetCore.Metadata.dll": {
@@ -495,7 +495,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.JSInterop/8.0.16": {
+      "Microsoft.JSInterop/8.0.23": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.JSInterop.dll": {
@@ -535,6 +535,50 @@
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets": {}
+        }
+      },
+      "NorthWind.HttpDelegatingHandlers/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NorthWind.Validation.Entities": "1.0.0",
+          "System.Text.Json": "7.0.2"
+        },
+        "compile": {
+          "lib/net8.0/NorthWind.HttpDelegatingHandlers.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/NorthWind.HttpDelegatingHandlers.dll": {}
+        }
+      },
+      "NorthWind.RazorComponents/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.16",
+          "NorthWind.Validation.Entities": "1.0.0"
+        },
+        "compile": {
+          "lib/net8.0/NorthWind.RazorComponents.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/NorthWind.RazorComponents.dll": {}
+        },
+        "build": {
+          "buildTransitive/NorthWind.RazorComponents.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/NorthWind.RazorComponents.props": {}
+        }
+      },
+      "NorthWind.Validation.Entities/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/NorthWind.Validation.Entities.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/NorthWind.Validation.Entities.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/9.0.5": {
@@ -610,32 +654,35 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
-      "NorthWind.HttpDelegatingHandlers/1.0.0": {
+      "NorthWind.Membership.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "NorthWind.Validation.Entities": "1.0.0",
-          "System.Text.Json": "7.0.2"
-        },
-        "compile": {
-          "bin/placeholder/NorthWind.HttpDelegatingHandlers.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/NorthWind.HttpDelegatingHandlers.dll": {}
-        }
-      },
-      "NorthWind.RazorComponents/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "8.0.16",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
           "NorthWind.Validation.Entities": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/NorthWind.RazorComponents.dll": {}
+          "bin/placeholder/NorthWind.Membership.Entities.dll": {}
         },
         "runtime": {
-          "bin/placeholder/NorthWind.RazorComponents.dll": {}
+          "bin/placeholder/NorthWind.Membership.Entities.dll": {}
+        }
+      },
+      "NorthWind.Membership.Frontend.RazorViews/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.23",
+          "Microsoft.Extensions.Http": "8.0.1",
+          "NorthWind.HttpDelegatingHandlers": "1.0.0",
+          "NorthWind.Membership.Entities": "1.0.0",
+          "NorthWind.RazorComponents": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NorthWind.Membership.Frontend.RazorViews.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthWind.Membership.Frontend.RazorViews.dll": {}
         }
       },
       "NorthWind.Sales.Entities/1.0.0": {
@@ -665,6 +712,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "NorthWind.Membership.Frontend.RazorViews": "1.0.0",
           "NorthWind.Sales.Frontend.Views": "1.0.0",
           "NorthWind.Sales.Frontend.WebApiGateways": "1.0.0",
           "NorthWind.Sales.Validators.Entities": "1.0.0",
@@ -722,19 +770,6 @@
           "bin/placeholder/NorthWind.Sales.Validators.Entities.dll": {}
         }
       },
-      "NorthWind.Validation.Entities/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "8.0.0"
-        },
-        "compile": {
-          "bin/placeholder/NorthWind.Validation.Entities.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/NorthWind.Validation.Entities.dll": {}
-        }
-      },
       "NorthWind.ValidationService.FluentValidation/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -765,10 +800,10 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Authorization/8.0.16": {
+      "Microsoft.AspNetCore.Authorization/8.0.23": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Metadata": "8.0.16",
+          "Microsoft.AspNetCore.Metadata": "8.0.23",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
           "Microsoft.Extensions.Options": "8.0.2"
         },
@@ -783,11 +818,11 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components/8.0.16": {
+      "Microsoft.AspNetCore.Components/8.0.23": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "8.0.16",
-          "Microsoft.AspNetCore.Components.Analyzers": "8.0.16"
+          "Microsoft.AspNetCore.Authorization": "8.0.23",
+          "Microsoft.AspNetCore.Components.Analyzers": "8.0.23"
         },
         "compile": {
           "lib/net8.0/Microsoft.AspNetCore.Components.dll": {
@@ -800,16 +835,16 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Analyzers/8.0.16": {
+      "Microsoft.AspNetCore.Components.Analyzers/8.0.23": {
         "type": "package",
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Components.Forms/8.0.16": {
+      "Microsoft.AspNetCore.Components.Forms/8.0.23": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "8.0.16"
+          "Microsoft.AspNetCore.Components": "8.0.23"
         },
         "compile": {
           "lib/net8.0/Microsoft.AspNetCore.Components.Forms.dll": {
@@ -822,14 +857,14 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Web/8.0.16": {
+      "Microsoft.AspNetCore.Components.Web/8.0.23": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "8.0.16",
-          "Microsoft.AspNetCore.Components.Forms": "8.0.16",
+          "Microsoft.AspNetCore.Components": "8.0.23",
+          "Microsoft.AspNetCore.Components.Forms": "8.0.23",
           "Microsoft.Extensions.DependencyInjection": "8.0.1",
           "Microsoft.Extensions.Primitives": "8.0.0",
-          "Microsoft.JSInterop": "8.0.16",
+          "Microsoft.JSInterop": "8.0.23",
           "System.IO.Pipelines": "8.0.0"
         },
         "compile": {
@@ -872,7 +907,7 @@
           "build/Microsoft.AspNetCore.Components.WebAssembly.DevServer.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Metadata/8.0.16": {
+      "Microsoft.AspNetCore.Metadata/8.0.23": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.AspNetCore.Metadata.dll": {
@@ -1245,7 +1280,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.JSInterop/8.0.16": {
+      "Microsoft.JSInterop/8.0.23": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.JSInterop.dll": {
@@ -1285,6 +1320,50 @@
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets": {}
+        }
+      },
+      "NorthWind.HttpDelegatingHandlers/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NorthWind.Validation.Entities": "1.0.0",
+          "System.Text.Json": "7.0.2"
+        },
+        "compile": {
+          "lib/net8.0/NorthWind.HttpDelegatingHandlers.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/NorthWind.HttpDelegatingHandlers.dll": {}
+        }
+      },
+      "NorthWind.RazorComponents/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.16",
+          "NorthWind.Validation.Entities": "1.0.0"
+        },
+        "compile": {
+          "lib/net8.0/NorthWind.RazorComponents.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/NorthWind.RazorComponents.dll": {}
+        },
+        "build": {
+          "buildTransitive/NorthWind.RazorComponents.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/NorthWind.RazorComponents.props": {}
+        }
+      },
+      "NorthWind.Validation.Entities/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/NorthWind.Validation.Entities.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/NorthWind.Validation.Entities.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/9.0.5": {
@@ -1354,32 +1433,35 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
-      "NorthWind.HttpDelegatingHandlers/1.0.0": {
+      "NorthWind.Membership.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "NorthWind.Validation.Entities": "1.0.0",
-          "System.Text.Json": "7.0.2"
-        },
-        "compile": {
-          "bin/placeholder/NorthWind.HttpDelegatingHandlers.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/NorthWind.HttpDelegatingHandlers.dll": {}
-        }
-      },
-      "NorthWind.RazorComponents/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "8.0.16",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
           "NorthWind.Validation.Entities": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/NorthWind.RazorComponents.dll": {}
+          "bin/placeholder/NorthWind.Membership.Entities.dll": {}
         },
         "runtime": {
-          "bin/placeholder/NorthWind.RazorComponents.dll": {}
+          "bin/placeholder/NorthWind.Membership.Entities.dll": {}
+        }
+      },
+      "NorthWind.Membership.Frontend.RazorViews/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.23",
+          "Microsoft.Extensions.Http": "8.0.1",
+          "NorthWind.HttpDelegatingHandlers": "1.0.0",
+          "NorthWind.Membership.Entities": "1.0.0",
+          "NorthWind.RazorComponents": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NorthWind.Membership.Frontend.RazorViews.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthWind.Membership.Frontend.RazorViews.dll": {}
         }
       },
       "NorthWind.Sales.Entities/1.0.0": {
@@ -1409,6 +1491,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "NorthWind.Membership.Frontend.RazorViews": "1.0.0",
           "NorthWind.Sales.Frontend.Views": "1.0.0",
           "NorthWind.Sales.Frontend.WebApiGateways": "1.0.0",
           "NorthWind.Sales.Validators.Entities": "1.0.0",
@@ -1466,19 +1549,6 @@
           "bin/placeholder/NorthWind.Sales.Validators.Entities.dll": {}
         }
       },
-      "NorthWind.Validation.Entities/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "8.0.0"
-        },
-        "compile": {
-          "bin/placeholder/NorthWind.Validation.Entities.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/NorthWind.Validation.Entities.dll": {}
-        }
-      },
       "NorthWind.ValidationService.FluentValidation/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1522,10 +1592,10 @@
         "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
-    "Microsoft.AspNetCore.Authorization/8.0.16": {
-      "sha512": "4msfwr7vdFQgQdmN54kqeY01GRG99sw2gTC8eWQ1eRxq6oOGNmGY0wIl9vk3xZN6CdIdXq2hwFSYGw2frfHLOw==",
+    "Microsoft.AspNetCore.Authorization/8.0.23": {
+      "sha512": "U01NoHXo3BqNwrHictnqkfntNAYCRsovNF6g4knJu0kDztTJLYY7N+p75uK69cvnUeysFlDY2A/LQ0p/HBrn5w==",
       "type": "package",
-      "path": "microsoft.aspnetcore.authorization/8.0.16",
+      "path": "microsoft.aspnetcore.authorization/8.0.23",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1537,14 +1607,14 @@
         "lib/net8.0/Microsoft.AspNetCore.Authorization.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
-        "microsoft.aspnetcore.authorization.8.0.16.nupkg.sha512",
+        "microsoft.aspnetcore.authorization.8.0.23.nupkg.sha512",
         "microsoft.aspnetcore.authorization.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components/8.0.16": {
-      "sha512": "53foNz+R1KAe404RgmLxjpcqORZM23NLsS5Qe8zIIt02ThMPCa9IWC9WULwTr60g6kcTt1HUnExhrnvsVCl0SQ==",
+    "Microsoft.AspNetCore.Components/8.0.23": {
+      "sha512": "/aTnL/6+KFFenhdoaYc2K7iMyG+2cRFD6DFlbQzUQWseY2brQgHbRC0tlTOdjFEWUGoYPiJCv52NrRYsArKMDQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components/8.0.16",
+      "path": "microsoft.aspnetcore.components/8.0.23",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1552,14 +1622,14 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net8.0/Microsoft.AspNetCore.Components.dll",
         "lib/net8.0/Microsoft.AspNetCore.Components.xml",
-        "microsoft.aspnetcore.components.8.0.16.nupkg.sha512",
+        "microsoft.aspnetcore.components.8.0.23.nupkg.sha512",
         "microsoft.aspnetcore.components.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Analyzers/8.0.16": {
-      "sha512": "now9Taa3SMu7nWKe1sLExn86AVgo1NZej5u759UMvR74/OWzvDy2aN+uQE7twYW1mHTtR5ILjE7cX4L5WSm2Pg==",
+    "Microsoft.AspNetCore.Components.Analyzers/8.0.23": {
+      "sha512": "7gv+AADq27t81E6a0FTCcN+fa9vcsuCH2Ek9MMlk51CrHqROoVphLGzErMyD4Lo5jhaU1VXGQZmfbeQG+x+New==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.analyzers/8.0.16",
+      "path": "microsoft.aspnetcore.components.analyzers/8.0.23",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1568,14 +1638,14 @@
         "analyzers/dotnet/cs/Microsoft.AspNetCore.Components.Analyzers.dll",
         "build/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
         "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
-        "microsoft.aspnetcore.components.analyzers.8.0.16.nupkg.sha512",
+        "microsoft.aspnetcore.components.analyzers.8.0.23.nupkg.sha512",
         "microsoft.aspnetcore.components.analyzers.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Forms/8.0.16": {
-      "sha512": "xZaevE5BMss3yu5qDPoS5OzHWaWF9rIIGC+YsE4kj6R8ovUmVykHRmR34LWJEzhvs1WJxx3wvUC3itL6FFwwrA==",
+    "Microsoft.AspNetCore.Components.Forms/8.0.23": {
+      "sha512": "e9Uj+2pzbVwMFDt6EQ8VOYXZ3e3MwyYkyfRH9RTZKhVGxhzMHI5AOAAWMu5wCBnOToD9dPu545H2N/1m7/UspQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.forms/8.0.16",
+      "path": "microsoft.aspnetcore.components.forms/8.0.23",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1583,14 +1653,14 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net8.0/Microsoft.AspNetCore.Components.Forms.dll",
         "lib/net8.0/Microsoft.AspNetCore.Components.Forms.xml",
-        "microsoft.aspnetcore.components.forms.8.0.16.nupkg.sha512",
+        "microsoft.aspnetcore.components.forms.8.0.23.nupkg.sha512",
         "microsoft.aspnetcore.components.forms.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Web/8.0.16": {
-      "sha512": "78mEw/L80FnfSVrUYsV6/+6luSBi8JI/dUNyu2xxSlkGiZ6A3JImcTGgIPhGRlTIKwmrn8yzsOE9S16cwoAJqA==",
+    "Microsoft.AspNetCore.Components.Web/8.0.23": {
+      "sha512": "PGnax6TgJr01HHTPoPQDpRLaJaF8+8gp5PiGWEDDTayfsR7mbQpySTzTB9K0jvhPoz9tGHe6C+IQWHhvnS9v2g==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.web/8.0.16",
+      "path": "microsoft.aspnetcore.components.web/8.0.23",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1598,7 +1668,7 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net8.0/Microsoft.AspNetCore.Components.Web.dll",
         "lib/net8.0/Microsoft.AspNetCore.Components.Web.xml",
-        "microsoft.aspnetcore.components.web.8.0.16.nupkg.sha512",
+        "microsoft.aspnetcore.components.web.8.0.23.nupkg.sha512",
         "microsoft.aspnetcore.components.web.nuspec"
       ]
     },
@@ -1786,10 +1856,10 @@
         "tools/x86/aspnetcorev2_inprocess.dll"
       ]
     },
-    "Microsoft.AspNetCore.Metadata/8.0.16": {
-      "sha512": "sgavJHc/BLiGxFiw2frEoFZld+FXDQLyvS+3bzofSD1l2RXe6xkFpcWn1BFxJVqGq5w30hzdkwCbKYYTXax7OA==",
+    "Microsoft.AspNetCore.Metadata/8.0.23": {
+      "sha512": "fQ4Xe9LdshopDxYjV7LBOsEfJ8LxzxPYbsoSljqUHGYlJq8IHG98bTo8IjDKfGpSUmNLpSAXdOwwTvms7MX7qQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.metadata/8.0.16",
+      "path": "microsoft.aspnetcore.metadata/8.0.23",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1801,7 +1871,7 @@
         "lib/net8.0/Microsoft.AspNetCore.Metadata.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.xml",
-        "microsoft.aspnetcore.metadata.8.0.16.nupkg.sha512",
+        "microsoft.aspnetcore.metadata.8.0.23.nupkg.sha512",
         "microsoft.aspnetcore.metadata.nuspec"
       ]
     },
@@ -2394,10 +2464,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.JSInterop/8.0.16": {
-      "sha512": "F0tvE3VYgr1bfFxatG7rpuO9XPSPPOIaZWAqDzX/BNgt359CtbC4rx9DqVt8j63s7u2SMrQNKYdNwbXEj/7REw==",
+    "Microsoft.JSInterop/8.0.23": {
+      "sha512": "LDy/j0Ug6K2GvZuLhst1Kndd9gWi2p6MXnP1dNO4CIvQGQ7ESLvVnY4pg+TwLCNT5nosS+2yFNIq30jS+dvg5g==",
       "type": "package",
-      "path": "microsoft.jsinterop/8.0.16",
+      "path": "microsoft.jsinterop/8.0.23",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2405,7 +2475,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net8.0/Microsoft.JSInterop.dll",
         "lib/net8.0/Microsoft.JSInterop.xml",
-        "microsoft.jsinterop.8.0.16.nupkg.sha512",
+        "microsoft.jsinterop.8.0.23.nupkg.sha512",
         "microsoft.jsinterop.nuspec"
       ]
     },
@@ -2515,6 +2585,45 @@
         "tools/net472/Microsoft.NET.WebAssembly.Webcil.dll",
         "tools/net9.0/Microsoft.NET.Sdk.WebAssembly.Pack.Tasks.dll",
         "tools/net9.0/Microsoft.NET.WebAssembly.Webcil.dll"
+      ]
+    },
+    "NorthWind.HttpDelegatingHandlers/1.0.0": {
+      "sha512": "JHfWbp1QcA8n9h3cIoPTAyZp0RJWFeEzlwl7SnlqD6IwFhYBcwmj7f9tdqwPlVWZMSqVQ/kMYhUKZtLG4aft4A==",
+      "type": "package",
+      "path": "northwind.httpdelegatinghandlers/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/NorthWind.HttpDelegatingHandlers.dll",
+        "northwind.httpdelegatinghandlers.1.0.0.nupkg.sha512",
+        "northwind.httpdelegatinghandlers.nuspec"
+      ]
+    },
+    "NorthWind.RazorComponents/1.0.0": {
+      "sha512": "Ysx9p0JsTtxFEHekcrk7IMfRZnOZzbm5PtftHGH9kkXUdHpwjqWOUyzgQU7lUIwqhy2xr8j4gOELfHOULt05Bg==",
+      "type": "package",
+      "path": "northwind.razorcomponents/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/NorthWind.RazorComponents.props",
+        "buildMultiTargeting/NorthWind.RazorComponents.props",
+        "buildTransitive/NorthWind.RazorComponents.props",
+        "lib/net8.0/NorthWind.RazorComponents.dll",
+        "northwind.razorcomponents.1.0.0.nupkg.sha512",
+        "northwind.razorcomponents.nuspec",
+        "staticwebassets/NorthWind.RazorComponents.9x886uo20w.bundle.scp.css"
+      ]
+    },
+    "NorthWind.Validation.Entities/1.0.0": {
+      "sha512": "YVu+OLTcUnOpwQFtcZ/bZYCcjIZKclftBeXQxOr2KCeoBHRhbPQks6FIQXTrf0BlLihWDFWYDC/P2zM3FnMEpQ==",
+      "type": "package",
+      "path": "northwind.validation.entities/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/NorthWind.Validation.Entities.dll",
+        "northwind.validation.entities.1.0.0.nupkg.sha512",
+        "northwind.validation.entities.nuspec"
       ]
     },
     "System.Diagnostics.DiagnosticSource/9.0.5": {
@@ -2675,15 +2784,15 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "NorthWind.HttpDelegatingHandlers/1.0.0": {
+    "NorthWind.Membership.Entities/1.0.0": {
       "type": "project",
-      "path": "../NorthWind.HttpDelegatingHandlers/NorthWind.HttpDelegatingHandlers.csproj",
-      "msbuildProject": "../NorthWind.HttpDelegatingHandlers/NorthWind.HttpDelegatingHandlers.csproj"
+      "path": "../../NorthWind.Membership/NorthWind.Membership.Entities/NorthWind.Membership.Entities.csproj",
+      "msbuildProject": "../../NorthWind.Membership/NorthWind.Membership.Entities/NorthWind.Membership.Entities.csproj"
     },
-    "NorthWind.RazorComponents/1.0.0": {
+    "NorthWind.Membership.Frontend.RazorViews/1.0.0": {
       "type": "project",
-      "path": "../NorthWind.RazorComponents/NorthWind.RazorComponents.csproj",
-      "msbuildProject": "../NorthWind.RazorComponents/NorthWind.RazorComponents.csproj"
+      "path": "../../NorthWind.Membership/NorthWind.Membership.Frontend.RazorViews/NorthWind.Membership.Frontend.RazorViews.csproj",
+      "msbuildProject": "../../NorthWind.Membership/NorthWind.Membership.Frontend.RazorViews/NorthWind.Membership.Frontend.RazorViews.csproj"
     },
     "NorthWind.Sales.Entities/1.0.0": {
       "type": "project",
@@ -2714,11 +2823,6 @@
       "type": "project",
       "path": "../NorthWind.Sales.Validators.Entities/NorthWind.Sales.Validators.Entities.csproj",
       "msbuildProject": "../NorthWind.Sales.Validators.Entities/NorthWind.Sales.Validators.Entities.csproj"
-    },
-    "NorthWind.Validation.Entities/1.0.0": {
-      "type": "project",
-      "path": "../NorthWind.Validation.Entities/NorthWind.Validation.Entities.csproj",
-      "msbuildProject": "../NorthWind.Validation.Entities/NorthWind.Validation.Entities.csproj"
     },
     "NorthWind.ValidationService.FluentValidation/1.0.0": {
       "type": "project",

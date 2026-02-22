@@ -10,6 +10,11 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 builder.Services.AddNorthWindSalesServices(client =>
 {
   client.BaseAddress = new Uri(builder.Configuration["WebApiAddress"]);
-});
+},
+membershipHttpClient =>
+	{
+		membershipHttpClient.BaseAddress = new Uri(builder.Configuration["WebApiAddress"]);
+	}
+);
 
 await builder.Build().RunAsync();

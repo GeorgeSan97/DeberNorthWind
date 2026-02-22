@@ -39,7 +39,6 @@ C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\obj\De
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NorthWind.Sales.Frontend.Views.props
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NorthWind.Sales.Frontend.Views.props
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\obj\Debug\net8.0\NorthWin.77468769.Up2Date
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\obj\Debug\net8.0\NorthWind.Sales.Frontend.Views.dll
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\obj\Debug\net8.0\refint\NorthWind.Sales.Frontend.Views.dll

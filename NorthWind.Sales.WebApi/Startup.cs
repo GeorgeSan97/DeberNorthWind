@@ -63,6 +63,11 @@ internal static class Startup
   public static WebApplication ConfigureWebApplication(this WebApplication app)
   {
 		app.UseExceptionHandler(builder => { });
+		
+    //  Agregar el Middleware CORS ANTES de los endpoints
+    //  Habilita CORS en tiempo de ejecución para aceptar solicitudes de cualquier origen.
+    app.UseCors();
+    
 		//  Solo cuando el entorno es "Development", se activa Swagger para ver la documentación
 		//  de la API y la interfaz UI de Swagger en el navegador.
 		if (app.Environment.IsDevelopment())
@@ -77,9 +82,6 @@ internal static class Startup
     //  Mapea los controladores implementados, como el de crear órdenes "CreateOrders"
     app.MapNorthWindSalesEndpoints();
 
-    //  Agregar el Middleware CORS
-    //  Habilita CORS en tiempo de ejecución para aceptar solicitudes de cualquier origen.
-    app.UseCors();
     return app;
   }
 }

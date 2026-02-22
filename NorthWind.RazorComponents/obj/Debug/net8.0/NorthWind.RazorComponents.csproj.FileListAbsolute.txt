@@ -31,7 +31,6 @@ C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.RazorComponents\obj\Debug\n
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.RazorComponents\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NorthWind.RazorComponents.props
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.RazorComponents\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NorthWind.RazorComponents.props
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.RazorComponents\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.RazorComponents\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.RazorComponents\obj\Debug\net8.0\NorthWin.412EB7B9.Up2Date
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.RazorComponents\obj\Debug\net8.0\NorthWind.RazorComponents.dll
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.RazorComponents\obj\Debug\net8.0\refint\NorthWind.RazorComponents.dll

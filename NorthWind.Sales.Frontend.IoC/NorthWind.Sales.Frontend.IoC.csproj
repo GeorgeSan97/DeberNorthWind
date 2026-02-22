@@ -13,4 +13,8 @@
     <ProjectReference Include="..\NorthWind.ValidationService.FluentValidation\NorthWind.ValidationService.FluentValidation.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="C:\Moviles\PrimerParcial\Deberes\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\NorthWind.Membership.Frontend.RazorViews.csproj" />
+  </ItemGroup>
+
 </Project>
