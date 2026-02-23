@@ -36,3 +36,4 @@ C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.RazorComponents\obj\Debug\n
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.RazorComponents\obj\Debug\net8.0\refint\NorthWind.RazorComponents.dll
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.RazorComponents\obj\Debug\net8.0\NorthWind.RazorComponents.pdb
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.RazorComponents\obj\Debug\net8.0\ref\NorthWind.RazorComponents.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.RazorComponents\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

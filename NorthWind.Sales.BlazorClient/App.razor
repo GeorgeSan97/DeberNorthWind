@@ -1,4 +1,5 @@
 ﻿@using System.Reflection
+@using System.Linq
 
 <Router AppAssembly="@typeof(App).Assembly" AdditionalAssemblies=AdditionalAssemblies>
     <Found Context="routeData">
@@ -19,6 +20,8 @@
     {
 typeof(NorthWind.Sales.Frontend.Views.Pages.CreateOrder)
         .Assembly,
-        typeof(NorthWind.Membership.Frontend.RazorViews.Pages.UserRegistrationPage).Assembly
+        typeof(NorthWind.Membership.Frontend.RazorViews.Pages.UserRegistrationPage).Assembly,
+        AppDomain.CurrentDomain.GetAssemblies()
+            .FirstOrDefault(a => a.GetName().Name == "NorthWind.Membership.Frontend.RazorViews")
     };
 }

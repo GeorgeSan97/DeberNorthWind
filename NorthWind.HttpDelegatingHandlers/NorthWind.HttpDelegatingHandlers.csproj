@@ -10,6 +10,7 @@
 
 	<ItemGroup>
 		<!-- Añade paquetes que uses explícitamente en el código (opcional) -->
+		<PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="8.16.0" />
 		<PackageReference Include="System.Text.Json" Version="7.0.2" />
 	</ItemGroup>
 

@@ -44,3 +44,4 @@ C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\obj\De
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\obj\Debug\net8.0\refint\NorthWind.Sales.Frontend.Views.dll
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\obj\Debug\net8.0\NorthWind.Sales.Frontend.Views.pdb
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\obj\Debug\net8.0\ref\NorthWind.Sales.Frontend.Views.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.Views\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

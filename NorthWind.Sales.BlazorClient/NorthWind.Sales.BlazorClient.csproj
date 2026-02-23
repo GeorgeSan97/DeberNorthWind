@@ -11,10 +11,15 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.16" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.16" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="8.16.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\NorthWind.Sales.Frontend.IoC\NorthWind.Sales.Frontend.IoC.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="C:\Moviles\PrimerParcial\Deberes\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\NorthWind.Membership.Frontend.RazorViews.csproj" />
   </ItemGroup>
 
   <ItemGroup>

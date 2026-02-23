@@ -365,6 +365,68 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "Microsoft.IdentityModel.Abstractions/8.16.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/8.16.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "8.16.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/8.16.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "8.16.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Logging.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/8.16.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "Microsoft.IdentityModel.Logging": "8.16.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.Tokens.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Tokens.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.JSInterop/8.0.23": {
         "type": "package",
         "compile": {
@@ -389,25 +451,6 @@
         },
         "runtime": {
           "lib/net8.0/NorthWind.HttpDelegatingHandlers.dll": {}
-        }
-      },
-      "NorthWind.RazorComponents/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "8.0.16",
-          "NorthWind.Validation.Entities": "1.0.0"
-        },
-        "compile": {
-          "lib/net8.0/NorthWind.RazorComponents.dll": {}
-        },
-        "runtime": {
-          "lib/net8.0/NorthWind.RazorComponents.dll": {}
-        },
-        "build": {
-          "buildTransitive/NorthWind.RazorComponents.props": {}
-        },
-        "buildMultiTargeting": {
-          "buildMultiTargeting/NorthWind.RazorComponents.props": {}
         }
       },
       "NorthWind.Validation.Entities/1.0.0": {
@@ -526,9 +569,27 @@
           "bin/placeholder/NorthWind.Membership.Frontend.RazorViews.dll": {}
         }
       },
+      "NorthWind.RazorComponents/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.16",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
+          "NorthWind.Validation.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NorthWind.RazorComponents.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthWind.RazorComponents.dll": {}
+        }
+      },
       "NorthWind.Sales.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0"
+        },
         "compile": {
           "bin/placeholder/NorthWind.Sales.Entities.dll": {}
         },
@@ -540,6 +601,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
           "NorthWind.Sales.Entities": "1.0.0"
         },
         "compile": {
@@ -554,6 +616,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "8.0.16",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
           "NorthWind.RazorComponents": "1.0.0",
           "NorthWind.Sales.Frontend.BusinessObjects": "1.0.0"
         },
@@ -570,6 +633,7 @@
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.5",
           "Microsoft.Extensions.Http": "9.0.5",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
           "NorthWind.HttpDelegatingHandlers": "1.0.0",
           "NorthWind.Sales.Frontend.BusinessObjects": "1.0.0"
         },
@@ -584,6 +648,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
           "NorthWind.Sales.Entities": "1.0.0",
           "NorthWind.Validation.Entities": "1.0.0"
         },
@@ -600,6 +665,7 @@
         "dependencies": {
           "FluentValidation": "11.9.0",
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
           "NorthWind.Validation.Entities": "1.0.0"
         },
         "compile": {
@@ -1175,6 +1241,110 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.IdentityModel.Abstractions/8.16.0": {
+      "sha512": "gSxKLWRZzBpIsEoeUPkxfywNCCvRvl7hkq146XHPk5vOQc9izSf1I+uL1vh4y2U19QPxd9Z8K/8AdWyxYz2lSg==",
+      "type": "package",
+      "path": "microsoft.identitymodel.abstractions/8.16.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net10.0/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net10.0/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net462/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net462/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net472/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net472/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net6.0/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net6.0/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net8.0/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net9.0/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net9.0/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.xml",
+        "microsoft.identitymodel.abstractions.8.16.0.nupkg.sha512",
+        "microsoft.identitymodel.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/8.16.0": {
+      "sha512": "prBU72cIP4V8E9fhN+o/YdskTsLeIcnKPbhZf0X6mD7fdxoZqnS/NdEkSr+9Zp+2q7OZBOMfNBKGbTbhXODO4w==",
+      "type": "package",
+      "path": "microsoft.identitymodel.jsonwebtokens/8.16.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net10.0/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net462/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net462/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net472/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net472/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net9.0/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "microsoft.identitymodel.jsonwebtokens.8.16.0.nupkg.sha512",
+        "microsoft.identitymodel.jsonwebtokens.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Logging/8.16.0": {
+      "sha512": "MTzXmETkNQPACR7/XCXM1OGM6oU9RkyibqeJRtO9Ndew2LnGjMf9Atqj2VSf4XC27X0FQycUAlzxxEgQMWn2xQ==",
+      "type": "package",
+      "path": "microsoft.identitymodel.logging/8.16.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net10.0/Microsoft.IdentityModel.Logging.dll",
+        "lib/net10.0/Microsoft.IdentityModel.Logging.xml",
+        "lib/net462/Microsoft.IdentityModel.Logging.dll",
+        "lib/net462/Microsoft.IdentityModel.Logging.xml",
+        "lib/net472/Microsoft.IdentityModel.Logging.dll",
+        "lib/net472/Microsoft.IdentityModel.Logging.xml",
+        "lib/net6.0/Microsoft.IdentityModel.Logging.dll",
+        "lib/net6.0/Microsoft.IdentityModel.Logging.xml",
+        "lib/net8.0/Microsoft.IdentityModel.Logging.dll",
+        "lib/net8.0/Microsoft.IdentityModel.Logging.xml",
+        "lib/net9.0/Microsoft.IdentityModel.Logging.dll",
+        "lib/net9.0/Microsoft.IdentityModel.Logging.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Logging.xml",
+        "microsoft.identitymodel.logging.8.16.0.nupkg.sha512",
+        "microsoft.identitymodel.logging.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Tokens/8.16.0": {
+      "sha512": "rtViGJcGsN7WcfUNErwNeQgjuU5cJNl6FDQsfi9TncwO+Epzn0FTfBsg3YuFW1Q0Ch/KPxaVdjLw3/+5Z5ceFQ==",
+      "type": "package",
+      "path": "microsoft.identitymodel.tokens/8.16.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net10.0/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net10.0/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net462/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net462/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net472/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net472/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net6.0/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net6.0/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net8.0/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net8.0/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net9.0/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net9.0/Microsoft.IdentityModel.Tokens.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.xml",
+        "microsoft.identitymodel.tokens.8.16.0.nupkg.sha512",
+        "microsoft.identitymodel.tokens.nuspec"
+      ]
+    },
     "Microsoft.JSInterop/8.0.23": {
       "sha512": "LDy/j0Ug6K2GvZuLhst1Kndd9gWi2p6MXnP1dNO4CIvQGQ7ESLvVnY4pg+TwLCNT5nosS+2yFNIq30jS+dvg5g==",
       "type": "package",
@@ -1199,23 +1369,6 @@
         "lib/net8.0/NorthWind.HttpDelegatingHandlers.dll",
         "northwind.httpdelegatinghandlers.1.0.0.nupkg.sha512",
         "northwind.httpdelegatinghandlers.nuspec"
-      ]
-    },
-    "NorthWind.RazorComponents/1.0.0": {
-      "sha512": "Ysx9p0JsTtxFEHekcrk7IMfRZnOZzbm5PtftHGH9kkXUdHpwjqWOUyzgQU7lUIwqhy2xr8j4gOELfHOULt05Bg==",
-      "type": "package",
-      "path": "northwind.razorcomponents/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        "build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-        "build/Microsoft.AspNetCore.StaticWebAssets.props",
-        "build/NorthWind.RazorComponents.props",
-        "buildMultiTargeting/NorthWind.RazorComponents.props",
-        "buildTransitive/NorthWind.RazorComponents.props",
-        "lib/net8.0/NorthWind.RazorComponents.dll",
-        "northwind.razorcomponents.1.0.0.nupkg.sha512",
-        "northwind.razorcomponents.nuspec",
-        "staticwebassets/NorthWind.RazorComponents.9x886uo20w.bundle.scp.css"
       ]
     },
     "NorthWind.Validation.Entities/1.0.0": {
@@ -1397,6 +1550,11 @@
       "path": "../../NorthWind.Membership/NorthWind.Membership.Frontend.RazorViews/NorthWind.Membership.Frontend.RazorViews.csproj",
       "msbuildProject": "../../NorthWind.Membership/NorthWind.Membership.Frontend.RazorViews/NorthWind.Membership.Frontend.RazorViews.csproj"
     },
+    "NorthWind.RazorComponents/1.0.0": {
+      "type": "project",
+      "path": "../NorthWind.RazorComponents/NorthWind.RazorComponents.csproj",
+      "msbuildProject": "../NorthWind.RazorComponents/NorthWind.RazorComponents.csproj"
+    },
     "NorthWind.Sales.Entities/1.0.0": {
       "type": "project",
       "path": "../NorthWind.Sales.Entities/NorthWind.Sales.Entities.csproj",
@@ -1430,6 +1588,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Microsoft.IdentityModel.JsonWebTokens >= 8.16.0",
       "NorthWind.Membership.Frontend.RazorViews >= 1.0.0",
       "NorthWind.Sales.Frontend.Views >= 1.0.0",
       "NorthWind.Sales.Frontend.WebApiGateways >= 1.0.0",
@@ -1504,6 +1663,16 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": {
+            "target": "Package",
+            "version": "[8.16.0, )"
+          },
+          "NorthWind.Membership.Frontend.RazorViews": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

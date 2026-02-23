@@ -1,4 +1,9 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿
+
+
+
+
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -7,6 +12,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="8.16.0" />
     <PackageReference Include="NorthWind.Membership.Backend.AspNetIdentity" Version="1.0.0" />
     <PackageReference Include="NorthWind.Membership.Entities" Version="1.0.0" />
     <PackageReference Include="NorthWind.Membership.Frontend.RazorViews" Version="1.0.0" />

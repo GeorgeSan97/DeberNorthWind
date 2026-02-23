@@ -1,0 +1,4 @@
+wwwroot\appsettings.json
+wwwroot\css\app.css
+wwwroot\icon-192.png
+wwwroot\index.html

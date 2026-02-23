@@ -9,10 +9,12 @@
       "NorthWind.Sales.WebApi/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "9.0.5",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
           "NorthWind.Membership.Backend.AspNetIdentity": "1.0.0",
           "NorthWind.Membership.Backend.Core": "1.0.0",
           "NorthWind.Membership.Entities": "1.0.0",
           "NorthWind.Sales.Backend.IoC": "1.0.0",
+          "NorthWind.Sales.Frontend.IoC": "1.0.0",
           "Swashbuckle.AspNetCore": "8.1.2"
         },
         "runtime": {
@@ -472,7 +474,7 @@
           "Microsoft.Bcl.Cryptography": "8.0.0",
           "Microsoft.Data.SqlClient.SNI.runtime": "6.0.2",
           "Microsoft.Extensions.Caching.Memory": "9.0.5",
-          "Microsoft.IdentityModel.JsonWebTokens": "7.5.0",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.5.0",
           "Microsoft.SqlServer.Server": "1.0.0",
           "System.Configuration.ConfigurationManager": "8.0.1",
@@ -663,10 +665,16 @@
           }
         }
       },
-      "Microsoft.Extensions.Configuration/8.0.0": {
+      "Microsoft.Extensions.Configuration/9.0.5": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.5",
           "Microsoft.Extensions.Primitives": "9.0.5"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.525.21509"
+          }
         }
       },
       "Microsoft.Extensions.Configuration.Abstractions/9.0.5": {
@@ -680,9 +688,15 @@
           }
         }
       },
-      "Microsoft.Extensions.Configuration.Binder/8.0.0": {
+      "Microsoft.Extensions.Configuration.Binder/9.0.5": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.5"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.525.21509"
+          }
         }
       },
       "Microsoft.Extensions.DependencyInjection/9.0.5": {
@@ -716,44 +730,45 @@
           }
         }
       },
-      "Microsoft.Extensions.Diagnostics/8.0.1": {
+      "Microsoft.Extensions.Diagnostics/9.0.5": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "8.0.0",
-          "Microsoft.Extensions.Diagnostics.Abstractions": "8.0.1",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0"
+          "Microsoft.Extensions.Configuration": "9.0.5",
+          "Microsoft.Extensions.Diagnostics.Abstractions": "9.0.5",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.5"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Diagnostics.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1024.46610"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.525.21509"
           }
         }
       },
-      "Microsoft.Extensions.Diagnostics.Abstractions/8.0.1": {
+      "Microsoft.Extensions.Diagnostics.Abstractions/9.0.5": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.5",
-          "Microsoft.Extensions.Options": "9.0.5"
+          "Microsoft.Extensions.Options": "9.0.5",
+          "System.Diagnostics.DiagnosticSource": "9.0.5"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1024.46610"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.525.21509"
           }
         }
       },
-      "Microsoft.Extensions.Http/8.0.1": {
+      "Microsoft.Extensions.Http/9.0.5": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.5",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.5",
-          "Microsoft.Extensions.Diagnostics": "8.0.1",
+          "Microsoft.Extensions.Diagnostics": "9.0.5",
           "Microsoft.Extensions.Logging": "9.0.5",
           "Microsoft.Extensions.Logging.Abstractions": "9.0.5",
           "Microsoft.Extensions.Options": "9.0.5"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Http.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1024.46610"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.525.21509"
           }
         }
       },
@@ -820,13 +835,19 @@
           }
         }
       },
-      "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
+      "Microsoft.Extensions.Options.ConfigurationExtensions/9.0.5": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.5",
-          "Microsoft.Extensions.Configuration.Binder": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "9.0.5",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.5",
           "Microsoft.Extensions.Options": "9.0.5",
           "Microsoft.Extensions.Primitives": "9.0.5"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.525.21509"
+          }
         }
       },
       "Microsoft.Extensions.Primitives/9.0.5": {
@@ -839,7 +860,7 @@
       },
       "Microsoft.Identity.Client/4.61.3": {
         "dependencies": {
-          "Microsoft.IdentityModel.Abstractions": "7.5.0",
+          "Microsoft.IdentityModel.Abstractions": "8.16.0",
           "System.Diagnostics.DiagnosticSource": "9.0.5"
         },
         "runtime": {
@@ -861,39 +882,39 @@
           }
         }
       },
-      "Microsoft.IdentityModel.Abstractions/7.5.0": {
+      "Microsoft.IdentityModel.Abstractions/8.16.0": {
         "runtime": {
           "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll": {
-            "assemblyVersion": "7.5.0.0",
-            "fileVersion": "7.5.0.50326"
+            "assemblyVersion": "8.16.0.0",
+            "fileVersion": "8.16.0.26043"
           }
         }
       },
-      "Microsoft.IdentityModel.JsonWebTokens/7.5.0": {
+      "Microsoft.IdentityModel.JsonWebTokens/8.16.0": {
         "dependencies": {
-          "Microsoft.IdentityModel.Tokens": "7.5.0"
+          "Microsoft.IdentityModel.Tokens": "8.16.0"
         },
         "runtime": {
           "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
-            "assemblyVersion": "7.5.0.0",
-            "fileVersion": "7.5.0.50326"
+            "assemblyVersion": "8.16.0.0",
+            "fileVersion": "8.16.0.26043"
           }
         }
       },
-      "Microsoft.IdentityModel.Logging/7.5.0": {
+      "Microsoft.IdentityModel.Logging/8.16.0": {
         "dependencies": {
-          "Microsoft.IdentityModel.Abstractions": "7.5.0"
+          "Microsoft.IdentityModel.Abstractions": "8.16.0"
         },
         "runtime": {
           "lib/net8.0/Microsoft.IdentityModel.Logging.dll": {
-            "assemblyVersion": "7.5.0.0",
-            "fileVersion": "7.5.0.50326"
+            "assemblyVersion": "8.16.0.0",
+            "fileVersion": "8.16.0.26043"
           }
         }
       },
       "Microsoft.IdentityModel.Protocols/7.5.0": {
         "dependencies": {
-          "Microsoft.IdentityModel.Tokens": "7.5.0"
+          "Microsoft.IdentityModel.Tokens": "8.16.0"
         },
         "runtime": {
           "lib/net8.0/Microsoft.IdentityModel.Protocols.dll": {
@@ -914,14 +935,15 @@
           }
         }
       },
-      "Microsoft.IdentityModel.Tokens/7.5.0": {
+      "Microsoft.IdentityModel.Tokens/8.16.0": {
         "dependencies": {
-          "Microsoft.IdentityModel.Logging": "7.5.0"
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.5",
+          "Microsoft.IdentityModel.Logging": "8.16.0"
         },
         "runtime": {
           "lib/net8.0/Microsoft.IdentityModel.Tokens.dll": {
-            "assemblyVersion": "7.5.0.0",
-            "fileVersion": "7.5.0.50326"
+            "assemblyVersion": "8.16.0.0",
+            "fileVersion": "8.16.0.26043"
           }
         }
       },
@@ -960,40 +982,16 @@
           }
         }
       },
-      "NorthWind.HttpDelegatingHandlers/1.0.0": {
-        "dependencies": {
-          "NorthWind.Validation.Entities": "1.0.0",
-          "System.Text.Json": "9.0.5"
-        },
-        "runtime": {
-          "lib/net8.0/NorthWind.HttpDelegatingHandlers.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "NorthWind.Membership.Frontend.RazorViews/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "8.0.23",
-          "Microsoft.Extensions.Http": "8.0.1",
+          "Microsoft.Extensions.Http": "9.0.5",
           "NorthWind.HttpDelegatingHandlers": "1.0.0",
           "NorthWind.Membership.Entities": "1.0.0",
           "NorthWind.RazorComponents": "1.0.0"
         },
         "runtime": {
           "lib/net8.0/NorthWind.Membership.Frontend.RazorViews.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "NorthWind.RazorComponents/1.0.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "8.0.23",
-          "NorthWind.Validation.Entities": "1.0.0"
-        },
-        "runtime": {
-          "lib/net8.0/NorthWind.RazorComponents.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1172,8 +1170,8 @@
       },
       "System.IdentityModel.Tokens.Jwt/7.5.0": {
         "dependencies": {
-          "Microsoft.IdentityModel.JsonWebTokens": "7.5.0",
-          "Microsoft.IdentityModel.Tokens": "7.5.0"
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
+          "Microsoft.IdentityModel.Tokens": "8.16.0"
         },
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
@@ -1267,6 +1265,7 @@
       "NorthWind.DomainLogs.Entities/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.5",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
           "NorthWind.Entities": "1.0.0"
         },
         "runtime": {
@@ -1277,6 +1276,9 @@
         }
       },
       "NorthWind.Entities/1.0.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0"
+        },
         "runtime": {
           "NorthWind.Entities.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -1286,7 +1288,8 @@
       },
       "NorthWind.Events.Entities/1.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.5"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.5",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0"
         },
         "runtime": {
           "NorthWind.Events.Entities.dll": {
@@ -1297,10 +1300,24 @@
       },
       "NorthWind.Exceptions.Entities/1.0.0": {
         "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
           "NorthWind.Validation.Entities": "1.0.0"
         },
         "runtime": {
           "NorthWind.Exceptions.Entities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NorthWind.HttpDelegatingHandlers/1.0.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
+          "NorthWind.Validation.Entities": "1.0.0",
+          "System.Text.Json": "9.0.5"
+        },
+        "runtime": {
+          "NorthWind.HttpDelegatingHandlers.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1344,8 +1361,22 @@
           }
         }
       },
+      "NorthWind.RazorComponents/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.23",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
+          "NorthWind.Validation.Entities": "1.0.0"
+        },
+        "runtime": {
+          "NorthWind.RazorComponents.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "NorthWind.Sales.Backend.BusinessObjects/1.0.0": {
         "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
           "NorthWind.DomainLogs.Entities": "1.0.0",
           "NorthWind.Entities": "1.0.0",
           "NorthWind.Events.Entities": "1.0.0",
@@ -1363,6 +1394,7 @@
       },
       "NorthWind.Sales.Backend.Controllers/1.0.0": {
         "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
           "NorthWind.Sales.Backend.BusinessObjects": "1.0.0"
         },
         "runtime": {
@@ -1376,6 +1408,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
           "NorthWind.Sales.Backend.Repositories": "1.0.0"
         },
         "runtime": {
@@ -1387,6 +1420,7 @@
       },
       "NorthWind.Sales.Backend.IoC/1.0.0": {
         "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
           "NorthWind.Membership.Backend.AspNetIdentity": "1.0.0",
           "NorthWind.Membership.Backend.Core": "1.0.0",
           "NorthWind.Membership.Entities": "1.0.0",
@@ -1411,6 +1445,7 @@
       "NorthWind.Sales.Backend.Presenters/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.5",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
           "NorthWind.Sales.Backend.BusinessObjects": "1.0.0"
         },
         "runtime": {
@@ -1424,6 +1459,7 @@
         "dependencies": {
           "Microsoft.Data.SqlClient": "6.0.1",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.5",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
           "NorthWind.Sales.Backend.BusinessObjects": "1.0.0"
         },
         "runtime": {
@@ -1435,6 +1471,7 @@
       },
       "NorthWind.Sales.Backend.SmtpGateways/1.0.0": {
         "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
           "NorthWind.Sales.Backend.BusinessObjects": "1.0.0"
         },
         "runtime": {
@@ -1447,6 +1484,7 @@
       "NorthWind.Sales.Backend.UseCases/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.5",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
           "NorthWind.Sales.Backend.BusinessObjects": "1.0.0"
         },
         "runtime": {
@@ -1457,6 +1495,9 @@
         }
       },
       "NorthWind.Sales.Entities/1.0.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0"
+        },
         "runtime": {
           "NorthWind.Sales.Entities.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -1464,8 +1505,66 @@
           }
         }
       },
+      "NorthWind.Sales.Frontend.BusinessObjects/1.0.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
+          "NorthWind.Sales.Entities": "1.0.0"
+        },
+        "runtime": {
+          "NorthWind.Sales.Frontend.BusinessObjects.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NorthWind.Sales.Frontend.IoC/1.0.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
+          "NorthWind.Membership.Frontend.RazorViews": "1.0.0",
+          "NorthWind.Sales.Frontend.Views": "1.0.0",
+          "NorthWind.Sales.Frontend.WebApiGateways": "1.0.0",
+          "NorthWind.Sales.Validators.Entities": "1.0.0",
+          "NorthWind.ValidationService.FluentValidation": "1.0.0"
+        },
+        "runtime": {
+          "NorthWind.Sales.Frontend.IoC.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NorthWind.Sales.Frontend.Views/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.23",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
+          "NorthWind.RazorComponents": "1.0.0",
+          "NorthWind.Sales.Frontend.BusinessObjects": "1.0.0"
+        },
+        "runtime": {
+          "NorthWind.Sales.Frontend.Views.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NorthWind.Sales.Frontend.WebApiGateways/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.5",
+          "Microsoft.Extensions.Http": "9.0.5",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
+          "NorthWind.HttpDelegatingHandlers": "1.0.0",
+          "NorthWind.Sales.Frontend.BusinessObjects": "1.0.0"
+        },
+        "runtime": {
+          "NorthWind.Sales.Frontend.WebApiGateways.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "NorthWind.Sales.Validators.Entities/1.0.0": {
         "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
           "NorthWind.Sales.Entities": "1.0.0",
           "NorthWind.Validation.Entities": "1.0.0"
         },
@@ -1478,7 +1577,8 @@
       },
       "NorthWind.Transactions.Entities/1.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.5"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.5",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0"
         },
         "runtime": {
           "NorthWind.Transactions.Entities.dll": {
@@ -1489,6 +1589,7 @@
       },
       "NorthWind.UserServices/1.0.0": {
         "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
           "NorthWind.Entities": "1.0.0"
         },
         "runtime": {
@@ -1500,7 +1601,8 @@
       },
       "NorthWind.Validation.Entities/1.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "9.0.5"
+          "Microsoft.Extensions.DependencyInjection": "9.0.5",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0"
         },
         "runtime": {
           "NorthWind.Validation.Entities.dll": {
@@ -1513,6 +1615,7 @@
         "dependencies": {
           "FluentValidation": "11.9.0",
           "Microsoft.Extensions.DependencyInjection": "9.0.5",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.16.0",
           "NorthWind.Validation.Entities": "1.0.0"
         },
         "runtime": {
@@ -1768,12 +1871,12 @@
       "path": "microsoft.extensions.caching.memory/9.0.5",
       "hashPath": "microsoft.extensions.caching.memory.9.0.5.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration/8.0.0": {
+    "Microsoft.Extensions.Configuration/9.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0J/9YNXTMWSZP2p2+nvl8p71zpSwokZXZuJW+VjdErkegAnFdO1XlqtA62SJtgVYHdKu3uPxJHcMR/r35HwFBA==",
-      "path": "microsoft.extensions.configuration/8.0.0",
-      "hashPath": "microsoft.extensions.configuration.8.0.0.nupkg.sha512"
+      "sha512": "sha512-uYXLg2Gt8KUH5nT3u+TBpg9VrRcN5+2zPmIjqEHR4kOoBwsbtMDncEJw9HiLvZqGgIo2TR4oraibAoy5hXn2bQ==",
+      "path": "microsoft.extensions.configuration/9.0.5",
+      "hashPath": "microsoft.extensions.configuration.9.0.5.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.Abstractions/9.0.5": {
       "type": "package",
@@ -1782,12 +1885,12 @@
       "path": "microsoft.extensions.configuration.abstractions/9.0.5",
       "hashPath": "microsoft.extensions.configuration.abstractions.9.0.5.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.Binder/8.0.0": {
+    "Microsoft.Extensions.Configuration.Binder/9.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mBMoXLsr5s1y2zOHWmKsE9veDcx8h1x/c3rz4baEdQKTeDcmQAPNbB54Pi/lhFO3K431eEq6PFbMgLaa6PHFfA==",
-      "path": "microsoft.extensions.configuration.binder/8.0.0",
-      "hashPath": "microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512"
+      "sha512": "sha512-7pQ4Tkyofm8DFWFhqn9ZmG8qSAC2VitWleATj5qob9V9KtoxCVdwRtmiVl/ha3WAgjkEfW++JLWXox9MJwMgkg==",
+      "path": "microsoft.extensions.configuration.binder/9.0.5",
+      "hashPath": "microsoft.extensions.configuration.binder.9.0.5.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection/9.0.5": {
       "type": "package",
@@ -1810,26 +1913,26 @@
       "path": "microsoft.extensions.dependencymodel/9.0.5",
       "hashPath": "microsoft.extensions.dependencymodel.9.0.5.nupkg.sha512"
     },
-    "Microsoft.Extensions.Diagnostics/8.0.1": {
+    "Microsoft.Extensions.Diagnostics/9.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-doVPCUUCY7c6LhBsEfiy3W1bvS7Mi6LkfQMS8nlC22jZWNxBv8VO8bdfeyvpYFst6Kxqk7HBC6lytmEoBssvSQ==",
-      "path": "microsoft.extensions.diagnostics/8.0.1",
-      "hashPath": "microsoft.extensions.diagnostics.8.0.1.nupkg.sha512"
+      "sha512": "sha512-fRiUjmhm9e4vMp6WEO9MgWNxVtWSr4Pcgh1W4DyJIr8bRANlZz9JU7uicf7ShzMspDxo/9Ejo9zJ6qQZY0IhVw==",
+      "path": "microsoft.extensions.diagnostics/9.0.5",
+      "hashPath": "microsoft.extensions.diagnostics.9.0.5.nupkg.sha512"
     },
-    "Microsoft.Extensions.Diagnostics.Abstractions/8.0.1": {
+    "Microsoft.Extensions.Diagnostics.Abstractions/9.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-elH2vmwNmsXuKmUeMQ4YW9ldXiF+gSGDgg1vORksob5POnpaI6caj1Hu8zaYbEuibhqCoWg0YRWDazBY3zjBfg==",
-      "path": "microsoft.extensions.diagnostics.abstractions/8.0.1",
-      "hashPath": "microsoft.extensions.diagnostics.abstractions.8.0.1.nupkg.sha512"
+      "sha512": "sha512-6YfTcULCYREMTqtk+s3UiszsFV2xN2FXtxdQpurmQJY9Cp/QGiM4MTKfJKUo7AzdLuzjOKKMWjQITmvtK7AsUg==",
+      "path": "microsoft.extensions.diagnostics.abstractions/9.0.5",
+      "hashPath": "microsoft.extensions.diagnostics.abstractions.9.0.5.nupkg.sha512"
     },
-    "Microsoft.Extensions.Http/8.0.1": {
+    "Microsoft.Extensions.Http/9.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kDYeKJUzh0qeg/AI+nSr3ffthmXYQTEb0nS9qRC7YhSbbuN4M4NPbaB77AJwtkTnCV9XZ7qYj3dkZaNcyl73EA==",
-      "path": "microsoft.extensions.http/8.0.1",
-      "hashPath": "microsoft.extensions.http.8.0.1.nupkg.sha512"
+      "sha512": "sha512-6vbo3XjyEc+w/kv/Dkfv9NA7iSdIdX5dlU9Shk3wJJ0fiZpCVzVW5FJtNoIePX5hS0ENNpHPClq/qtq06yM4FQ==",
+      "path": "microsoft.extensions.http/9.0.5",
+      "hashPath": "microsoft.extensions.http.9.0.5.nupkg.sha512"
     },
     "Microsoft.Extensions.Identity.Core/8.0.24": {
       "type": "package",
@@ -1866,12 +1969,12 @@
       "path": "microsoft.extensions.options/9.0.5",
       "hashPath": "microsoft.extensions.options.9.0.5.nupkg.sha512"
     },
-    "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
+    "Microsoft.Extensions.Options.ConfigurationExtensions/9.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0f4DMRqEd50zQh+UyJc+/HiBsZ3vhAQALgdkcQEalSH1L2isdC7Yj54M3cyo5e+BeO5fcBQ7Dxly8XiBBcvRgw==",
-      "path": "microsoft.extensions.options.configurationextensions/8.0.0",
-      "hashPath": "microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512"
+      "sha512": "sha512-CJbAVdovKPFh2FoKxesu20odRVSbL/vtvzzObnG+5u38sOfzRS2Ncy25id0TjYUGQzMhNnJUHgTUzTMDl/3c9g==",
+      "path": "microsoft.extensions.options.configurationextensions/9.0.5",
+      "hashPath": "microsoft.extensions.options.configurationextensions.9.0.5.nupkg.sha512"
     },
     "Microsoft.Extensions.Primitives/9.0.5": {
       "type": "package",
@@ -1894,26 +1997,26 @@
       "path": "microsoft.identity.client.extensions.msal/4.61.3",
       "hashPath": "microsoft.identity.client.extensions.msal.4.61.3.nupkg.sha512"
     },
-    "Microsoft.IdentityModel.Abstractions/7.5.0": {
+    "Microsoft.IdentityModel.Abstractions/8.16.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-seOFPaBQh2K683eFujAuDsrO2XbOA+SvxRli+wu7kl+ZymuGQzjmmUKfyFHmDazpPOBnmOX1ZnjX7zFDZHyNIA==",
-      "path": "microsoft.identitymodel.abstractions/7.5.0",
-      "hashPath": "microsoft.identitymodel.abstractions.7.5.0.nupkg.sha512"
+      "sha512": "sha512-gSxKLWRZzBpIsEoeUPkxfywNCCvRvl7hkq146XHPk5vOQc9izSf1I+uL1vh4y2U19QPxd9Z8K/8AdWyxYz2lSg==",
+      "path": "microsoft.identitymodel.abstractions/8.16.0",
+      "hashPath": "microsoft.identitymodel.abstractions.8.16.0.nupkg.sha512"
     },
-    "Microsoft.IdentityModel.JsonWebTokens/7.5.0": {
+    "Microsoft.IdentityModel.JsonWebTokens/8.16.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mfyiGptbcH+oYrzAtWWwuV+7MoM0G0si+9owaj6DGWInhq/N/KDj/pWHhq1ShdmBu332gjP+cppjgwBpsOj7Fg==",
-      "path": "microsoft.identitymodel.jsonwebtokens/7.5.0",
-      "hashPath": "microsoft.identitymodel.jsonwebtokens.7.5.0.nupkg.sha512"
+      "sha512": "sha512-prBU72cIP4V8E9fhN+o/YdskTsLeIcnKPbhZf0X6mD7fdxoZqnS/NdEkSr+9Zp+2q7OZBOMfNBKGbTbhXODO4w==",
+      "path": "microsoft.identitymodel.jsonwebtokens/8.16.0",
+      "hashPath": "microsoft.identitymodel.jsonwebtokens.8.16.0.nupkg.sha512"
     },
-    "Microsoft.IdentityModel.Logging/7.5.0": {
+    "Microsoft.IdentityModel.Logging/8.16.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3BInZEajJvnTDP/YRrmJ3Fyw8XAWWR9jG+3FkhhzRJJYItVL+BEH9qlgxSmtrxp7S7N6TOv+Y+X8BG61viiehQ==",
-      "path": "microsoft.identitymodel.logging/7.5.0",
-      "hashPath": "microsoft.identitymodel.logging.7.5.0.nupkg.sha512"
+      "sha512": "sha512-MTzXmETkNQPACR7/XCXM1OGM6oU9RkyibqeJRtO9Ndew2LnGjMf9Atqj2VSf4XC27X0FQycUAlzxxEgQMWn2xQ==",
+      "path": "microsoft.identitymodel.logging/8.16.0",
+      "hashPath": "microsoft.identitymodel.logging.8.16.0.nupkg.sha512"
     },
     "Microsoft.IdentityModel.Protocols/7.5.0": {
       "type": "package",
@@ -1929,12 +2032,12 @@
       "path": "microsoft.identitymodel.protocols.openidconnect/7.5.0",
       "hashPath": "microsoft.identitymodel.protocols.openidconnect.7.5.0.nupkg.sha512"
     },
-    "Microsoft.IdentityModel.Tokens/7.5.0": {
+    "Microsoft.IdentityModel.Tokens/8.16.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-owe33wqe0ZbwBxM3D90I0XotxNyTdl85jud03d+OrUOJNnTiqnYePwBk3WU9yW0Rk5CYX+sfSim7frmu6jeEzQ==",
-      "path": "microsoft.identitymodel.tokens/7.5.0",
-      "hashPath": "microsoft.identitymodel.tokens.7.5.0.nupkg.sha512"
+      "sha512": "sha512-rtViGJcGsN7WcfUNErwNeQgjuU5cJNl6FDQsfi9TncwO+Epzn0FTfBsg3YuFW1Q0Ch/KPxaVdjLw3/+5Z5ceFQ==",
+      "path": "microsoft.identitymodel.tokens/8.16.0",
+      "hashPath": "microsoft.identitymodel.tokens.8.16.0.nupkg.sha512"
     },
     "Microsoft.JSInterop/8.0.23": {
       "type": "package",
@@ -1964,26 +2067,12 @@
       "path": "mono.texttemplating/3.0.0",
       "hashPath": "mono.texttemplating.3.0.0.nupkg.sha512"
     },
-    "NorthWind.HttpDelegatingHandlers/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-JHfWbp1QcA8n9h3cIoPTAyZp0RJWFeEzlwl7SnlqD6IwFhYBcwmj7f9tdqwPlVWZMSqVQ/kMYhUKZtLG4aft4A==",
-      "path": "northwind.httpdelegatinghandlers/1.0.0",
-      "hashPath": "northwind.httpdelegatinghandlers.1.0.0.nupkg.sha512"
-    },
     "NorthWind.Membership.Frontend.RazorViews/1.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-CQjwXUnrqfzKZxI5VPr3YugLUhBK2lbeG1bdVg+9GBvUOdUIepwEXfEGEEy7niULyoOUkUhjjJSVDMlceoOznA==",
       "path": "northwind.membership.frontend.razorviews/1.0.0",
       "hashPath": "northwind.membership.frontend.razorviews.1.0.0.nupkg.sha512"
-    },
-    "NorthWind.RazorComponents/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Ysx9p0JsTtxFEHekcrk7IMfRZnOZzbm5PtftHGH9kkXUdHpwjqWOUyzgQU7lUIwqhy2xr8j4gOELfHOULt05Bg==",
-      "path": "northwind.razorcomponents/1.0.0",
-      "hashPath": "northwind.razorcomponents.1.0.0.nupkg.sha512"
     },
     "NorthWind.Result.Entities/1.0.0": {
       "type": "package",
@@ -2222,6 +2311,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "NorthWind.HttpDelegatingHandlers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "NorthWind.Membership.Backend.AspNetIdentity/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -2233,6 +2327,11 @@
       "sha512": ""
     },
     "NorthWind.Membership.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NorthWind.RazorComponents/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -2278,6 +2377,26 @@
       "sha512": ""
     },
     "NorthWind.Sales.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NorthWind.Sales.Frontend.BusinessObjects/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NorthWind.Sales.Frontend.IoC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NorthWind.Sales.Frontend.Views/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NorthWind.Sales.Frontend.WebApiGateways/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

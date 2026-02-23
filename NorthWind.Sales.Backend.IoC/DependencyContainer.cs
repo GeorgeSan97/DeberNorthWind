@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using NorthWind.Membership.Backend.AspNetIdentity.Options;
+using NorthWind.Membership.Backend.Core.Options;
 using NorthWind.Sales.Backend.DataContexts.EFCore; //AddDataContexts
 using NorthWind.Sales.Backend.DataContexts.EFCore.Options; //configureDBOptions
 using NorthWind.Sales.Backend.Presenters; //AddPresenters
@@ -28,7 +29,8 @@ public static class DependencyContainer
       this IServiceCollection services,
       Action<DBOptions> configureDBOptions,
 	  Action<SmtpOptions> configureSmtpOptions,
-	  Action<MembershipDBOptions> configureMembershipDBOptions)
+	  Action<MembershipDBOptions> configureMembershipDBOptions,
+	  Action<JwtOptions> configureJwtOptions)
   {
     //  -------------------------------------------------------
     //  ¿Qué se registra el contenedor?
@@ -61,7 +63,7 @@ public static class DependencyContainer
 		.AddDomainLogsServices()
 		.AddTransactionServices()
 		.AddUserServices()
-        .AddMembershipCoreServices()
+        .AddMembershipCoreServices(configureJwtOptions)
         .AddMembershipIdentityServices(configureMembershipDBOptions);
 
 		return services;

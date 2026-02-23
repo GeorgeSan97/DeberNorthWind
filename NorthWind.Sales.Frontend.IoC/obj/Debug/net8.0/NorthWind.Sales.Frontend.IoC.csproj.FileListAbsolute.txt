@@ -35,3 +35,5 @@ C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.IoC\obj\Debu
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.IoC\obj\Debug\net8.0\refint\NorthWind.Sales.Frontend.IoC.dll
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.IoC\obj\Debug\net8.0\NorthWind.Sales.Frontend.IoC.pdb
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.IoC\obj\Debug\net8.0\ref\NorthWind.Sales.Frontend.IoC.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.IoC\bin\Debug\net8.0\NorthWind.RazorComponents.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.IoC\bin\Debug\net8.0\NorthWind.RazorComponents.pdb

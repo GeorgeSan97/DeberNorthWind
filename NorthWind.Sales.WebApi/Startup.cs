@@ -1,7 +1,9 @@
 ﻿using NorthWind.Membership.Backend.AspNetIdentity.Options;
+using NorthWind.Membership.Backend.Core.Options;
 using NorthWind.Sales.Backend.DataContexts.EFCore.Options;
 using NorthWind.Sales.Backend.IoC;
 using NorthWind.Sales.Backend.SmtpGateways.Options;
+using NorthWind.Sales.Frontend.IoC;
 
 namespace NorthWind.Sales.WebApi;
 
@@ -27,17 +29,23 @@ internal static class Startup
 		//  Use Cases, Repositories, Data Contexts, Presenters.
 		//  Aquí "DBOptions" representa un objeto que contiene el "ConnectionString" y se carga
 		//  desde "appsettings.json".
-		builder.Services.AddNorthWindSalesServices(
-		dbObtions =>
-	    builder.Configuration.GetSection(DBOptions.SectionKey)
-	    .Bind(dbObtions),
+		builder.Services.AddNorthWindSalesServices
+        (
+		    dbObtions =>
+	        builder.Configuration.GetSection(DBOptions.SectionKey)
+	        .Bind(dbObtions),
 
-		smtpOptions => builder.Configuration.GetSection(SmtpOptions.SectionKey)
-        .Bind(smtpOptions),
+		    smtpOptions => builder.Configuration.GetSection(SmtpOptions.SectionKey)
+            .Bind(smtpOptions),
 
-		membershipDBOptions =>
-        builder.Configuration.GetSection(MembershipDBOptions.SectionKey)
-        .Bind(membershipDBOptions));
+		    membershipDBOptions =>
+            builder.Configuration.GetSection(MembershipDBOptions.SectionKey)
+            .Bind(membershipDBOptions),
+
+		    jwtOptions =>
+            builder.Configuration.GetSection(JwtOptions.SectionKey)
+            .Bind(jwtOptions)
+        );
 
 		//  Configurar CORS.
 		//  Esto permite que cualquier cliente (como un frontend en Angular, React o Blazor WebAssembly)
