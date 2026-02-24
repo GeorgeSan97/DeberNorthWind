@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDcmVhdGVPcmRlckNvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Moviles/PrimerParcial/Deberes/NorthWind/NorthWind.Sales.Frontend.Views/Components/LoginDisplayComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMb2dpbkRpc3BsYXlDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Moviles/PrimerParcial/Deberes/NorthWind/NorthWind.Sales.Frontend.Views/Pages/CreateOrder.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlT3JkZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

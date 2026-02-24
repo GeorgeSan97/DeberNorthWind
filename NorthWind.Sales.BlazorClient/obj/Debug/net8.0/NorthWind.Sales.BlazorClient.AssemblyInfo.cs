@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NorthWind.Sales.BlazorClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61c667bff547ee80af6f00881f8b46159311ddc7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d589d275478f1bf999d1ef48623eebbc1a715f5a")]
 [assembly: System.Reflection.AssemblyProductAttribute("NorthWind.Sales.BlazorClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NorthWind.Sales.BlazorClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
