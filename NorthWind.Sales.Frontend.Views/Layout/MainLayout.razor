@@ -42,6 +42,8 @@
     }
     else
     {
+        <AuthorizeView>
+    <Authorized>
         <NavMenuItem HRef="CreateOrder">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                  fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 16 16">
@@ -55,14 +57,13 @@
             </svg>
             @CreateOrderMessages.CreateOrderMenuItemTitle
         </NavMenuItem>
+            </Authorized>
+        </AuthorizeView>
     }
 </SectionContent>
 
 <SectionContent SectionId="HeaderSection">
-    <a href="https://learn.microsoft.com/aspnet/core/"
-       target="_blank">
-        @CommonMessages.AboutTitle
-    </a>
+    <LoginDisplayComponent/>
 </SectionContent>
 
 @((RenderFragment)(builder => base.BuildRenderTree(builder)))

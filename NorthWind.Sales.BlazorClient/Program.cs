@@ -14,7 +14,8 @@ builder.Services.AddNorthWindSalesServices(client =>
 membershipHttpClient =>
 	{
 		membershipHttpClient.BaseAddress = new Uri(builder.Configuration["WebApiAddress"]);
-	}
-);
+	},
+httpClientBuilder =>
+	httpClientBuilder.AddMembershipBearerTokenHandler());
 
 await builder.Build().RunAsync();

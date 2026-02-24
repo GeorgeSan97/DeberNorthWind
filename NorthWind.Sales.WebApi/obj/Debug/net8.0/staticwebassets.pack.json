@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.WebApi\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.WebApi\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.WebApi\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.WebApi\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NorthWind.Sales.WebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.NorthWind.Sales.WebApi.props",
+      "PackagePath": "build\\NorthWind.Sales.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.NorthWind.Sales.WebApi.props",
+      "PackagePath": "buildMultiTargeting\\NorthWind.Sales.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.NorthWind.Sales.WebApi.props",
+      "PackagePath": "buildTransitive\\NorthWind.Sales.WebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

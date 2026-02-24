@@ -6,16 +6,17 @@ namespace NorthWind.Sales.Frontend.IoC;
 
 public static class DependencyContainer
 {
-  public static IServiceCollection AddNorthWindSalesServices(
-  this IServiceCollection services,
-  Action<HttpClient> configureHttpClient,
-	Action<HttpClient> configureMembershipHttpClient)
-  {
-    services.AddWebApiGateways(configureHttpClient)
-      .AddViewsServices()
-	  .AddValidationService()
-      .AddValidators()
-	  .AddMembershipServices(configureMembershipHttpClient);
+	public static IServiceCollection AddNorthWindSalesServices(
+	  this IServiceCollection services,
+	  Action<HttpClient> configureHttpClient,
+	  Action<HttpClient> configureMembershipHttpClient,
+	  Action<IHttpClientBuilder> configureHttpClientBuilder)
+	{
+		services.AddWebApiGateways(configureHttpClient, configureHttpClientBuilder)
+	 .AddViewsServices()
+	 .AddValidationService()
+	 .AddValidators()
+	 .AddMembershipServices(configureMembershipHttpClient);
 		return services;
-  }
+	}
 }

@@ -841,7 +841,7 @@
         },
         "runtime": {
           "NorthWind.DomainLogs.Entities.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -852,7 +852,7 @@
         },
         "runtime": {
           "NorthWind.Entities.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -864,7 +864,7 @@
         },
         "runtime": {
           "NorthWind.Events.Entities.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -876,7 +876,7 @@
         },
         "runtime": {
           "NorthWind.Exceptions.Entities.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -888,7 +888,7 @@
         },
         "runtime": {
           "NorthWind.Membership.Backend.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -906,7 +906,7 @@
         },
         "runtime": {
           "NorthWind.Sales.Backend.BusinessObjects.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -918,7 +918,7 @@
         },
         "runtime": {
           "NorthWind.Sales.Backend.Controllers.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -932,7 +932,7 @@
         },
         "runtime": {
           "NorthWind.Sales.Backend.DataContexts.EFCore.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -945,7 +945,7 @@
         },
         "runtime": {
           "NorthWind.Sales.Backend.Presenters.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -959,7 +959,7 @@
         },
         "runtime": {
           "NorthWind.Sales.Backend.Repositories.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -971,7 +971,7 @@
         },
         "runtime": {
           "NorthWind.Sales.Backend.SmtpGateways.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -984,7 +984,7 @@
         },
         "runtime": {
           "NorthWind.Sales.Backend.UseCases.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -995,7 +995,7 @@
         },
         "runtime": {
           "NorthWind.Sales.Entities.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1008,7 +1008,7 @@
         },
         "runtime": {
           "NorthWind.Sales.Validators.Entities.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1020,7 +1020,7 @@
         },
         "runtime": {
           "NorthWind.Transactions.Entities.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1032,7 +1032,7 @@
         },
         "runtime": {
           "NorthWind.UserServices.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1044,7 +1044,7 @@
         },
         "runtime": {
           "NorthWind.Validation.Entities.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1058,7 +1058,7 @@
         },
         "runtime": {
           "NorthWind.ValidationService.FluentValidation.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

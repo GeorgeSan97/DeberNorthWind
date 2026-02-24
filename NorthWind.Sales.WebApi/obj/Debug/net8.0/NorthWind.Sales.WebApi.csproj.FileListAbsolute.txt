@@ -42,7 +42,6 @@ c:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\appsettings.Development.json
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\appsettings.json
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Sales.WebApi.staticwebassets.runtime.json
-C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Sales.WebApi.staticwebassets.endpoints.json
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Sales.WebApi.deps.json
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Sales.WebApi.runtimeconfig.json
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Sales.WebApi.pdb
@@ -216,7 +215,6 @@ C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Membership.Entities.pdb
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Membership.Backend.AspNetIdentity.pdb
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\NorthWind.Sales.WebApi.csproj.AssemblyReference.cache
-C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\rpswa.dswa.cache.json
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\NorthWind.Sales.WebApi.GeneratedMSBuildEditorConfig.editorconfig
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\NorthWind.Sales.WebApi.AssemblyInfoInputs.cache
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\NorthWind.Sales.WebApi.AssemblyInfo.cs
@@ -224,14 +222,9 @@ C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\NorthWind.Sales.WebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\NorthWind.Sales.WebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\NorthWind.Sales.WebApi.sourcelink.json
-C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\rjimswa.dswa.cache.json
-C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
-C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\scopedcss\bundle\NorthWind.Sales.WebApi.styles.css
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\staticwebassets.build.json
-C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\staticwebassets.development.json
-C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\NorthWin.CDB476C2.Up2Date
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\NorthWind.Sales.WebApi.dll
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\refint\NorthWind.Sales.WebApi.dll
@@ -239,11 +232,8 @@ C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\NorthWind.Sales.WebApi.genruntimeconfig.cache
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\ref\NorthWind.Sales.WebApi.dll
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.RazorComponents.staticwebassets.runtime.json
-C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.RazorComponents.staticwebassets.endpoints.json
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Sales.Frontend.Views.staticwebassets.runtime.json
-C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Sales.Frontend.Views.staticwebassets.endpoints.json
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Membership.Frontend.RazorViews.staticwebassets.runtime.json
-C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Membership.Frontend.RazorViews.staticwebassets.endpoints.json
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
@@ -257,4 +247,10 @@ C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Sales.Frontend.BusinessObjects.pdb
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Sales.Frontend.Views.pdb
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Sales.Frontend.WebApiGateways.pdb
-C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.NorthWind.Sales.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.build.NorthWind.Sales.WebApi.props
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NorthWind.Sales.WebApi.props
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NorthWind.Sales.WebApi.props
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Authorization.dll

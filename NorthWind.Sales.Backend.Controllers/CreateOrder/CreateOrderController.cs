@@ -30,7 +30,7 @@ public static class CreateOrderController
     //  MapPost: registra una ruta y asocia la acción CreateOrder.
     //  Endpoints.CreateOrder: constante "/orders". Definida en la clase "Endpoints"
     //  capa "1. Enterprise Business Rules", carpeta: "ValueObjects".
-    app.MapPost(Endpoints.CreateOrder, CreateOrder);
+    app.MapPost(Endpoints.CreateOrder, CreateOrder).RequireAuthorization(); ;
 
     // Se devuelve la instancia app para permitir encadenamiento fluido.
     return app;

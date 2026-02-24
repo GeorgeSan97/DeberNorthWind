@@ -8,13 +8,17 @@ namespace NorthWind.Sales.Frontend.WebApiGateways;
 
 public static class DependencyContainer
 {
-  public static IServiceCollection AddWebApiGateways(
-      this IServiceCollection services,
-      Action<HttpClient> configureHttpClient)
-  {
+	public static IServiceCollection AddWebApiGateways(
+	  this IServiceCollection services,
+	  Action<HttpClient> configureHttpClient,
+	  Action<IHttpClientBuilder> configureHttpClientBuilder)
+	{
 		services.AddExceptionDelegatingHandler();
-		services.AddHttpClient<ICreateOrderGateway, CreateOrderGateway>(configureHttpClient)
-      .AddHttpMessageHandler<ExceptionDelegatingHandler>();
-    return services;
-  }
+		var Builder = services
+	 .AddHttpClient<ICreateOrderGateway,
+	 CreateOrderGateway>(configureHttpClient)
+	 .AddHttpMessageHandler<ExceptionDelegatingHandler>();
+		configureHttpClientBuilder(Builder);
+		return services;
+	}
 }

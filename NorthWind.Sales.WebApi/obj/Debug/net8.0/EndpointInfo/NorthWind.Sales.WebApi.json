@@ -169,6 +169,18 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "BearerToken": {
+        "type": "http",
+        "description": "Proporciona el valor del token.",
+        "scheme": "Bearer"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "BearerToken": [ ]
+    }
+  ]
 }

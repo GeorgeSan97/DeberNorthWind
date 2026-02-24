@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2CF3F47-CCC9-49DD-8C1A-3C8B0900A31C}|NorthWind.Sales.Frontend.Views\\NorthWind.Sales.Frontend.Views.csproj|c:\\moviles\\primerparcial\\deberes\\northwind\\northwind.sales.frontend.views\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2CF3F47-CCC9-49DD-8C1A-3C8B0900A31C}|NorthWind.Sales.Frontend.Views\\NorthWind.Sales.Frontend.Views.csproj|solutionrelative:northwind.sales.frontend.views\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F2CF3F47-CCC9-49DD-8C1A-3C8B0900A31C}|NorthWind.Sales.Frontend.Views\\NorthWind.Sales.Frontend.Views.csproj|c:\\moviles\\primerparcial\\deberes\\northwind\\northwind.sales.frontend.views\\pages\\createorder.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2CF3F47-CCC9-49DD-8C1A-3C8B0900A31C}|NorthWind.Sales.Frontend.Views\\NorthWind.Sales.Frontend.Views.csproj|solutionrelative:northwind.sales.frontend.views\\pages\\createorder.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49A6FD9E-A544-4394-8C69-BA05840F433E}|NorthWind.Sales.BlazorClient\\NorthWind.Sales.BlazorClient.csproj|c:\\moviles\\primerparcial\\deberes\\northwind\\northwind.sales.blazorclient\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{49A6FD9E-A544-4394-8C69-BA05840F433E}|NorthWind.Sales.BlazorClient\\NorthWind.Sales.BlazorClient.csproj|solutionrelative:northwind.sales.blazorclient\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49A6FD9E-A544-4394-8C69-BA05840F433E}|NorthWind.Sales.BlazorClient\\NorthWind.Sales.BlazorClient.csproj|c:\\moviles\\primerparcial\\deberes\\northwind\\northwind.sales.blazorclient\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49A6FD9E-A544-4394-8C69-BA05840F433E}|NorthWind.Sales.BlazorClient\\NorthWind.Sales.BlazorClient.csproj|solutionrelative:northwind.sales.blazorclient\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F2CF3F47-CCC9-49DD-8C1A-3C8B0900A31C}|NorthWind.Sales.Frontend.Views\\NorthWind.Sales.Frontend.Views.csproj|c:\\moviles\\primerparcial\\deberes\\northwind\\northwind.sales.frontend.views\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2CF3F47-CCC9-49DD-8C1A-3C8B0900A31C}|NorthWind.Sales.Frontend.Views\\NorthWind.Sales.Frontend.Views.csproj|solutionrelative:northwind.sales.frontend.views\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.Frontend.Views\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "NorthWind.Sales.Frontend.Views\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.Frontend.Views\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "NorthWind.Sales.Frontend.Views\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAABoAAAAAAAAAAAAYwEQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.Frontend.Views\\_Imports.razor",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Frontend.Views\\_Imports.razor",
+              "ToolTip": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.Frontend.Views\\_Imports.razor",
+              "RelativeToolTip": "NorthWind.Sales.Frontend.Views\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T05:01:24.794Z",
+              "WhenOpened": "2026-02-24T22:41:41.254Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.BlazorClient\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "NorthWind.Sales.BlazorClient\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.BlazorClient\\Properties\\launchSettings.json",
-              "RelativeToolTip": "NorthWind.Sales.BlazorClient\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-23T04:51:34.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.BlazorClient\\App.razor",
-              "RelativeDocumentMoniker": "NorthWind.Sales.BlazorClient\\App.razor",
-              "ToolTip": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.BlazorClient\\App.razor",
-              "RelativeToolTip": "NorthWind.Sales.BlazorClient\\App.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAA7AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CreateOrder.razor",
+              "DocumentMoniker": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.Frontend.Views\\Pages\\CreateOrder.razor",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Frontend.Views\\Pages\\CreateOrder.razor",
+              "ToolTip": "C:\\Moviles\\PrimerParcial\\Deberes\\NorthWind\\NorthWind.Sales.Frontend.Views\\Pages\\CreateOrder.razor",
+              "RelativeToolTip": "NorthWind.Sales.Frontend.Views\\Pages\\CreateOrder.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T04:04:57.188Z"
+              "WhenOpened": "2026-02-24T22:41:16.551Z",
+              "EditorCaption": ""
             }
           ]
         }

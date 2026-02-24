@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NorthWind.Sales.BlazorClient.props" />
+</Project>

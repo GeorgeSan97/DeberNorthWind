@@ -1,9 +1,12 @@
-﻿using NorthWind.Membership.Backend.AspNetIdentity.Options;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using NorthWind.Membership.Backend.AspNetIdentity.Options;
 using NorthWind.Membership.Backend.Core.Options;
 using NorthWind.Sales.Backend.DataContexts.EFCore.Options;
 using NorthWind.Sales.Backend.IoC;
 using NorthWind.Sales.Backend.SmtpGateways.Options;
 using NorthWind.Sales.Frontend.IoC;
+using System.Text;
 
 namespace NorthWind.Sales.WebApi;
 
@@ -19,8 +22,9 @@ internal static class Startup
     // Configurar APIExplorer para descubrir y exponer los metadatos de los endpoints de la aplicación.    
     builder.Services.AddEndpointsApiExplorer();
 
-    //  Habilita la documentación de la API.
-    builder.Services.AddSwaggerGen();
+		//  Habilita la documentación de la API.
+		//builder.Services.AddSwaggerGen();
+		builder.Services.AddSwaggerGenBearer();
 
 		//  Registrar servicios con Inyección de Dependencias.
 		//  Registrar los servicios de la aplicación.
@@ -61,8 +65,26 @@ internal static class Startup
           });
     });
 
-    //  Construye la instancia "WebApplication" con todos los servicios configurados.
-    return builder.Build();
+	 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+	 .AddJwtBearer(options =>
+	{
+		// Establecer la configuración del Token.
+		builder.Configuration.GetSection(JwtOptions.SectionKey)
+		.Bind(options.TokenValidationParameters);
+		// Establecer la llave para validación de la firma.
+		string SecurityKey = builder.Configuration
+		.GetSection(JwtOptions.SectionKey)[nameof(JwtOptions.SecurityKey)];
+		byte[] SecurityKeyBytes = Encoding.UTF8.GetBytes(SecurityKey);
+		options.TokenValidationParameters.IssuerSigningKey =
+		new SymmetricSecurityKey(SecurityKeyBytes);
+	});
+
+
+		builder.Services.AddAuthorization();
+
+
+		//  Construye la instancia "WebApplication" con todos los servicios configurados.
+		return builder.Build();
   }
 
   //  Este método se encarga de:
@@ -90,6 +112,9 @@ internal static class Startup
     //  Mapea los controladores implementados, como el de crear órdenes "CreateOrders"
     app.MapNorthWindSalesEndpoints();
 
-    return app;
+	app.UseAuthentication(); 
+	app.UseAuthorization();
+
+		return app;
   }
 }

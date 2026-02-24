@@ -237,7 +237,7 @@
         },
         "runtime": {
           "NorthWind.HttpDelegatingHandlers.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -248,7 +248,7 @@
         },
         "runtime": {
           "NorthWind.Sales.Entities.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -260,7 +260,7 @@
         },
         "runtime": {
           "NorthWind.Sales.Frontend.BusinessObjects.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -272,7 +272,7 @@
         },
         "runtime": {
           "NorthWind.Validation.Entities.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

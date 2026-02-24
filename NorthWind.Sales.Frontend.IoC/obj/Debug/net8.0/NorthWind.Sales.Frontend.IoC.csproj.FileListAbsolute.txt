@@ -1,9 +1,6 @@
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.IoC\bin\Debug\net8.0\NorthWind.RazorComponents.staticwebassets.runtime.json
-C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.IoC\bin\Debug\net8.0\NorthWind.RazorComponents.staticwebassets.endpoints.json
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.IoC\bin\Debug\net8.0\NorthWind.Sales.Frontend.Views.staticwebassets.runtime.json
-C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.IoC\bin\Debug\net8.0\NorthWind.Sales.Frontend.Views.staticwebassets.endpoints.json
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.IoC\bin\Debug\net8.0\NorthWind.Membership.Frontend.RazorViews.staticwebassets.runtime.json
-C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.IoC\bin\Debug\net8.0\NorthWind.Membership.Frontend.RazorViews.staticwebassets.endpoints.json
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.IoC\bin\Debug\net8.0\NorthWind.Sales.Frontend.IoC.deps.json
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.IoC\bin\Debug\net8.0\NorthWind.Sales.Frontend.IoC.dll
 C:\Moviles\PrimerParcial\Deberes\NorthWind\NorthWind.Sales.Frontend.IoC\bin\Debug\net8.0\NorthWind.Sales.Frontend.IoC.pdb
